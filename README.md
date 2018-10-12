@@ -16,9 +16,9 @@ Mobile Language To Python Code
 
 ## Authors
 
-* **Mayank Tiwari, matiwari@ucsc.edu**
-* **Abdurrahman Al-Omari, ahalomar@ucsc.edu**
-* **Youn Jae Kim, ykim121@ucsc.edu**
-* **Kali Fraser, klfraser@ucsc.edu**
-* **Paulo Engelke, pengelke@ucsc.edu**
+* **Mayank Tiwari**
+* **Abdurrahman Al-Omari**
+* **Youn Jae Kim**
+* **Kali Fraser**
+* **Paulo Engelke**
 
