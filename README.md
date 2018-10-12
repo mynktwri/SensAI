@@ -1,6 +1,6 @@
 # SensAI
 
-Mobile Language To Python Code
+Natural Language To Python Code
 
 ### Relavent Links
 
