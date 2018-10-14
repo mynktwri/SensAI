@@ -19,6 +19,6 @@ Natural Language To Python Code
 * **Mayank Tiwari**
 * **Abdurrahman Al-Omari**
 * **Youn Jae Kim**
-* **Kali Fraser**
+* **Kalinda Fraser**
 * **Paulo Engelke**
 
