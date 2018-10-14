@@ -6,6 +6,7 @@ Natural Language To Python Code
 
 * [Trello](https://trello.com/sensai2/)
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
+* [Sprint 1 Plan (may need work)] (https://docs.google.com/document/d/1sLTQE-rI-_qxJNKBSWVPxF7cRm3oifGqMlpOAyrX8u8/edit)
 
 ## Built With
 
