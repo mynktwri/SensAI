@@ -1,0 +1,23 @@
+<deps-list>
+  <deps id="0" speaker="test" sentiment="Positive" sentiment_value="3">
+    <depnode id="0" lexeme="ROOT" oie="1:4-4:5-6:9=1.000;1:4-4:5-6:9=1.000;1:4-4:5-6:12=1.000;1:4-4:5-6:12=1.000;1:4-4:5-6:12=1.000;1:4-4:5-8:9=1.000;1:4-4:5-7:9=1.000;1:4-4:5-8:12=1.000;1:4-4:5-7:12=1.000;1:4-4:5-6:12=1.000;1:4-4:5-8:12=1.000;1:4-4:5-7:12=1.000" sentiment_value="3" sentiment="Positive" speaker="test">
+      <depnode id="5" lexeme="offers" root="0" gov_type="root" pos="VBZ" sentiment="Neutral">
+        <depnode id="4" lexeme="shop" nsubj="5" gov_type="nsubj" pos="NN" sentiment="Neutral" ref="$a$14" ref_type="actors">
+          <depnode id="1" lexeme="The" det="4" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$14" ref_type="actors"/>
+          <depnode id="2" lexeme="Punter" compound="4" gov_type="compound" pos="NN" sentiment="Neutral" ref="$a$14" ref_type="actors"/>
+          <depnode id="3" lexeme="coffee" compound="4" gov_type="compound" pos="NN" sentiment="Positive" ref="$a$14" ref_type="actors"/>
+        </depnode>
+        <depnode id="9" lexeme="menu" dobj="5" gov_type="dobj" pos="NN" sentiment="Neutral" ref="$a$17" ref_type="actors">
+          <depnode id="6" lexeme="a" det="9" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$17" ref_type="actors"/>
+          <depnode id="7" lexeme="delicious" amod="9" gov_type="amod" pos="JJ" sentiment="Positive"/>
+          <depnode id="8" lexeme="Chinese" amod="9" gov_type="amod" pos="JJ" sentiment="Neutral"/>
+          <depnode id="12" lexeme="prices" nmod="9" gov_type="nmod;at" at="9" pos="NNS" sentiment="Neutral" pl="1" ref="$a$17" ref_type="actors">
+            <depnode id="10" lexeme="at" case="12" gov_type="case" pos="IN" sentiment="Neutral" ref="$a$17" ref_type="actors"/>
+            <depnode id="11" lexeme="cheap" amod="12" gov_type="amod" pos="JJ" sentiment="Very negative"/>
+          </depnode>
+        </depnode>
+        <depnode id="13" lexeme="." punct="5" gov_type="punct" pos="." sentiment="Neutral"/>
+      </depnode>
+    </depnode>
+  </deps>
+</deps-list>

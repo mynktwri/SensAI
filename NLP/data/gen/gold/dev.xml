@@ -1,0 +1,13 @@
+<dsynts-list>
+  <dsynts id="0">
+    <dsyntnode class="verb" lexeme="enter" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+        <dsyntnode class="adjective" lexeme="slimy" rel="ATTR"/>
+      </dsyntnode>
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="quietly" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+</dsynts-list>

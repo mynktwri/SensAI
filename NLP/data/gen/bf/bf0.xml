@@ -1,0 +1,19 @@
+<deps-list>
+  <deps id="0" speaker="test" sentiment="Neutral" sentiment_value="2">
+    <depnode id="0" lexeme="ROOT" oie="5:6-6:7-8:10=1.000;0:1-1:3-4:10=1.000;5:6-2:3-4:5=1.000;0:1-1:3-4:6=1.000" sentiment_value="2" sentiment="Neutral" speaker="test">
+      <depnode id="6" lexeme="Arms" root="0" gov_type="root" pos="NNS" sentiment="Neutral" pl="1" ref="$a$12" ref_type="actors">
+        <depnode id="1" lexeme="It" nsubj="6" gov_type="nsubj" pos="PRP" sentiment="Neutral" ref="$a$13" ref_type="actors"/>
+        <depnode id="2" lexeme="is" cop="6" gov_type="cop" pos="VBZ" sentiment="Neutral"/>
+        <depnode id="3" lexeme="near" case="6" gov_type="case" pos="IN" sentiment="Neutral"/>
+        <depnode id="4" lexeme="The" det="6" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$12" ref_type="actors"/>
+        <depnode id="5" lexeme="Portland" compound="6" gov_type="compound" pos="NNP" sentiment="Neutral" ref="$a$12" ref_type="actors"/>
+        <depnode id="10" lexeme="centre" nmod="6" gov_type="nmod;in" in="6" pos="NN" sentiment="Neutral" ref="$a$12" ref_type="actors">
+          <depnode id="7" lexeme="in" case="10" gov_type="case" pos="IN" sentiment="Neutral" ref="$a$12" ref_type="actors"/>
+          <depnode id="8" lexeme="the" det="10" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$15" ref_type="actors"/>
+          <depnode id="9" lexeme="city" compound="10" gov_type="compound" pos="NN" sentiment="Neutral" ref="$a$12" ref_type="actors"/>
+        </depnode>
+        <depnode id="11" lexeme="." punct="6" gov_type="punct" pos="." sentiment="Neutral"/>
+      </depnode>
+    </depnode>
+  </deps>
+</deps-list>

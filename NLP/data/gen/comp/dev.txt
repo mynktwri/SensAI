@@ -1,0 +1,22 @@
+When comparing Dsynts file dev.xml did not have the same number of nodes. #Gold=1 , #Test=21
+ANALYTICS (MISMATCH PER ATTRIBUTE):
+lexeme:0
+number:0
+class:0
+gender:0
+article:0
+form:0
+rel:0
+pro:0
+tense:0
+voice:0
+mood:0
+question:0
+person:0
+position:0
+case:0
+aspect:0
+polarity:0
+extrapo:0
+caps:0
+punct:0

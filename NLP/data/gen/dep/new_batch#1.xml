@@ -1,0 +1,58 @@
+<deps-list>
+  <deps id="0" speaker="test" sentiment="Positive" sentiment_value="3">
+    <depnode id="0" lexeme="ROOT" oie="3:6-6:7-8:10=1.000;0:1-1:2-4:6=1.000;0:1-1:2-3:6=1.000;0:1-1:2-3:10=1.000;0:1-1:2-3:4=1.000;0:1-1:2-4:10=1.000" sentiment_value="3" sentiment="Positive" speaker="test">
+      <depnode id="6" lexeme="shop" root="0" gov_type="root" pos="NN" sentiment="Neutral" ref_type="actors" ref="$a$0">
+        <depnode id="1" lexeme="Fitzbillies" nsubj="6" gov_type="nsubj" pos="NNS" sentiment="Neutral" pl="1" ref="$a$12" ref_type="actors"/>
+        <depnode id="2" lexeme="is" cop="6" gov_type="cop" pos="VBZ" sentiment="Neutral"/>
+        <depnode id="3" lexeme="a" det="6" gov_type="det" pos="DT" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+        <depnode id="4" lexeme="family-friendly" amod="6" gov_type="amod" pos="JJ" sentiment="Positive" ref_type="actors" ref="$a$0"/>
+        <depnode id="5" lexeme="coffee" compound="6" gov_type="compound" pos="NN" sentiment="Positive" ref_type="actors" ref="$a$0"/>
+        <depnode id="10" lexeme="centre" nmod="6" gov_type="nmod;in" in="6" pos="NN" sentiment="Neutral" ref_type="actors" ref="$a$0">
+          <depnode id="7" lexeme="in" case="10" gov_type="case" pos="IN" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+          <depnode id="8" lexeme="the" det="10" gov_type="det" pos="DT" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+          <depnode id="9" lexeme="city" compound="10" gov_type="compound" pos="NN" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+        </depnode>
+        <depnode id="11" lexeme="." punct="6" gov_type="punct" pos="." sentiment="Neutral"/>
+      </depnode>
+    </depnode>
+  </deps>
+  <deps id="1" speaker="test" sentiment="Positive" sentiment_value="3">
+    <depnode id="0" lexeme="ROOT" oie="0:1-1:2-3:4=1.000;0:1-1:2-2:4=1.000;0:1-5:6-7:9=1.000" sentiment_value="3" sentiment="Positive" speaker="test">
+      <depnode id="2" lexeme="serves" root="0" gov_type="root" pos="VBZ" sentiment="Neutral">
+        <depnode id="1" lexeme="It" nsubj="2" gov_type="nsubj" pos="PRP" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+        <depnode id="4" lexeme="food" dobj="2" gov_type="dobj" pos="NN" sentiment="Neutral" ref="$a$16" ref_type="actors">
+          <depnode id="3" lexeme="English" amod="4" gov_type="amod" pos="JJ" sentiment="Neutral"/>
+        </depnode>
+        <depnode id="5" lexeme="and" cc="2" gov_type="cc" pos="CC" sentiment="Neutral"/>
+        <depnode id="6" lexeme="has" conj="2" gov_type="conj" pos="VBZ" sentiment="Neutral">
+          <depnode id="9" lexeme="range" dobj="6" gov_type="dobj" pos="NN" sentiment="Neutral" ref="$a$17" ref_type="actors">
+            <depnode id="7" lexeme="a" det="9" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$17" ref_type="actors"/>
+            <depnode id="8" lexeme="price" compound="9" gov_type="compound" pos="NN" sentiment="Neutral" ref="$a$17" ref_type="actors"/>
+            <depnode id="14" lexeme="20" nmod="9" gov_type="nmod" pos="CD" sentiment="Neutral">
+              <depnode id="10" lexeme="of" case="14" gov_type="case" pos="IN" sentiment="Neutral"/>
+              <depnode id="11" lexeme="less" advmod="14" gov_type="advmod" pos="JJR" sentiment="Neutral">
+                <depnode id="12" lexeme="than" mwe="11" gov_type="mwe" pos="IN" sentiment="Neutral"/>
+              </depnode>
+              <depnode id="13" lexeme="#" compound="14" gov_type="compound" pos="#" sentiment="Neutral"/>
+            </depnode>
+          </depnode>
+        </depnode>
+        <depnode id="15" lexeme="." punct="2" gov_type="punct" pos="." sentiment="Neutral"/>
+      </depnode>
+    </depnode>
+  </deps>
+  <deps id="2" speaker="test" sentiment="Negative" sentiment_value="1">
+    <depnode id="0" lexeme="ROOT" oie="0:1-2:3-4:7=1.000;0:1-1:3-4:7=1.000;0:1-1:3-5:7=1.000;0:1-2:3-5:7=1.000" sentiment_value="1" sentiment="Negative" speaker="test">
+      <depnode id="3" lexeme="has" root="0" gov_type="root" pos="VBZ" sentiment="Neutral">
+        <depnode id="1" lexeme="It" nsubj="3" gov_type="nsubj" pos="PRP" sentiment="Neutral" ref_type="actors" ref="$a$0"/>
+        <depnode id="2" lexeme="also" advmod="3" gov_type="advmod" pos="RB" sentiment="Neutral"/>
+        <depnode id="7" lexeme="rating" dobj="3" gov_type="dobj" pos="NN" sentiment="Neutral" ref="$a$9" ref_type="actors">
+          <depnode id="4" lexeme="a" det="7" gov_type="det" pos="DT" sentiment="Neutral" ref="$a$9" ref_type="actors"/>
+          <depnode id="5" lexeme="low" amod="7" gov_type="amod" pos="JJ" sentiment="Neutral"/>
+          <depnode id="6" lexeme="customer" compound="7" gov_type="compound" pos="NN" sentiment="Neutral" ref="$a$9" ref_type="actors"/>
+        </depnode>
+        <depnode id="8" lexeme="." punct="3" gov_type="punct" pos="." sentiment="Neutral"/>
+      </depnode>
+    </depnode>
+  </deps>
+</deps-list>

@@ -1,0 +1,281 @@
+<dsynts-list>
+  <dsynts id="0">
+    <dsyntnode class="verb" lexeme="open" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="door" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="patio" rel="I">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="recently" position="pre-verbal" rel="ATTR"/>
+      <dsyntnode class="adverb" lexeme="momentarily" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="1">
+    <dsyntnode class="verb" lexeme="enter" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+        <dsyntnode class="adjective" lexeme="slimy" rel="ATTR"/>
+      </dsyntnode>
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="quietly" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="2">
+    <dsyntnode class="verb" lexeme="notice" polarity="neg" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode lexeme="that" rel="ATTR">
+        <dsyntnode class="verb" lexeme="enter" rel="II" tense="past">
+          <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+            <dsyntnode class="adjective" lexeme="slimy" rel="ATTR"/>
+          </dsyntnode>
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+            <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+          </dsyntnode>
+          <dsyntnode class="adverb" lexeme="quietly" position="pre-verbal" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="initially" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="3">
+    <dsyntnode class="verb" lexeme="sleep" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode class="adverb" lexeme="peacefully" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="4">
+    <dsyntnode class="verb" lexeme="awake" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode class="adverb" lexeme="overnight" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="5">
+    <dsyntnode class="verb" lexeme="see" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="II">
+        <dsyntnode class="adjective" lexeme="slimy" rel="ATTR"/>
+      </dsyntnode>
+      <dsyntnode class="verb" lexeme="be" rel="III" tense="past">
+        <dsyntnode class="preposition" lexeme="on" rel="ATTR">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="ceiling" rel="II">
+            <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="I">
+              <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+            </dsyntnode>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="shockingly" position="pre-verbal" rel="ATTR"/>
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="6">
+    <dsyntnode class="verb" lexeme="grab" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="thing" rel="II">
+        <dsyntnode class="adjective" lexeme="reachable" rel="ATTR"/>
+      </dsyntnode>
+      <dsyntnode class="preposition" lexeme="because" rel="ATTR">
+        <dsyntnode class="verb" lexeme="scare" rel="II" tense="past">
+          <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I"/>
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="7">
+    <dsyntnode class="verb" lexeme="be" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+        <dsyntnode class="adjective" lexeme="slimy" rel="ATTR"/>
+      </dsyntnode>
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="enemy" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="8">
+    <dsyntnode class="verb" lexeme="smear" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="innard" number="pl" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+          <dsyntnode class="adjective" lexeme="greasy" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="9">
+    <dsyntnode class="verb" lexeme="manage" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode class="verb" lexeme="kill" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" rel="II">
+          <dsyntnode class="ATTR" lexeme="every"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="10">
+    <dsyntnode class="verb" lexeme="graze" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I"/>
+      </dsyntnode>
+      <dsyntnode class="preposition" lexeme="with" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="comic book" rel="II">
+          <dsyntnode class="adjective" lexeme="rolled" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="11">
+    <dsyntnode class="verb" lexeme="remove" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="limb" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="leader" rel="I">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+            <dsyntnode class="adjective" lexeme="tiny" rel="ATTR"/>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="12">
+    <dsyntnode class="verb" lexeme="hit" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="II"/>
+      <dsyntnode class="preposition" lexeme="with" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="comic book" rel="II">
+          <dsyntnode class="adjective" lexeme="rolled" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="angrily" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="13">
+    <dsyntnode class="verb" lexeme="lurk" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="I">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+          <dsyntnode class="adjective" lexeme="big" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="preposition" lexeme="in" rel="ATTR">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="now" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="14">
+    <dsyntnode class="verb" lexeme="be" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="I">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I"/>
+      </dsyntnode>
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="insect" rel="II">
+        <dsyntnode class="adjective" lexeme="three-legged" rel="ATTR"/>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="15">
+    <dsyntnode class="verb" lexeme="escape" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="I">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+          <dsyntnode class="adjective" lexeme="big" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="me" person="1st" pro="pro" rel="II"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="16">
+    <dsyntnode class="verb" lexeme="want" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="I">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+          <dsyntnode class="adjective" lexeme="big" rel="ATTR"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="verb" lexeme="retaliate" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode class="preposition" lexeme="against" rel="ATTR">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="me" person="1st" pro="pro" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="undoubtedly" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="17">
+    <dsyntnode class="verb" lexeme="look" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode class="preposition" lexeme="around" rel="ATTR">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="corner" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+            <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+          </dsyntnode>
+          <dsyntnode class="ATTR" lexeme="every"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="18">
+    <dsyntnode class="verb" lexeme="check" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="toilet seat" rel="II">
+        <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+      </dsyntnode>
+      <dsyntnode class="preposition" lexeme="for" rel="ATTR">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+            <dsyntnode class="adjective" lexeme="big" rel="ATTR"/>
+          </dsyntnode>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="preposition" lexeme="in_order" rel="ATTR">
+        <dsyntnode class="verb" lexeme="sit" mood="inf-to" rel="II" tense="inf-to">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+          <dsyntnode class="preposition" lexeme="on" rel="ATTR">
+            <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="toilet seat" rel="II">
+              <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+            </dsyntnode>
+          </dsyntnode>
+          <dsyntnode class="participle" lexeme="down" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="19">
+    <dsyntnode class="verb" lexeme="expect" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="i" person="1st" pro="pro" rel="I"/>
+      <dsyntnode class="verb" lexeme="jump" mood="inf-to" rel="III" tense="inf-to">
+        <dsyntnode article="def" class="common_noun" gender="neut" lexeme="leader" rel="I">
+          <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="bug" number="pl" rel="I">
+            <dsyntnode class="adjective" lexeme="big" rel="ATTR"/>
+          </dsyntnode>
+        </dsyntnode>
+        <dsyntnode class="preposition" lexeme="toward" rel="ATTR">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="me" person="1st" pro="pro" rel="II"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="in due course" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="20">
+    <dsyntnode class="verb" lexeme="arrive" polarity="neg" rel="II" tense="past">
+      <dsyntnode article="def" class="common_noun" gender="neut" lexeme="cicada" number="pl" rel="I"/>
+      <dsyntnode class="adverb" lexeme="even" position="pre-verbal" rel="ATTR"/>
+      <dsyntnode class="preposition" lexeme="to" rel="ATTR">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="apartment" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+        </dsyntnode>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="yet" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+  <dsynts id="21">
+    <dsyntnode class="verb" lexeme="happen" rel="II" tense="past">
+      <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="action" rel="I">
+        <dsyntnode article="no-art" class="common_noun" gender="neut" lexeme="story" rel="II">
+          <dsyntnode article="no-art" class="common_noun" gender="fem" lexeme="my" person="1st" pro="poss" rel="attr"/>
+        </dsyntnode>
+        <dsyntnode class="ATTR" lexeme="every"/>
+      </dsyntnode>
+      <dsyntnode class="adverb" lexeme="notably" position="pre-verbal" rel="ATTR"/>
+    </dsyntnode>
+  </dsynts>
+</dsynts-list>
