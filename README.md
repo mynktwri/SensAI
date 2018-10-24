@@ -16,6 +16,7 @@ Natural Language To Python Code
 * [Sprint 1 Report](https://docs.google.com/document/d/1Ea1ecsBcdVsKYR34MjuxlErfJHIzPC3oWbQ7KMjYHP0/edit)
 
 ### Sprint 2
+* [Trello](https://trello.com/b/1esOdR71/sensai-sprint-2)
 * [Sprint 2 Plan](https://docs.google.com/document/d/1aL8AUe_HQZ2c0UczG3pkW76Pl1PnJ2HBX32Y9nx-WmY/edit)
 
 
