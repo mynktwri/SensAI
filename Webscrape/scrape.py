@@ -2,29 +2,45 @@ from bs4 import BeautifulSoup as BS
 import requests
 import json
 from json import JSONDecoder
-url = 'https://www.thesaurus.com/browse/%s'
-url_offline = 'Webscrape\offline_content.html'
-response = requests.get(url % 'create')
-decoder = JSONDecoder()
-# response_offine = BS(url_offline, "html.parser")
-url_content = BS(response.content, "html.parser")
-scripts = url_content.find_all('script')
-synonyms = scripts[11]
-wordlists = []
-j = 0
-for i in synonyms:
-    print(type(i))
-    wordlists.append(i)
-    j+=1
-uni_str = str(wordlists[0].string)
-print(type(uni_str))
+def parse_syn(json):
+    # print (json["results"].items())
+    if isinstance(json, str):
+        print(json)
+    else:
+        for i in json:
+            print(i)
+            if (i =="synonyms"):
+                print("synonym found")
+                
+            elif (len(i) < 2):
+                continue
+            else:
+                if isinstance(i, str):
+                    parse_syn(json[i])
+                else:
+                    parse_syn(i)
 
+app_id = '7248bd1c'
+app_key = 'c47f4d57c7c38204f8fd3846e6b725f9'
 
-# print(wordlists[0].string)
-json_str = uni_str[23:70340]
-a = decoder.decode(json_str)
-for i in a:
-    print(i)
-print(a["posTabs"])
-# print(json.dumps(json_str, sort_keys=True, indent=4))
-#window.INITIAL_STATE
+language = 'en'
+word_id = 'create'
+
+url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + \
+ '/' + word_id.lower() + '/synonyms;antonyms'
+
+# r = requests.get(url, headers = {'app_id': app_id, 'app_key': app_key}).json()
+
+# print("code {}\n".format(r.status_code))
+#print("text \n" + r.text)
+
+with open('data.json') as file:
+    r = json.load(file)
+results = r["results"]
+# print("json \n" + json.dumps(r))
+parse_syn(results)
+# print(results[0]["lexicalEntries"])
+
+# with open('data.json', 'w') as outfile:
+#     json.dump(r.json(), outfile)
+#     print("data saved successfully.")
