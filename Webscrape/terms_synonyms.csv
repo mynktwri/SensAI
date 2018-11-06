@@ -1,0 +1,2852 @@
+,word,if-then,variable,print,loop
+0,Set,0,0,0,0
+1,Assign,0,0,0,0
+2,Insert,0,0,0,0
+3,Variable,0,0,0,0
+4,Make,0,0,0,0
+5,Equal,0,0,0,0
+6,Change,0,0,0,0
+7,Create,0,0,0,0
+8,Declare,0,0,0,0
+9,Instantiate,0,0,0,0
+10,Give,0,0,0,0
+11,put,0,0,0,0
+12,Inside,0,0,0,0
+13,Represents,0,0,0,0
+14,store,0,0,0,0
+15,For,0,0,0,0
+16,Each,0,0,0,0
+17,Loop,0,0,0,0
+18,Repeat,0,0,0,0
+19,Iterate,0,0,0,0
+20,Through,0,0,0,0
+21,Over,0,0,0,0
+22,Consider,0,0,0,0
+23,Look,0,0,0,0
+24,Element,0,0,0,0
+25,Object,0,0,0,0
+26,Component,0,0,0,0
+27,Unit,0,0,0,0
+28,Thing,0,0,0,0
+29,Within,0,0,0,0
+30,Array,0,0,0,0
+31,All,0,0,0,0
+32,Every,0,0,0,0
+33,check,0,0,0,0
+34,If,0,0,0,0
+35,Then,0,0,0,0
+36,When,0,0,0,0
+37,In,0,0,0,0
+38,Case,0,0,0,0
+39,Event,0,0,0,0
+40,Situation,0,0,0,0
+41,do,0,0,0,0
+42,Else,0,0,0,0
+43,Otherwise,0,0,0,0
+44,Other,0,0,0,0
+45,Print,0,0,0,0
+46,Output,0,0,0,0
+47,Tell,0,0,0,0
+48,Show,0,0,0,0
+49,Write,0,0,0,0
+50,User,0,0,0,0
+51,Terminal,0,0,0,0
+52,interface,0,0,0,0
+53,leave,0,0,0,0
+54,stow,0,0,0,0
+55,prop,0,0,0,0
+56,lean,0,0,0,0
+57,stand,0,0,0,0
+58,plant,0,0,0,0
+59,pose,0,0,0,0
+60,dispose,0,0,0,0
+61,stick,0,0,0,0
+62,dump,0,0,0,0
+63,bung,0,0,0,0
+64,park,0,0,0,0
+65,plonk,0,0,0,0
+66,plump,0,0,0,0
+67,pop,0,0,0,0
+68,plunk,0,0,0,0
+69,posit,0,0,0,0
+70,put,0,0,0,0
+71,place,0,0,0,0
+72,put down,0,0,0,0
+73,lay,0,0,0,0
+74,lay down,0,0,0,0
+75,deposit,0,0,0,0
+76,position,0,0,0,0
+77,settle,0,0,0,0
+78,station,0,0,0,0
+79,be found,0,0,0,0
+80,be situated,0,0,0,0
+81,be located,0,0,0,0
+82,lie,0,0,0,0
+83,stand,0,0,0,0
+84,be sited,0,0,0,0
+85,be perched,0,0,0,0
+86,mount,0,0,0,0
+87,fix,0,0,0,0
+88,embed,0,0,0,0
+89,insert,0,0,0,0
+90,bejewel,0,0,0,0
+91,adorn,0,0,0,0
+92,ornament,0,0,0,0
+93,decorate,0,0,0,0
+94,embellish,0,0,0,0
+95,deck,0,0,0,0
+96,bedeck,0,0,0,0
+97,lay,0,0,0,0
+98,prepare,0,0,0,0
+99,arrange,0,0,0,0
+100,make ready,0,0,0,0
+101,assign,0,0,0,0
+102,allocate,0,0,0,0
+103,give,0,0,0,0
+104,allot,0,0,0,0
+105,deal,0,0,0,0
+106,prescribe,0,0,0,0
+107,apply,0,0,0,0
+108,address,0,0,0,0
+109,direct,0,0,0,0
+110,aim,0,0,0,0
+111,turn,0,0,0,0
+112,focus,0,0,0,0
+113,concentrate,0,0,0,0
+114,fix,0,0,0,0
+115,fix on,0,0,0,0
+116,determine,0,0,0,0
+117,designate,0,0,0,0
+118,name,0,0,0,0
+119,appoint,0,0,0,0
+120,specify,0,0,0,0
+121,stipulate,0,0,0,0
+122,settle,0,0,0,0
+123,resolve on,0,0,0,0
+124,agree on,0,0,0,0
+125,confirm,0,0,0,0
+126,decide on,0,0,0,0
+127,select,0,0,0,0
+128,choose,0,0,0,0
+129,arrange,0,0,0,0
+130,schedule,0,0,0,0
+131,direct,0,0,0,0
+132,steer,0,0,0,0
+133,orientate,0,0,0,0
+134,point,0,0,0,0
+135,aim,0,0,0,0
+136,train,0,0,0,0
+137,establish,0,0,0,0
+138,set up,0,0,0,0
+139,create,0,0,0,0
+140,provide,0,0,0,0
+141,institute,0,0,0,0
+142,calibrate,0,0,0,0
+143,put right,0,0,0,0
+144,correct,0,0,0,0
+145,collimate,0,0,0,0
+146,adjust,0,0,0,0
+147,regulate,0,0,0,0
+148,synchronize,0,0,0,0
+149,coordinate,0,0,0,0
+150,harmonize,0,0,0,0
+151,switch on,0,0,0,0
+152,turn on,0,0,0,0
+153,programme,0,0,0,0
+154,activate,0,0,0,0
+155,cake,0,0,0,0
+156,congeal,0,0,0,0
+157,coagulate,0,0,0,0
+158,clot,0,0,0,0
+159,freeze,0,0,0,0
+160,crystallize,0,0,0,0
+161,gelatinize,0,0,0,0
+162,solidify,0,0,0,0
+163,harden,0,0,0,0
+164,become solid,0,0,0,0
+165,become hard,0,0,0,0
+166,stiffen,0,0,0,0
+167,thicken,0,0,0,0
+168,gel,0,0,0,0
+169,dip below the horizon,0,0,0,0
+170,vanish,0,0,0,0
+171,disappear,0,0,0,0
+172,go down,0,0,0,0
+173,sink,0,0,0,0
+174,decline,0,0,0,0
+175,descend,0,0,0,0
+176,drop,0,0,0,0
+177,subside,0,0,0,0
+178,charge with,0,0,0,0
+179,entrust with,0,0,0,0
+180,allocate,0,0,0,0
+181,allot,0,0,0,0
+182,give,0,0,0,0
+183,set,0,0,0,0
+184,make,0,0,0,0
+185,create,0,0,0,0
+186,name,0,0,0,0
+187,designate,0,0,0,0
+188,dub,0,0,0,0
+189,decide on for,0,0,0,0
+190,select for,0,0,0,0
+191,choose for,0,0,0,0
+192,install in,0,0,0,0
+193,induct in,0,0,0,0
+194,institute in,0,0,0,0
+195,invest in,0,0,0,0
+196,ordain in,0,0,0,0
+197,detail for,0,0,0,0
+198,appoint,0,0,0,0
+199,promote,0,0,0,0
+200,delegate,0,0,0,0
+201,commission,0,0,0,0
+202,post,0,0,0,0
+203,nominate,0,0,0,0
+204,vote,0,0,0,0
+205,elect,0,0,0,0
+206,adopt,0,0,0,0
+207,co-opt,0,0,0,0
+208,allot,0,0,0,0
+209,allocate,0,0,0,0
+210,apportion,0,0,0,0
+211,fix,0,0,0,0
+212,appoint,0,0,0,0
+213,decide on,0,0,0,0
+214,determine,0,0,0,0
+215,specify,0,0,0,0
+216,stipulate,0,0,0,0
+217,hypothecate,0,0,0,0
+218,earmark,0,0,0,0
+219,appropriate,0,0,0,0
+220,designate,0,0,0,0
+221,set aside,0,0,0,0
+222,set apart,0,0,0,0
+223,keep,0,0,0,0
+224,reserve,0,0,0,0
+225,lay on,0,0,0,0
+226,pin on,0,0,0,0
+227,blame on,0,0,0,0
+228,lay at the door of,0,0,0,0
+229,connect with,0,0,0,0
+230,associate with,0,0,0,0
+231,ascribe,0,0,0,0
+232,attribute,0,0,0,0
+233,put down,0,0,0,0
+234,set down,0,0,0,0
+235,accredit,0,0,0,0
+236,credit,0,0,0,0
+237,give the credit for,0,0,0,0
+238,chalk up,0,0,0,0
+239,impute,0,0,0,0
+240,demise,0,0,0,0
+241,devise,0,0,0,0
+242,attorn,0,0,0,0
+243,transfer,0,0,0,0
+244,make over,0,0,0,0
+245,give,0,0,0,0
+246,pass,0,0,0,0
+247,hand over,0,0,0,0
+248,hand down,0,0,0,0
+249,convey,0,0,0,0
+250,consign,0,0,0,0
+251,alienate,0,0,0,0
+252,drive,0,0,0,0
+253,wedge,0,0,0,0
+254,work,0,0,0,0
+255,tuck,0,0,0,0
+256,pop,0,0,0,0
+257,stick,0,0,0,0
+258,shove,0,0,0,0
+259,bung,0,0,0,0
+260,jam,0,0,0,0
+261,put,0,0,0,0
+262,place,0,0,0,0
+263,press,0,0,0,0
+264,push,0,0,0,0
+265,thrust,0,0,0,0
+266,slide,0,0,0,0
+267,slip,0,0,0,0
+268,load,0,0,0,0
+269,fit,0,0,0,0
+270,position,0,0,0,0
+271,slot,0,0,0,0
+272,lodge,0,0,0,0
+273,install,0,0,0,0
+274,enter,0,0,0,0
+275,put,0,0,0,0
+276,introduce,0,0,0,0
+277,incorporate,0,0,0,0
+278,interpolate,0,0,0,0
+279,interpose,0,0,0,0
+280,interject,0,0,0,0
+281,inset,0,0,0,0
+282,infix,0,0,0,0
+283,build,0,0,0,0
+284,up and down,0,0,0,0
+285,blowing hot and cold,0,0,0,0
+286,changeful,0,0,0,0
+287,variational,0,0,0,0
+288,changeable,0,0,0,0
+289,changing,0,0,0,0
+290,varying,0,0,0,0
+291,shifting,0,0,0,0
+292,fluctuating,0,0,0,0
+293,irregular,0,0,0,0
+294,wavering,0,0,0,0
+295,vacillating,0,0,0,0
+296,inconstant,0,0,0,0
+297,inconsistent,0,0,0,0
+298,fluid,0,0,0,0
+299,floating,0,0,0,0
+300,unsteady,0,0,0,0
+301,uneven,0,0,0,0
+302,unstable,0,0,0,0
+303,unsettled,0,0,0,0
+304,movable,0,0,0,0
+305,mutable,0,0,0,0
+306,protean,0,0,0,0
+307,chameleonic,0,0,0,0
+308,unfixed,0,0,0,0
+309,fitful,0,0,0,0
+310,capricious,0,0,0,0
+311,temperamental,0,0,0,0
+312,fickle,0,0,0,0
+313,kaleidoscopic,0,0,0,0
+314,volatile,0,0,0,0
+315,unpredictable,0,0,0,0
+316,undependable,0,0,0,0
+317,unreliable,0,0,0,0
+318,construct,0,0,0,0
+319,build,0,0,0,0
+320,assemble,0,0,0,0
+321,put together,0,0,0,0
+322,manufacture,0,0,0,0
+323,produce,0,0,0,0
+324,fabricate,0,0,0,0
+325,create,0,0,0,0
+326,form,0,0,0,0
+327,fashion,0,0,0,0
+328,model,0,0,0,0
+329,mould,0,0,0,0
+330,shape,0,0,0,0
+331,forge,0,0,0,0
+332,bring into existence,0,0,0,0
+333,have someone do something,0,0,0,0
+334,prevail on,0,0,0,0
+335,dragoon,0,0,0,0
+336,bludgeon,0,0,0,0
+337,strong-arm,0,0,0,0
+338,impel,0,0,0,0
+339,constrain,0,0,0,0
+340,urge,0,0,0,0
+341,will,0,0,0,0
+342,steamroller,0,0,0,0
+343,browbeat,0,0,0,0
+344,intimidate,0,0,0,0
+345,use strong-arm tactics on,0,0,0,0
+346,bully,0,0,0,0
+347,hector,0,0,0,0
+348,blackmail,0,0,0,0
+349,railroad,0,0,0,0
+350,bulldoze,0,0,0,0
+351,put the heat on,0,0,0,0
+352,put the screws on,0,0,0,0
+353,tighten the screw on,0,0,0,0
+354,tighten the screws on,0,0,0,0
+355,turn the screw on,0,0,0,0
+356,turn the screws on,0,0,0,0
+357,force,0,0,0,0
+358,compel,0,0,0,0
+359,coerce,0,0,0,0
+360,press,0,0,0,0
+361,drive,0,0,0,0
+362,pressure,0,0,0,0
+363,pressurize,0,0,0,0
+364,oblige,0,0,0,0
+365,require,0,0,0,0
+366,beget,0,0,0,0
+367,cause,0,0,0,0
+368,create,0,0,0,0
+369,give rise to,0,0,0,0
+370,produce,0,0,0,0
+371,bring about,0,0,0,0
+372,generate,0,0,0,0
+373,engender,0,0,0,0
+374,occasion,0,0,0,0
+375,effect,0,0,0,0
+376,set up,0,0,0,0
+377,establish,0,0,0,0
+378,institute,0,0,0,0
+379,found,0,0,0,0
+380,develop,0,0,0,0
+381,originate,0,0,0,0
+382,frame,0,0,0,0
+383,perform,0,0,0,0
+384,execute,0,0,0,0
+385,give,0,0,0,0
+386,do,0,0,0,0
+387,accomplish,0,0,0,0
+388,achieve,0,0,0,0
+389,bring off,0,0,0,0
+390,carry out,0,0,0,0
+391,effect,0,0,0,0
+392,practise,0,0,0,0
+393,engage in,0,0,0,0
+394,commit,0,0,0,0
+395,act,0,0,0,0
+396,prosecute,0,0,0,0
+397,induct,0,0,0,0
+398,institute,0,0,0,0
+399,invest,0,0,0,0
+400,ordain,0,0,0,0
+401,assign,0,0,0,0
+402,cast as,0,0,0,0
+403,detail,0,0,0,0
+404,draft,0,0,0,0
+405,engage,0,0,0,0
+406,hire,0,0,0,0
+407,employ,0,0,0,0
+408,recruit,0,0,0,0
+409,retain,0,0,0,0
+410,enrol,0,0,0,0
+411,enlist,0,0,0,0
+412,sign up,0,0,0,0
+413,appoint,0,0,0,0
+414,designate,0,0,0,0
+415,name,0,0,0,0
+416,nominate,0,0,0,0
+417,select,0,0,0,0
+418,elect,0,0,0,0
+419,vote in,0,0,0,0
+420,install,0,0,0,0
+421,place,0,0,0,0
+422,post,0,0,0,0
+423,draft,0,0,0,0
+424,write,0,0,0,0
+425,pen,0,0,0,0
+426,produce,0,0,0,0
+427,formulate,0,0,0,0
+428,frame,0,0,0,0
+429,draw up,0,0,0,0
+430,devise,0,0,0,0
+431,make out,0,0,0,0
+432,prepare,0,0,0,0
+433,compile,0,0,0,0
+434,compose,0,0,0,0
+435,put together,0,0,0,0
+436,blunder,0,0,0,0
+437,err,0,0,0,0
+438,trip up,0,0,0,0
+439,put a foot wrong,0,0,0,0
+440,nod,0,0,0,0
+441,miscalculate,0,0,0,0
+442,slip up,0,0,0,0
+443,bloop,0,0,0,0
+444,make a boo-boo,0,0,0,0
+445,blow it,0,0,0,0
+446,foul up,0,0,0,0
+447,goof,0,0,0,0
+448,goof up,0,0,0,0
+449,boob,0,0,0,0
+450,drop a clanger,0,0,0,0
+451,screw up,0,0,0,0
+452,drop the ball,0,0,0,0
+453,perpetrate,0,0,0,0
+454,commit,0,0,0,0
+455,be responsible for,0,0,0,0
+456,be guilty of,0,0,0,0
+457,be to blame for,0,0,0,0
+458,gross,0,0,0,0
+459,fetch,0,0,0,0
+460,bring in,0,0,0,0
+461,take,0,0,0,0
+462,take in,0,0,0,0
+463,take home,0,0,0,0
+464,pocket,0,0,0,0
+465,net,0,0,0,0
+466,clear,0,0,0,0
+467,acquire,0,0,0,0
+468,obtain,0,0,0,0
+469,gain,0,0,0,0
+470,get,0,0,0,0
+471,realize,0,0,0,0
+472,secure,0,0,0,0
+473,win,0,0,0,0
+474,earn,0,0,0,0
+475,mash,0,0,0,0
+476,fix,0,0,0,0
+477,prepare,0,0,0,0
+478,get ready,0,0,0,0
+479,put together,0,0,0,0
+480,concoct,0,0,0,0
+481,cook,0,0,0,0
+482,dish up,0,0,0,0
+483,throw together,0,0,0,0
+484,whip up,0,0,0,0
+485,brew,0,0,0,0
+486,formulate,0,0,0,0
+487,draw up,0,0,0,0
+488,write,0,0,0,0
+489,frame,0,0,0,0
+490,draft,0,0,0,0
+491,form,0,0,0,0
+492,enact,0,0,0,0
+493,pass,0,0,0,0
+494,lay down,0,0,0,0
+495,establish,0,0,0,0
+496,institute,0,0,0,0
+497,found,0,0,0,0
+498,originate,0,0,0,0
+499,tot up to,0,0,0,0
+500,add up to,0,0,0,0
+501,amount to,0,0,0,0
+502,come to,0,0,0,0
+503,total,0,0,0,0
+504,count as,0,0,0,0
+505,estimate,0,0,0,0
+506,count up,0,0,0,0
+507,determine,0,0,0,0
+508,gauge,0,0,0,0
+509,reckon,0,0,0,0
+510,put a figure on,0,0,0,0
+511,give a figure to,0,0,0,0
+512,forecast,0,0,0,0
+513,predict,0,0,0,0
+514,compute,0,0,0,0
+515,calculate,0,0,0,0
+516,work out,0,0,0,0
+517,appraise,0,0,0,0
+518,evaluate,0,0,0,0
+519,assess,0,0,0,0
+520,size up,0,0,0,0
+521,adjudge,0,0,0,0
+522,look on,0,0,0,0
+523,view,0,0,0,0
+524,regard,0,0,0,0
+525,consider,0,0,0,0
+526,judge,0,0,0,0
+527,deem,0,0,0,0
+528,figure,0,0,0,0
+529,figure out,0,0,0,0
+530,value,0,0,0,0
+531,rate,0,0,0,0
+532,think,0,0,0,0
+533,sum up,0,0,0,0
+534,weigh up,0,0,0,0
+535,think about,0,0,0,0
+536,think of,0,0,0,0
+537,reach,0,0,0,0
+538,come to,0,0,0,0
+539,settle on,0,0,0,0
+540,determine on,0,0,0,0
+541,conclude,0,0,0,0
+542,establish,0,0,0,0
+543,seal,0,0,0,0
+544,utter,0,0,0,0
+545,give,0,0,0,0
+546,deliver,0,0,0,0
+547,give voice to,0,0,0,0
+548,enunciate,0,0,0,0
+549,recite,0,0,0,0
+550,pronounce,0,0,0,0
+551,be,0,0,0,0
+552,act as,0,0,0,0
+553,serve as,0,0,0,0
+554,function as,0,0,0,0
+555,constitute,0,0,0,0
+556,perform the function of,0,0,0,0
+557,do duty for,0,0,0,0
+558,play the part of,0,0,0,0
+559,represent,0,0,0,0
+560,embody,0,0,0,0
+561,form,0,0,0,0
+562,achieve,0,0,0,0
+563,attain,0,0,0,0
+564,gain a place in,0,0,0,0
+565,get into,0,0,0,0
+566,gain access to,0,0,0,0
+567,enter,0,0,0,0
+568,get to,0,0,0,0
+569,catch,0,0,0,0
+570,get,0,0,0,0
+571,arrive in time for,0,0,0,0
+572,be in time for,0,0,0,0
+573,arrive at,0,0,0,0
+574,reach,0,0,0,0
+575,matching,0,0,0,0
+576,twin,0,0,0,0
+577,comparable,0,0,0,0
+578,similar,0,0,0,0
+579,corresponding,0,0,0,0
+580,correspondent,0,0,0,0
+581,commensurate,0,0,0,0
+582,identical,0,0,0,0
+583,uniform,0,0,0,0
+584,alike,0,0,0,0
+585,like,0,0,0,0
+586,the same,0,0,0,0
+587,one and the same,0,0,0,0
+588,equivalent,0,0,0,0
+589,indistinguishable,0,0,0,0
+590,proportionate,0,0,0,0
+591,tantamount,0,0,0,0
+592,the same as,0,0,0,0
+593,commensurate with,0,0,0,0
+594,on a par with,0,0,0,0
+595,equivalent,0,0,0,0
+596,identical,0,0,0,0
+597,amounting,0,0,0,0
+598,unprejudiced,0,0,0,0
+599,unbigoted,0,0,0,0
+600,non-discriminatory,0,0,0,0
+601,free from discrimination,0,0,0,0
+602,egalitarian,0,0,0,0
+603,neutral,0,0,0,0
+604,objective,0,0,0,0
+605,disinterested,0,0,0,0
+606,without fear or favour,0,0,0,0
+607,unbiased,0,0,0,0
+608,impartial,0,0,0,0
+609,non-partisan,0,0,0,0
+610,fair,0,0,0,0
+611,fair-minded,0,0,0,0
+612,just,0,0,0,0
+613,even-handed,0,0,0,0
+614,equitable,0,0,0,0
+615,fifty-fifty,0,0,0,0
+616,level pegging,0,0,0,0
+617,neck and neck,0,0,0,0
+618,evenly matched,0,0,0,0
+619,evenly balanced,0,0,0,0
+620,even,0,0,0,0
+621,balanced,0,0,0,0
+622,level,0,0,0,0
+623,evenly proportioned,0,0,0,0
+624,well matched,0,0,0,0
+625,on a par,0,0,0,0
+626,on an equal footing,0,0,0,0
+627,customize,0,0,0,0
+628,tailor,0,0,0,0
+629,tweak,0,0,0,0
+630,permute,0,0,0,0
+631,alter,0,0,0,0
+632,make different,0,0,0,0
+633,become different,0,0,0,0
+634,undergo a change,0,0,0,0
+635,make alterations to,0,0,0,0
+636,adjust,0,0,0,0
+637,make adjustments to,0,0,0,0
+638,adapt,0,0,0,0
+639,turn,0,0,0,0
+640,amend,0,0,0,0
+641,improve,0,0,0,0
+642,modify,0,0,0,0
+643,convert,0,0,0,0
+644,revise,0,0,0,0
+645,recast,0,0,0,0
+646,reform,0,0,0,0
+647,reshape,0,0,0,0
+648,refashion,0,0,0,0
+649,redesign,0,0,0,0
+650,restyle,0,0,0,0
+651,revamp,0,0,0,0
+652,rework,0,0,0,0
+653,remake,0,0,0,0
+654,remodel,0,0,0,0
+655,remould,0,0,0,0
+656,redo,0,0,0,0
+657,reconstruct,0,0,0,0
+658,reorganize,0,0,0,0
+659,reorder,0,0,0,0
+660,refine,0,0,0,0
+661,reorient,0,0,0,0
+662,reorientate,0,0,0,0
+663,vary,0,0,0,0
+664,transform,0,0,0,0
+665,transfigure,0,0,0,0
+666,transmute,0,0,0,0
+667,metamorphose,0,0,0,0
+668,undergo a sea change,0,0,0,0
+669,evolve,0,0,0,0
+670,trade,0,0,0,0
+671,barter,0,0,0,0
+672,truck,0,0,0,0
+673,swap,0,0,0,0
+674,exchange,0,0,0,0
+675,interchange,0,0,0,0
+676,substitute,0,0,0,0
+677,switch,0,0,0,0
+678,commute,0,0,0,0
+679,convert,0,0,0,0
+680,replace,0,0,0,0
+681,rotate,0,0,0,0
+682,alternate,0,0,0,0
+683,transpose,0,0,0,0
+684,bring into being,0,0,0,0
+685,originate,0,0,0,0
+686,invent,0,0,0,0
+687,initiate,0,0,0,0
+688,engender,0,0,0,0
+689,devise,0,0,0,0
+690,frame,0,0,0,0
+691,develop,0,0,0,0
+692,shape,0,0,0,0
+693,form,0,0,0,0
+694,mould,0,0,0,0
+695,forge,0,0,0,0
+696,concoct,0,0,0,0
+697,hatch,0,0,0,0
+698,knock together,0,0,0,0
+699,knock up,0,0,0,0
+700,knock off,0,0,0,0
+701,generate,0,0,0,0
+702,produce,0,0,0,0
+703,design,0,0,0,0
+704,make,0,0,0,0
+705,fabricate,0,0,0,0
+706,fashion,0,0,0,0
+707,manufacture,0,0,0,0
+708,build,0,0,0,0
+709,construct,0,0,0,0
+710,erect,0,0,0,0
+711,do,0,0,0,0
+712,turn out,0,0,0,0
+713,enkindle,0,0,0,0
+714,bring about,0,0,0,0
+715,result in,0,0,0,0
+716,cause,0,0,0,0
+717,be the cause of,0,0,0,0
+718,give rise to,0,0,0,0
+719,lead to,0,0,0,0
+720,breed,0,0,0,0
+721,generate,0,0,0,0
+722,engender,0,0,0,0
+723,produce,0,0,0,0
+724,make,0,0,0,0
+725,make for,0,0,0,0
+726,prompt,0,0,0,0
+727,promote,0,0,0,0
+728,foster,0,0,0,0
+729,sow the seeds of,0,0,0,0
+730,contribute to,0,0,0,0
+731,stir up,0,0,0,0
+732,whip up,0,0,0,0
+733,inspire,0,0,0,0
+734,form,0,0,0,0
+735,organize,0,0,0,0
+736,develop,0,0,0,0
+737,build up,0,0,0,0
+738,get something going,0,0,0,0
+739,get something moving,0,0,0,0
+740,get something working,0,0,0,0
+741,kick something off,0,0,0,0
+742,establish,0,0,0,0
+743,found,0,0,0,0
+744,institute,0,0,0,0
+745,constitute,0,0,0,0
+746,inaugurate,0,0,0,0
+747,launch,0,0,0,0
+748,set up,0,0,0,0
+749,put in place,0,0,0,0
+750,start,0,0,0,0
+751,lay the foundations of,0,0,0,0
+752,name,0,0,0,0
+753,nominate,0,0,0,0
+754,designate,0,0,0,0
+755,appoint,0,0,0,0
+756,make,0,0,0,0
+757,install as,0,0,0,0
+758,invest,0,0,0,0
+759,birth,0,0,0,0
+760,drop,0,0,0,0
+761,beget,0,0,0,0
+762,conceive,0,0,0,0
+763,give birth to,0,0,0,0
+764,bring into the world,0,0,0,0
+765,bring into being,0,0,0,0
+766,bring into existence,0,0,0,0
+767,give life to,0,0,0,0
+768,father,0,0,0,0
+769,sire,0,0,0,0
+770,spawn,0,0,0,0
+771,produce,0,0,0,0
+772,come out with,0,0,0,0
+773,shout from the rooftops,0,0,0,0
+774,noise abroad,0,0,0,0
+775,blazon abroad,0,0,0,0
+776,preconize,0,0,0,0
+777,proclaim,0,0,0,0
+778,announce,0,0,0,0
+779,make known,0,0,0,0
+780,state,0,0,0,0
+781,communicate,0,0,0,0
+782,reveal,0,0,0,0
+783,divulge,0,0,0,0
+784,mention,0,0,0,0
+785,talk about,0,0,0,0
+786,raise,0,0,0,0
+787,moot,0,0,0,0
+788,air,0,0,0,0
+789,bring into the open,0,0,0,0
+790,voice,0,0,0,0
+791,articulate,0,0,0,0
+792,pronounce,0,0,0,0
+793,express,0,0,0,0
+794,vent,0,0,0,0
+795,set forth,0,0,0,0
+796,make public,0,0,0,0
+797,publicize,0,0,0,0
+798,disseminate,0,0,0,0
+799,circulate,0,0,0,0
+800,publish,0,0,0,0
+801,broadcast,0,0,0,0
+802,promulgate,0,0,0,0
+803,trumpet,0,0,0,0
+804,blazon,0,0,0,0
+805,make out,0,0,0,0
+806,depose,0,0,0,0
+807,represent,0,0,0,0
+808,opine,0,0,0,0
+809,avouch,0,0,0,0
+810,asseverate,0,0,0,0
+811,assert,0,0,0,0
+812,maintain,0,0,0,0
+813,state,0,0,0,0
+814,aver,0,0,0,0
+815,affirm,0,0,0,0
+816,contend,0,0,0,0
+817,argue,0,0,0,0
+818,insist,0,0,0,0
+819,hold,0,0,0,0
+820,profess,0,0,0,0
+821,move,0,0,0,0
+822,claim,0,0,0,0
+823,allege,0,0,0,0
+824,avow,0,0,0,0
+825,vow,0,0,0,0
+826,swear,0,0,0,0
+827,attest,0,0,0,0
+828,testify,0,0,0,0
+829,certify,0,0,0,0
+830,show to be,0,0,0,0
+831,reveal as,0,0,0,0
+832,confirm as,0,0,0,0
+833,prove to be,0,0,0,0
+834,validate as,0,0,0,0
+835,certify to someone's being,0,0,0,0
+836,attest to someone's being,0,0,0,0
+837,hand,0,0,0,0
+838,let someone have,0,0,0,0
+839,offer,0,0,0,0
+840,proffer,0,0,0,0
+841,award,0,0,0,0
+842,grant,0,0,0,0
+843,bestow,0,0,0,0
+844,accord,0,0,0,0
+845,confer,0,0,0,0
+846,donate,0,0,0,0
+847,contribute,0,0,0,0
+848,put up,0,0,0,0
+849,hand over,0,0,0,0
+850,turn over,0,0,0,0
+851,make over,0,0,0,0
+852,leave,0,0,0,0
+853,will,0,0,0,0
+854,bequeath,0,0,0,0
+855,pledge,0,0,0,0
+856,vouchsafe,0,0,0,0
+857,lend,0,0,0,0
+858,slip,0,0,0,0
+859,fork out,0,0,0,0
+860,shell out,0,0,0,0
+861,lay out,0,0,0,0
+862,cough up,0,0,0,0
+863,stump up,0,0,0,0
+864,ante up,0,0,0,0
+865,pony up,0,0,0,0
+866,present with,0,0,0,0
+867,provide with,0,0,0,0
+868,supply with,0,0,0,0
+869,furnish with,0,0,0,0
+870,gift with,0,0,0,0
+871,send,0,0,0,0
+872,deliver,0,0,0,0
+873,relay,0,0,0,0
+874,purvey,0,0,0,0
+875,tell,0,0,0,0
+876,convey,0,0,0,0
+877,pass on,0,0,0,0
+878,impart,0,0,0,0
+879,communicate,0,0,0,0
+880,transmit,0,0,0,0
+881,transfer,0,0,0,0
+882,commend,0,0,0,0
+883,entrust,0,0,0,0
+884,commit,0,0,0,0
+885,put into someone's hands,0,0,0,0
+886,consign,0,0,0,0
+887,assign,0,0,0,0
+888,render,0,0,0,0
+889,devote,0,0,0,0
+890,dedicate,0,0,0,0
+891,set aside,0,0,0,0
+892,sacrifice,0,0,0,0
+893,give up,0,0,0,0
+894,relinquish,0,0,0,0
+895,offer,0,0,0,0
+896,allow,0,0,0,0
+897,permit,0,0,0,0
+898,let have,0,0,0,0
+899,grant,0,0,0,0
+900,accord,0,0,0,0
+901,show,0,0,0,0
+902,display,0,0,0,0
+903,set out,0,0,0,0
+904,set forth,0,0,0,0
+905,indicate,0,0,0,0
+906,detail,0,0,0,0
+907,give details of,0,0,0,0
+908,list,0,0,0,0
+909,cause,0,0,0,0
+910,be a source of,0,0,0,0
+911,make,0,0,0,0
+912,create,0,0,0,0
+913,occasion,0,0,0,0
+914,impart,0,0,0,0
+915,lend,0,0,0,0
+916,produce,0,0,0,0
+917,yield,0,0,0,0
+918,afford,0,0,0,0
+919,result in,0,0,0,0
+920,throw,0,0,0,0
+921,host,0,0,0,0
+922,hold,0,0,0,0
+923,have,0,0,0,0
+924,organize,0,0,0,0
+925,arrange,0,0,0,0
+926,lay on,0,0,0,0
+927,provide,0,0,0,0
+928,be responsible for,0,0,0,0
+929,make,0,0,0,0
+930,do,0,0,0,0
+931,perform,0,0,0,0
+932,execute,0,0,0,0
+933,carry out,0,0,0,0
+934,produce,0,0,0,0
+935,make,0,0,0,0
+936,utter,0,0,0,0
+937,let out,0,0,0,0
+938,emit,0,0,0,0
+939,inflict,0,0,0,0
+940,impose,0,0,0,0
+941,administer,0,0,0,0
+942,deliver,0,0,0,0
+943,deal,0,0,0,0
+944,bend,0,0,0,0
+945,buckle,0,0,0,0
+946,sink,0,0,0,0
+947,give way,0,0,0,0
+948,cave in,0,0,0,0
+949,collapse,0,0,0,0
+950,break,0,0,0,0
+951,fall apart,0,0,0,0
+952,come apart,0,0,0,0
+953,leave,0,0,0,0
+954,stow,0,0,0,0
+955,prop,0,0,0,0
+956,lean,0,0,0,0
+957,plant,0,0,0,0
+958,pose,0,0,0,0
+959,stick,0,0,0,0
+960,dump,0,0,0,0
+961,bung,0,0,0,0
+962,park,0,0,0,0
+963,plonk,0,0,0,0
+964,pop,0,0,0,0
+965,plunk,0,0,0,0
+966,posit,0,0,0,0
+967,place,0,0,0,0
+968,set,0,0,0,0
+969,put down,0,0,0,0
+970,set down,0,0,0,0
+971,lay,0,0,0,0
+972,lay down,0,0,0,0
+973,deposit,0,0,0,0
+974,situate,0,0,0,0
+975,position,0,0,0,0
+976,settle,0,0,0,0
+977,classify with,0,0,0,0
+978,categorize with,0,0,0,0
+979,bracket with,0,0,0,0
+980,assign to,0,0,0,0
+981,consign to,0,0,0,0
+982,allocate to,0,0,0,0
+983,place in,0,0,0,0
+984,attribute to,0,0,0,0
+985,impute to,0,0,0,0
+986,attach to,0,0,0,0
+987,assign to,0,0,0,0
+988,allocate to,0,0,0,0
+989,ascribe to,0,0,0,0
+990,lay,0,0,0,0
+991,pin,0,0,0,0
+992,place,0,0,0,0
+993,impose,0,0,0,0
+994,fix,0,0,0,0
+995,set before,0,0,0,0
+996,lay before,0,0,0,0
+997,submit,0,0,0,0
+998,present,0,0,0,0
+999,tender,0,0,0,0
+1000,offer,0,0,0,0
+1001,proffer,0,0,0,0
+1002,advance,0,0,0,0
+1003,suggest,0,0,0,0
+1004,propose,0,0,0,0
+1005,state,0,0,0,0
+1006,say,0,0,0,0
+1007,utter,0,0,0,0
+1008,voice,0,0,0,0
+1009,speak,0,0,0,0
+1010,articulate,0,0,0,0
+1011,pronounce,0,0,0,0
+1012,express,0,0,0,0
+1013,word,0,0,0,0
+1014,phrase,0,0,0,0
+1015,frame,0,0,0,0
+1016,formulate,0,0,0,0
+1017,render,0,0,0,0
+1018,convey,0,0,0,0
+1019,couch,0,0,0,0
+1020,guesstimate,0,0,0,0
+1021,estimate,0,0,0,0
+1022,calculate,0,0,0,0
+1023,reckon,0,0,0,0
+1024,gauge,0,0,0,0
+1025,assess,0,0,0,0
+1026,evaluate,0,0,0,0
+1027,value,0,0,0,0
+1028,judge,0,0,0,0
+1029,measure,0,0,0,0
+1030,compute,0,0,0,0
+1031,establish,0,0,0,0
+1032,fix,0,0,0,0
+1033,set,0,0,0,0
+1034,guess,0,0,0,0
+1035,centre,0,0,0,0
+1036,core,0,0,0,0
+1037,middle,0,0,0,0
+1038,heart,0,0,0,0
+1039,nucleus,0,0,0,0
+1040,interior,0,0,0,0
+1041,inner part,0,0,0,0
+1042,inner side,0,0,0,0
+1043,inner surface,0,0,0,0
+1044,internal organs,0,0,0,0
+1045,viscera,0,0,0,0
+1046,entrails,0,0,0,0
+1047,belly,0,0,0,0
+1048,tummy,0,0,0,0
+1049,guts,0,0,0,0
+1050,bread basket,0,0,0,0
+1051,stomach,0,0,0,0
+1052,gut,0,0,0,0
+1053,bowels,0,0,0,0
+1054,intestines,0,0,0,0
+1055,fund,0,0,0,0
+1056,bank,0,0,0,0
+1057,pool,0,0,0,0
+1058,mine,0,0,0,0
+1059,wealth,0,0,0,0
+1060,deposit,0,0,0,0
+1061,reservoir,0,0,0,0
+1062,inventory,0,0,0,0
+1063,repertoire,0,0,0,0
+1064,repertory,0,0,0,0
+1065,amassment,0,0,0,0
+1066,supply,0,0,0,0
+1067,stock,0,0,0,0
+1068,stockpile,0,0,0,0
+1069,reserve,0,0,0,0
+1070,cache,0,0,0,0
+1071,hoard,0,0,0,0
+1072,accumulation,0,0,0,0
+1073,cumulation,0,0,0,0
+1074,quantity,0,0,0,0
+1075,pile,0,0,0,0
+1076,heap,0,0,0,0
+1077,load,0,0,0,0
+1078,granary,0,0,0,0
+1079,silo,0,0,0,0
+1080,larder,0,0,0,0
+1081,pantry,0,0,0,0
+1082,arsenal,0,0,0,0
+1083,armoury,0,0,0,0
+1084,still room,0,0,0,0
+1085,garner,0,0,0,0
+1086,spence,0,0,0,0
+1087,storeroom,0,0,0,0
+1088,storehouse,0,0,0,0
+1089,warehouse,0,0,0,0
+1090,repository,0,0,0,0
+1091,depository,0,0,0,0
+1092,entrepôt,0,0,0,0
+1093,comestibles,0,0,0,0
+1094,provender,0,0,0,0
+1095,supplies,0,0,0,0
+1096,provisions,0,0,0,0
+1097,stocks,0,0,0,0
+1098,rations,0,0,0,0
+1099,food,0,0,0,0
+1100,foodstuffs,0,0,0,0
+1101,supermarket,0,0,0,0
+1102,hypermarket,0,0,0,0
+1103,superstore,0,0,0,0
+1104,mart,0,0,0,0
+1105,shed,0,0,0,0
+1106,big box,0,0,0,0
+1107,shop,0,0,0,0
+1108,retail outlet,0,0,0,0
+1109,reseller,0,0,0,0
+1110,department store,0,0,0,0
+1111,chain store,0,0,0,0
+1112,emporium,0,0,0,0
+1113,every one,0,0,0,0
+1114,each one,0,0,0,0
+1115,each and every one,0,0,0,0
+1116,one and all,0,0,0,0
+1117,all,0,0,0,0
+1118,the whole lot,0,0,0,0
+1119,coil,0,0,0,0
+1120,hoop,0,0,0,0
+1121,ring,0,0,0,0
+1122,circle,0,0,0,0
+1123,noose,0,0,0,0
+1124,oval,0,0,0,0
+1125,spiral,0,0,0,0
+1126,curl,0,0,0,0
+1127,twirl,0,0,0,0
+1128,whorl,0,0,0,0
+1129,twist,0,0,0,0
+1130,hook,0,0,0,0
+1131,zigzag,0,0,0,0
+1132,helix,0,0,0,0
+1133,convolution,0,0,0,0
+1134,incurvation,0,0,0,0
+1135,bend,0,0,0,0
+1136,curve,0,0,0,0
+1137,kink,0,0,0,0
+1138,arc,0,0,0,0
+1139,recap,0,0,0,0
+1140,reprise,0,0,0,0
+1141,ingeminate,0,0,0,0
+1142,say again,0,0,0,0
+1143,restate,0,0,0,0
+1144,reiterate,0,0,0,0
+1145,go through again,0,0,0,0
+1146,go over again,0,0,0,0
+1147,run through again,0,0,0,0
+1148,iterate,0,0,0,0
+1149,rehearse,0,0,0,0
+1150,recapitulate,0,0,0,0
+1151,echo,0,0,0,0
+1152,parrot,0,0,0,0
+1153,regurgitate,0,0,0,0
+1154,say again,0,0,0,0
+1155,restate,0,0,0,0
+1156,trot out,0,0,0,0
+1157,recite,0,0,0,0
+1158,quote,0,0,0,0
+1159,reproduce,0,0,0,0
+1160,do again,0,0,0,0
+1161,redo,0,0,0,0
+1162,replicate,0,0,0,0
+1163,duplicate,0,0,0,0
+1164,perform again,0,0,0,0
+1165,rebroadcast,0,0,0,0
+1166,rerun,0,0,0,0
+1167,reshow,0,0,0,0
+1168,replay,0,0,0,0
+1169,say again,0,0,0,0
+1170,restate,0,0,0,0
+1171,reiterate,0,0,0,0
+1172,recap,0,0,0,0
+1173,reprise,0,0,0,0
+1174,ingeminate,0,0,0,0
+1175,repeat,0,0,0,0
+1176,recapitulate,0,0,0,0
+1177,go through again,0,0,0,0
+1178,go over again,0,0,0,0
+1179,run through again,0,0,0,0
+1180,rehearse,0,0,0,0
+1181,throughout,0,0,0,0
+1182,around in,0,0,0,0
+1183,all over,0,0,0,0
+1184,into and out of,0,0,0,0
+1185,to the far side of,0,0,0,0
+1186,to the other side of,0,0,0,0
+1187,from one side of … to the other,0,0,0,0
+1188,from end to end of,0,0,0,0
+1189,between,0,0,0,0
+1190,past,0,0,0,0
+1191,by,0,0,0,0
+1192,down,0,0,0,0
+1193,along,0,0,0,0
+1194,across,0,0,0,0
+1195,by way of,0,0,0,0
+1196,via,0,0,0,0
+1197,by means of,0,0,0,0
+1198,by way of,0,0,0,0
+1199,by dint of,0,0,0,0
+1200,through the agency of,0,0,0,0
+1201,via,0,0,0,0
+1202,using,0,0,0,0
+1203,with the help of,0,0,0,0
+1204,with the aid of,0,0,0,0
+1205,with the assistance of,0,0,0,0
+1206,thanks to,0,0,0,0
+1207,under the aegis of,0,0,0,0
+1208,by virtue of,0,0,0,0
+1209,as a result of,0,0,0,0
+1210,as a consequence of,0,0,0,0
+1211,on account of,0,0,0,0
+1212,owing to,0,0,0,0
+1213,because of,0,0,0,0
+1214,throughout,0,0,0,0
+1215,all through,0,0,0,0
+1216,for the duration of,0,0,0,0
+1217,to the end of,0,0,0,0
+1218,until the end of,0,0,0,0
+1219,during,0,0,0,0
+1220,up to and including,0,0,0,0
+1221,to … inclusive,0,0,0,0
+1222,from … to … inclusive,0,0,0,0
+1223,above,0,0,0,0
+1224,on top of,0,0,0,0
+1225,higher than,0,0,0,0
+1226,higher up than,0,0,0,0
+1227,atop,0,0,0,0
+1228,across,0,0,0,0
+1229,on to,0,0,0,0
+1230,around,0,0,0,0
+1231,throughout,0,0,0,0
+1232,all through,0,0,0,0
+1233,throughout the extent of,0,0,0,0
+1234,everywhere in,0,0,0,0
+1235,in all parts of,0,0,0,0
+1236,superior to,0,0,0,0
+1237,above,0,0,0,0
+1238,higher up than,0,0,0,0
+1239,more powerful than,0,0,0,0
+1240,in charge of,0,0,0,0
+1241,responsible for,0,0,0,0
+1242,commanding,0,0,0,0
+1243,more than,0,0,0,0
+1244,above,0,0,0,0
+1245,in excess of,0,0,0,0
+1246,exceeding,0,0,0,0
+1247,upwards of,0,0,0,0
+1248,beyond,0,0,0,0
+1249,greater than,0,0,0,0
+1250,in re,0,0,0,0
+1251,on the subject of,0,0,0,0
+1252,about,0,0,0,0
+1253,concerning,0,0,0,0
+1254,apropos of,0,0,0,0
+1255,with reference to,0,0,0,0
+1256,speaking of,0,0,0,0
+1257,with regard to,0,0,0,0
+1258,with respect to,0,0,0,0
+1259,regarding,0,0,0,0
+1260,as regards,0,0,0,0
+1261,relating to,0,0,0,0
+1262,respecting,0,0,0,0
+1263,in connection with,0,0,0,0
+1264,as for,0,0,0,0
+1265,re,0,0,0,0
+1266,study,0,0,0,0
+1267,mull over,0,0,0,0
+1268,ponder,0,0,0,0
+1269,deliberate over,0,0,0,0
+1270,cogitate about,0,0,0,0
+1271,chew over,0,0,0,0
+1272,meditate on,0,0,0,0
+1273,meditate over,0,0,0,0
+1274,ruminate over,0,0,0,0
+1275,turn over in one's mind,0,0,0,0
+1276,assess,0,0,0,0
+1277,evaluate,0,0,0,0
+1278,compare,0,0,0,0
+1279,weigh up,0,0,0,0
+1280,judge,0,0,0,0
+1281,consider the pros and cons of,0,0,0,0
+1282,sum up,0,0,0,0
+1283,size up,0,0,0,0
+1284,think about,0,0,0,0
+1285,contemplate,0,0,0,0
+1286,give thought to,0,0,0,0
+1287,reflect on,0,0,0,0
+1288,examine,0,0,0,0
+1289,appraise,0,0,0,0
+1290,review,0,0,0,0
+1291,esteem,0,0,0,0
+1292,regard as,0,0,0,0
+1293,deem,0,0,0,0
+1294,hold to be,0,0,0,0
+1295,think,0,0,0,0
+1296,think of as,0,0,0,0
+1297,reckon,0,0,0,0
+1298,believe,0,0,0,0
+1299,judge,0,0,0,0
+1300,adjudge,0,0,0,0
+1301,rate,0,0,0,0
+1302,class as,0,0,0,0
+1303,account,0,0,0,0
+1304,count,0,0,0,0
+1305,gauge,0,0,0,0
+1306,look on as,0,0,0,0
+1307,view as,0,0,0,0
+1308,see as,0,0,0,0
+1309,take for,0,0,0,0
+1310,interpret as,0,0,0,0
+1311,suppose,0,0,0,0
+1312,find,0,0,0,0
+1313,check out,0,0,0,0
+1314,have a gander at,0,0,0,0
+1315,have a squint at,0,0,0,0
+1316,get a load of,0,0,0,0
+1317,have a butcher's at,0,0,0,0
+1318,take a dekko at,0,0,0,0
+1319,take a shufti at,0,0,0,0
+1320,clock,0,0,0,0
+1321,eyeball,0,0,0,0
+1322,look at,0,0,0,0
+1323,contemplate,0,0,0,0
+1324,observe,0,0,0,0
+1325,regard,0,0,0,0
+1326,survey,0,0,0,0
+1327,view,0,0,0,0
+1328,scrutinize,0,0,0,0
+1329,scan,0,0,0,0
+1330,examine,0,0,0,0
+1331,inspect,0,0,0,0
+1332,take into consideration,0,0,0,0
+1333,take into account,0,0,0,0
+1334,take account of,0,0,0,0
+1335,make allowances for,0,0,0,0
+1336,respect,0,0,0,0
+1337,bear in mind,0,0,0,0
+1338,be mindful of,0,0,0,0
+1339,have regard to,0,0,0,0
+1340,reckon with,0,0,0,0
+1341,remember,0,0,0,0
+1342,mind,0,0,0,0
+1343,mark,0,0,0,0
+1344,heed,0,0,0,0
+1345,note,0,0,0,0
+1346,not forget,0,0,0,0
+1347,make provision for,0,0,0,0
+1348,take to heart,0,0,0,0
+1349,pay regard to,0,0,0,0
+1350,be guided by,0,0,0,0
+1351,peep,0,0,0,0
+1352,peek,0,0,0,0
+1353,take a look,0,0,0,0
+1354,watch,0,0,0,0
+1355,examine,0,0,0,0
+1356,study,0,0,0,0
+1357,inspect,0,0,0,0
+1358,scan,0,0,0,0
+1359,scrutinize,0,0,0,0
+1360,survey,0,0,0,0
+1361,check,0,0,0,0
+1362,contemplate,0,0,0,0
+1363,consider,0,0,0,0
+1364,see,0,0,0,0
+1365,observe,0,0,0,0
+1366,view,0,0,0,0
+1367,regard,0,0,0,0
+1368,pay attention to,0,0,0,0
+1369,take note of,0,0,0,0
+1370,mark,0,0,0,0
+1371,check out,0,0,0,0
+1372,glimpse,0,0,0,0
+1373,spot,0,0,0,0
+1374,spy,0,0,0,0
+1375,lay one's eyes on,0,0,0,0
+1376,catch sight of,0,0,0,0
+1377,eye,0,0,0,0
+1378,take in,0,0,0,0
+1379,ogle,0,0,0,0
+1380,take a gander,0,0,0,0
+1381,give someone a once-over,0,0,0,0
+1382,give someone the once-over,0,0,0,0
+1383,give something a once-over,0,0,0,0
+1384,give something the once-over,0,0,0,0
+1385,have a squint,0,0,0,0
+1386,get a load of,0,0,0,0
+1387,rubberneck,0,0,0,0
+1388,recce,0,0,0,0
+1389,take a dekko,0,0,0,0
+1390,take a butcher's,0,0,0,0
+1391,take a shufti,0,0,0,0
+1392,clock,0,0,0,0
+1393,gawp,0,0,0,0
+1394,eyeball,0,0,0,0
+1395,behold,0,0,0,0
+1396,espy,0,0,0,0
+1397,descry,0,0,0,0
+1398,glance,0,0,0,0
+1399,gaze,0,0,0,0
+1400,stare,0,0,0,0
+1401,gape,0,0,0,0
+1402,peer,0,0,0,0
+1403,fix one's gaze,0,0,0,0
+1404,focus,0,0,0,0
+1405,command a view,0,0,0,0
+1406,face,0,0,0,0
+1407,overlook,0,0,0,0
+1408,front,0,0,0,0
+1409,seem,0,0,0,0
+1410,seem to be,0,0,0,0
+1411,appear,0,0,0,0
+1412,appear to be,0,0,0,0
+1413,have the air of being,0,0,0,0
+1414,have the appearance of being,0,0,0,0
+1415,give the impression of being,0,0,0,0
+1416,give every appearance of being,0,0,0,0
+1417,give every indication of being,0,0,0,0
+1418,look to be,0,0,0,0
+1419,present as being,0,0,0,0
+1420,strike someone as being,0,0,0,0
+1421,factor,0,0,0,0
+1422,feature,0,0,0,0
+1423,facet,0,0,0,0
+1424,ingredient,0,0,0,0
+1425,strand,0,0,0,0
+1426,detail,0,0,0,0
+1427,point,0,0,0,0
+1428,member,0,0,0,0
+1429,unit,0,0,0,0
+1430,module,0,0,0,0
+1431,item,0,0,0,0
+1432,essential,0,0,0,0
+1433,integrand,0,0,0,0
+1434,component,0,0,0,0
+1435,constituent,0,0,0,0
+1436,part,0,0,0,0
+1437,section,0,0,0,0
+1438,portion,0,0,0,0
+1439,piece,0,0,0,0
+1440,segment,0,0,0,0
+1441,bit,0,0,0,0
+1442,trace,0,0,0,0
+1443,touch,0,0,0,0
+1444,hint,0,0,0,0
+1445,smattering,0,0,0,0
+1446,suspicion,0,0,0,0
+1447,soupçon,0,0,0,0
+1448,foundations,0,0,0,0
+1449,fundamentals,0,0,0,0
+1450,rudiments,0,0,0,0
+1451,nuts and bolts,0,0,0,0
+1452,ABC,0,0,0,0
+1453,basics,0,0,0,0
+1454,essentials,0,0,0,0
+1455,principles,0,0,0,0
+1456,first principles,0,0,0,0
+1457,natural environment,0,0,0,0
+1458,favoured environment,0,0,0,0
+1459,familiar territory,0,0,0,0
+1460,territory,0,0,0,0
+1461,habitat,0,0,0,0
+1462,medium,0,0,0,0
+1463,milieu,0,0,0,0
+1464,sphere,0,0,0,0
+1465,field,0,0,0,0
+1466,domain,0,0,0,0
+1467,realm,0,0,0,0
+1468,circle,0,0,0,0
+1469,resort,0,0,0,0
+1470,haunt,0,0,0,0
+1471,the wind,0,0,0,0
+1472,the rain,0,0,0,0
+1473,storms,0,0,0,0
+1474,the weather,0,0,0,0
+1475,the climate,0,0,0,0
+1476,meteorological conditions,0,0,0,0
+1477,atmospheric conditions,0,0,0,0
+1478,atmospheric forces,0,0,0,0
+1479,thingamajig,0,0,0,0
+1480,thingamabob,0,0,0,0
+1481,thingummy,0,0,0,0
+1482,whatsit,0,0,0,0
+1483,whatchamacallit,0,0,0,0
+1484,what-d'you-call-it,0,0,0,0
+1485,thingy,0,0,0,0
+1486,doodah,0,0,0,0
+1487,doobry,0,0,0,0
+1488,gubbins,0,0,0,0
+1489,doodad,0,0,0,0
+1490,doohickey,0,0,0,0
+1491,doojigger,0,0,0,0
+1492,dingus,0,0,0,0
+1493,thingo,0,0,0,0
+1494,thing,0,0,0,0
+1495,article,0,0,0,0
+1496,item,0,0,0,0
+1497,piece,0,0,0,0
+1498,device,0,0,0,0
+1499,gadget,0,0,0,0
+1500,entity,0,0,0,0
+1501,body,0,0,0,0
+1502,target,0,0,0,0
+1503,butt,0,0,0,0
+1504,focus,0,0,0,0
+1505,recipient,0,0,0,0
+1506,victim,0,0,0,0
+1507,ambition,0,0,0,0
+1508,design,0,0,0,0
+1509,intent,0,0,0,0
+1510,intention,0,0,0,0
+1511,idea,0,0,0,0
+1512,point,0,0,0,0
+1513,purpose,0,0,0,0
+1514,objective,0,0,0,0
+1515,aim,0,0,0,0
+1516,goal,0,0,0,0
+1517,target,0,0,0,0
+1518,end,0,0,0,0
+1519,end in view,0,0,0,0
+1520,plan,0,0,0,0
+1521,object of the exercise,0,0,0,0
+1522,unit,0,0,0,0
+1523,module,0,0,0,0
+1524,item,0,0,0,0
+1525,section,0,0,0,0
+1526,portion,0,0,0,0
+1527,integrant,0,0,0,0
+1528,part,0,0,0,0
+1529,piece,0,0,0,0
+1530,bit,0,0,0,0
+1531,constituent,0,0,0,0
+1532,element,0,0,0,0
+1533,ingredient,0,0,0,0
+1534,entity,0,0,0,0
+1535,whole,0,0,0,0
+1536,discrete item,0,0,0,0
+1537,component,0,0,0,0
+1538,part,0,0,0,0
+1539,section,0,0,0,0
+1540,element,0,0,0,0
+1541,constituent,0,0,0,0
+1542,subdivision,0,0,0,0
+1543,portion,0,0,0,0
+1544,segment,0,0,0,0
+1545,module,0,0,0,0
+1546,item,0,0,0,0
+1547,member,0,0,0,0
+1548,ingredient,0,0,0,0
+1549,factor,0,0,0,0
+1550,feature,0,0,0,0
+1551,piece,0,0,0,0
+1552,fragment,0,0,0,0
+1553,quantity,0,0,0,0
+1554,measure,0,0,0,0
+1555,measurement,0,0,0,0
+1556,denomination,0,0,0,0
+1557,value,0,0,0,0
+1558,cell,0,0,0,0
+1559,faction,0,0,0,0
+1560,detachment,0,0,0,0
+1561,contingent,0,0,0,0
+1562,outfit,0,0,0,0
+1563,section,0,0,0,0
+1564,division,0,0,0,0
+1565,company,0,0,0,0
+1566,squadron,0,0,0,0
+1567,corps,0,0,0,0
+1568,regiment,0,0,0,0
+1569,brigade,0,0,0,0
+1570,platoon,0,0,0,0
+1571,battalion,0,0,0,0
+1572,force,0,0,0,0
+1573,garrison,0,0,0,0
+1574,legion,0,0,0,0
+1575,formation,0,0,0,0
+1576,crew,0,0,0,0
+1577,squad,0,0,0,0
+1578,detail,0,0,0,0
+1579,device,0,0,0,0
+1580,gadget,0,0,0,0
+1581,contrivance,0,0,0,0
+1582,instrument,0,0,0,0
+1583,utensil,0,0,0,0
+1584,tool,0,0,0,0
+1585,implement,0,0,0,0
+1586,entity,0,0,0,0
+1587,body,0,0,0,0
+1588,whatsit,0,0,0,0
+1589,what-d'you-call-it,0,0,0,0
+1590,what's-its-name,0,0,0,0
+1591,what's-it,0,0,0,0
+1592,whatchamacallit,0,0,0,0
+1593,thingummy,0,0,0,0
+1594,thingy,0,0,0,0
+1595,thingamabob,0,0,0,0
+1596,thingamajig,0,0,0,0
+1597,oojamaflip,0,0,0,0
+1598,oojah,0,0,0,0
+1599,gizmo,0,0,0,0
+1600,doodah,0,0,0,0
+1601,doobry,0,0,0,0
+1602,gubbins,0,0,0,0
+1603,doodad,0,0,0,0
+1604,doohickey,0,0,0,0
+1605,doojigger,0,0,0,0
+1606,dingus,0,0,0,0
+1607,thingo,0,0,0,0
+1608,object,0,0,0,0
+1609,article,0,0,0,0
+1610,item,0,0,0,0
+1611,artefact,0,0,0,0
+1612,commodity,0,0,0,0
+1613,luggage,0,0,0,0
+1614,baggage,0,0,0,0
+1615,bags,0,0,0,0
+1616,bags and baggage,0,0,0,0
+1617,chattels,0,0,0,0
+1618,movables,0,0,0,0
+1619,valuables,0,0,0,0
+1620,clothes,0,0,0,0
+1621,garments,0,0,0,0
+1622,goods and chattels,0,0,0,0
+1623,gear,0,0,0,0
+1624,junk,0,0,0,0
+1625,togs,0,0,0,0
+1626,garms,0,0,0,0
+1627,dunnage,0,0,0,0
+1628,traps,0,0,0,0
+1629,clobber,0,0,0,0
+1630,trek,0,0,0,0
+1631,shit,0,0,0,0
+1632,crap,0,0,0,0
+1633,belongings,0,0,0,0
+1634,possessions,0,0,0,0
+1635,stuff,0,0,0,0
+1636,property,0,0,0,0
+1637,worldly goods,0,0,0,0
+1638,goods,0,0,0,0
+1639,personal effects,0,0,0,0
+1640,effects,0,0,0,0
+1641,paraphernalia,0,0,0,0
+1642,impedimenta,0,0,0,0
+1643,bits and pieces,0,0,0,0
+1644,bits and bobs,0,0,0,0
+1645,implements,0,0,0,0
+1646,tools,0,0,0,0
+1647,utensils,0,0,0,0
+1648,accoutrements,0,0,0,0
+1649,equipment,0,0,0,0
+1650,apparatus,0,0,0,0
+1651,gear,0,0,0,0
+1652,kit,0,0,0,0
+1653,tackle,0,0,0,0
+1654,stuff,0,0,0,0
+1655,act,0,0,0,0
+1656,action,0,0,0,0
+1657,deed,0,0,0,0
+1658,undertaking,0,0,0,0
+1659,exploit,0,0,0,0
+1660,feat,0,0,0,0
+1661,task,0,0,0,0
+1662,job,0,0,0,0
+1663,chore,0,0,0,0
+1664,piece of business,0,0,0,0
+1665,activity,0,0,0,0
+1666,concern,0,0,0,0
+1667,matter,0,0,0,0
+1668,worry,0,0,0,0
+1669,preoccupation,0,0,0,0
+1670,thought,0,0,0,0
+1671,notion,0,0,0,0
+1672,idea,0,0,0,0
+1673,concept,0,0,0,0
+1674,conception,0,0,0,0
+1675,remark,0,0,0,0
+1676,statement,0,0,0,0
+1677,comment,0,0,0,0
+1678,utterance,0,0,0,0
+1679,observation,0,0,0,0
+1680,declaration,0,0,0,0
+1681,pronouncement,0,0,0,0
+1682,incident,0,0,0,0
+1683,episode,0,0,0,0
+1684,event,0,0,0,0
+1685,happening,0,0,0,0
+1686,occurrence,0,0,0,0
+1687,eventuality,0,0,0,0
+1688,phenomenon,0,0,0,0
+1689,state of affairs,0,0,0,0
+1690,situation,0,0,0,0
+1691,life,0,0,0,0
+1692,matters,0,0,0,0
+1693,affairs,0,0,0,0
+1694,circumstances,0,0,0,0
+1695,conditions,0,0,0,0
+1696,relations,0,0,0,0
+1697,characteristic,0,0,0,0
+1698,quality,0,0,0,0
+1699,attribute,0,0,0,0
+1700,property,0,0,0,0
+1701,trait,0,0,0,0
+1702,feature,0,0,0,0
+1703,point,0,0,0,0
+1704,aspect,0,0,0,0
+1705,facet,0,0,0,0
+1706,element,0,0,0,0
+1707,fact,0,0,0,0
+1708,piece of information,0,0,0,0
+1709,point,0,0,0,0
+1710,detail,0,0,0,0
+1711,particular,0,0,0,0
+1712,factor,0,0,0,0
+1713,fact of the matter,0,0,0,0
+1714,fact,0,0,0,0
+1715,point,0,0,0,0
+1716,issue,0,0,0,0
+1717,problem,0,0,0,0
+1718,devil,0,0,0,0
+1719,beggar,0,0,0,0
+1720,bunny,0,0,0,0
+1721,bastard,0,0,0,0
+1722,sod,0,0,0,0
+1723,bugger,0,0,0,0
+1724,person,0,0,0,0
+1725,soul,0,0,0,0
+1726,creature,0,0,0,0
+1727,wretch,0,0,0,0
+1728,dislike,0,0,0,0
+1729,aversion,0,0,0,0
+1730,hatred,0,0,0,0
+1731,detestation,0,0,0,0
+1732,loathing,0,0,0,0
+1733,obsession,0,0,0,0
+1734,fixation,0,0,0,0
+1735,complex,0,0,0,0
+1736,neurosis,0,0,0,0
+1737,hang-up,0,0,0,0
+1738,bee in one's bonnet,0,0,0,0
+1739,phobia,0,0,0,0
+1740,fear,0,0,0,0
+1741,horror,0,0,0,0
+1742,terror,0,0,0,0
+1743,fetish,0,0,0,0
+1744,obsession,0,0,0,0
+1745,fixation,0,0,0,0
+1746,penchant for,0,0,0,0
+1747,preference for,0,0,0,0
+1748,taste for,0,0,0,0
+1749,inclination for,0,0,0,0
+1750,partiality for,0,0,0,0
+1751,predilection for,0,0,0,0
+1752,soft spot for,0,0,0,0
+1753,weakness for,0,0,0,0
+1754,fancy for,0,0,0,0
+1755,fondness for,0,0,0,0
+1756,liking for,0,0,0,0
+1757,love for,0,0,0,0
+1758,passion for,0,0,0,0
+1759,one's cup of tea,0,0,0,0
+1760,one's bag,0,0,0,0
+1761,what turns one on,0,0,0,0
+1762,what floats one's boat,0,0,0,0
+1763,what one likes,0,0,0,0
+1764,what interests one,0,0,0,0
+1765,le dernier cri,0,0,0,0
+1766,trendy,0,0,0,0
+1767,cool,0,0,0,0
+1768,in,0,0,0,0
+1769,the in thing,0,0,0,0
+1770,big,0,0,0,0
+1771,with it,0,0,0,0
+1772,hip,0,0,0,0
+1773,happening,0,0,0,0
+1774,now,0,0,0,0
+1775,fashionable,0,0,0,0
+1776,in fashion,0,0,0,0
+1777,in vogue,0,0,0,0
+1778,popular,0,0,0,0
+1779,all the rage,0,0,0,0
+1780,inside,0,0,0,0
+1781,in,0,0,0,0
+1782,within the bounds of,0,0,0,0
+1783,within the confines of,0,0,0,0
+1784,enclosed by,0,0,0,0
+1785,surrounded by,0,0,0,0
+1786,inside,0,0,0,0
+1787,inside the limits of,0,0,0,0
+1788,inside the range of,0,0,0,0
+1789,within the bounds of,0,0,0,0
+1790,in less than,0,0,0,0
+1791,in under,0,0,0,0
+1792,in no more than,0,0,0,0
+1793,after only,0,0,0,0
+1794,show,0,0,0,0
+1795,display,0,0,0,0
+1796,exhibition,0,0,0,0
+1797,presentation,0,0,0,0
+1798,exposition,0,0,0,0
+1799,spectacle,0,0,0,0
+1800,agglomeration,0,0,0,0
+1801,collection,0,0,0,0
+1802,aggregation,0,0,0,0
+1803,raft,0,0,0,0
+1804,range,0,0,0,0
+1805,variety,0,0,0,0
+1806,assortment,0,0,0,0
+1807,diversity,0,0,0,0
+1808,mixture,0,0,0,0
+1809,selection,0,0,0,0
+1810,arrangement,0,0,0,0
+1811,assembling,0,0,0,0
+1812,assemblage,0,0,0,0
+1813,line-up,0,0,0,0
+1814,formation,0,0,0,0
+1815,ordering,0,0,0,0
+1816,disposition,0,0,0,0
+1817,marshalling,0,0,0,0
+1818,muster,0,0,0,0
+1819,amassing,0,0,0,0
+1820,garments,0,0,0,0
+1821,garms,0,0,0,0
+1822,dress,0,0,0,0
+1823,attire,0,0,0,0
+1824,apparel,0,0,0,0
+1825,clothing,0,0,0,0
+1826,garb,0,0,0,0
+1827,finery,0,0,0,0
+1828,every,0,0,0,0
+1829,each and every,0,0,0,0
+1830,every single,0,0,0,0
+1831,each of,0,0,0,0
+1832,each one of the,0,0,0,0
+1833,every one of the,0,0,0,0
+1834,every single one of the,0,0,0,0
+1835,in its entirety,0,0,0,0
+1836,the whole of the,0,0,0,0
+1837,every bit of the,0,0,0,0
+1838,the complete,0,0,0,0
+1839,the entire,0,0,0,0
+1840,the totality of the,0,0,0,0
+1841,complete,0,0,0,0
+1842,entire,0,0,0,0
+1843,total,0,0,0,0
+1844,full,0,0,0,0
+1845,utter,0,0,0,0
+1846,perfect,0,0,0,0
+1847,all-out,0,0,0,0
+1848,greatest,0,0,0,0
+1849,greatest possible,0,0,0,0
+1850,maximum,0,0,0,0
+1851,each,0,0,0,0
+1852,each and every,0,0,0,0
+1853,every single,0,0,0,0
+1854,all possible,0,0,0,0
+1855,all probable,0,0,0,0
+1856,the utmost,0,0,0,0
+1857,as much as possible,0,0,0,0
+1858,as great as possible,0,0,0,0
+1859,study,0,0,0,0
+1860,investigate,0,0,0,0
+1861,research,0,0,0,0
+1862,probe,0,0,0,0
+1863,dissect,0,0,0,0
+1864,explore,0,0,0,0
+1865,look into,0,0,0,0
+1866,enquire into,0,0,0,0
+1867,go into,0,0,0,0
+1868,go over with a fine-tooth comb,0,0,0,0
+1869,check out,0,0,0,0
+1870,test,0,0,0,0
+1871,monitor,0,0,0,0
+1872,review,0,0,0,0
+1873,give something a once-over,0,0,0,0
+1874,give something the once-over,0,0,0,0
+1875,give something a look-see,0,0,0,0
+1876,give something a going-over,0,0,0,0
+1877,examine,0,0,0,0
+1878,inspect,0,0,0,0
+1879,look at,0,0,0,0
+1880,look over,0,0,0,0
+1881,scrutinize,0,0,0,0
+1882,scan,0,0,0,0
+1883,survey,0,0,0,0
+1884,make sure,0,0,0,0
+1885,confirm,0,0,0,0
+1886,verify,0,0,0,0
+1887,corroborate,0,0,0,0
+1888,validate,0,0,0,0
+1889,substantiate,0,0,0,0
+1890,bar,0,0,0,0
+1891,obstruct,0,0,0,0
+1892,hamper,0,0,0,0
+1893,impede,0,0,0,0
+1894,inhibit,0,0,0,0
+1895,frustrate,0,0,0,0
+1896,foil,0,0,0,0
+1897,thwart,0,0,0,0
+1898,stand in the way of,0,0,0,0
+1899,prevent,0,0,0,0
+1900,curb,0,0,0,0
+1901,block,0,0,0,0
+1902,stall,0,0,0,0
+1903,hold up,0,0,0,0
+1904,interfere with,0,0,0,0
+1905,retard,0,0,0,0
+1906,delay,0,0,0,0
+1907,slow down,0,0,0,0
+1908,brake,0,0,0,0
+1909,put a brake on,0,0,0,0
+1910,stem,0,0,0,0
+1911,staunch,0,0,0,0
+1912,stay,0,0,0,0
+1913,halt,0,0,0,0
+1914,stop,0,0,0,0
+1915,arrest,0,0,0,0
+1916,bring to a standstill,0,0,0,0
+1917,cut short,0,0,0,0
+1918,nip in the bud,0,0,0,0
+1919,keep a lid on,0,0,0,0
+1920,suppress,0,0,0,0
+1921,repress,0,0,0,0
+1922,restrain,0,0,0,0
+1923,contain,0,0,0,0
+1924,control,0,0,0,0
+1925,curb,0,0,0,0
+1926,rein in,0,0,0,0
+1927,bridle,0,0,0,0
+1928,smother,0,0,0,0
+1929,muffle,0,0,0,0
+1930,stifle,0,0,0,0
+1931,keep in check,0,0,0,0
+1932,hold back,0,0,0,0
+1933,swallow,0,0,0,0
+1934,choke back,0,0,0,0
+1935,fight back,0,0,0,0
+1936,bite back,0,0,0,0
+1937,bottle up,0,0,0,0
+1938,on condition that,0,0,0,0
+1939,provided,0,0,0,0
+1940,provided that,0,0,0,0
+1941,providing,0,0,0,0
+1942,providing that,0,0,0,0
+1943,presuming,0,0,0,0
+1944,presuming that,0,0,0,0
+1945,supposing,0,0,0,0
+1946,supposing that,0,0,0,0
+1947,assuming,0,0,0,0
+1948,assuming that,0,0,0,0
+1949,on the assumption that,0,0,0,0
+1950,allowing,0,0,0,0
+1951,allowing that,0,0,0,0
+1952,as long as,0,0,0,0
+1953,given that,0,0,0,0
+1954,with the provision that,0,0,0,0
+1955,with the proviso that,0,0,0,0
+1956,on the understanding that,0,0,0,0
+1957,with the understanding that,0,0,0,0
+1958,if and only if,0,0,0,0
+1959,contingent on,0,0,0,0
+1960,in the event that,0,0,0,0
+1961,whenever,0,0,0,0
+1962,every time,0,0,0,0
+1963,whether,0,0,0,0
+1964,whether or not,0,0,0,0
+1965,although,0,0,0,0
+1966,albeit,0,0,0,0
+1967,but,0,0,0,0
+1968,even though,0,0,0,0
+1969,even if,0,0,0,0
+1970,despite being,0,0,0,0
+1971,in spite of being,0,0,0,0
+1972,yet,0,0,0,0
+1973,whilst,0,0,0,0
+1974,at that point in time,0,0,0,0
+1975,at that moment,0,0,0,0
+1976,on that occasion,0,0,0,0
+1977,at that time,0,0,0,0
+1978,at that point,0,0,0,0
+1979,in those days,0,0,0,0
+1980,next,0,0,0,0
+1981,after that,0,0,0,0
+1982,afterwards,0,0,0,0
+1983,subsequently,0,0,0,0
+1984,later,0,0,0,0
+1985,too,0,0,0,0
+1986,in addition,0,0,0,0
+1987,also,0,0,0,0
+1988,besides,0,0,0,0
+1989,as well,0,0,0,0
+1990,additionally,0,0,0,0
+1991,on top of that,0,0,0,0
+1992,over and above that,0,0,0,0
+1993,moreover,0,0,0,0
+1994,furthermore,0,0,0,0
+1995,what's more,0,0,0,0
+1996,to boot,0,0,0,0
+1997,in that case,0,0,0,0
+1998,that being the case,0,0,0,0
+1999,that being so,0,0,0,0
+2000,under those circumstances,0,0,0,0
+2001,it follows that,0,0,0,0
+2002,surrounded by,0,0,0,0
+2003,enclosed by,0,0,0,0
+2004,inside,0,0,0,0
+2005,within,0,0,0,0
+2006,in the middle of,0,0,0,0
+2007,within the bounds of,0,0,0,0
+2008,within the confines of,0,0,0,0
+2009,with,0,0,0,0
+2010,by,0,0,0,0
+2011,into,0,0,0,0
+2012,inside,0,0,0,0
+2013,into the interior of,0,0,0,0
+2014,during,0,0,0,0
+2015,in the course of,0,0,0,0
+2016,in the time of,0,0,0,0
+2017,over,0,0,0,0
+2018,within,0,0,0,0
+2019,in less than,0,0,0,0
+2020,in under,0,0,0,0
+2021,in no more than,0,0,0,0
+2022,before a … is up,0,0,0,0
+2023,after,0,0,0,0
+2024,at the end of,0,0,0,0
+2025,following,0,0,0,0
+2026,subsequent to,0,0,0,0
+2027,to,0,0,0,0
+2028,per,0,0,0,0
+2029,every,0,0,0,0
+2030,each,0,0,0,0
+2031,example,0,0,0,0
+2032,illustration,0,0,0,0
+2033,specimen,0,0,0,0
+2034,sample,0,0,0,0
+2035,exemplification,0,0,0,0
+2036,type,0,0,0,0
+2037,prototype,0,0,0,0
+2038,instance,0,0,0,0
+2039,occurrence,0,0,0,0
+2040,occasion,0,0,0,0
+2041,manifestation,0,0,0,0
+2042,demonstration,0,0,0,0
+2043,exhibition,0,0,0,0
+2044,exposition,0,0,0,0
+2045,expression,0,0,0,0
+2046,plight,0,0,0,0
+2047,predicament,0,0,0,0
+2048,event,0,0,0,0
+2049,contingency,0,0,0,0
+2050,circumstances,0,0,0,0
+2051,conditions,0,0,0,0
+2052,facts,0,0,0,0
+2053,how things stand,0,0,0,0
+2054,what's going on,0,0,0,0
+2055,kettle of fish,0,0,0,0
+2056,ball game,0,0,0,0
+2057,score,0,0,0,0
+2058,story,0,0,0,0
+2059,set-up,0,0,0,0
+2060,the situation,0,0,0,0
+2061,the position,0,0,0,0
+2062,the picture,0,0,0,0
+2063,the state of affairs,0,0,0,0
+2064,the state of play,0,0,0,0
+2065,the lie of the land,0,0,0,0
+2066,incident,0,0,0,0
+2067,event,0,0,0,0
+2068,happening,0,0,0,0
+2069,occurrence,0,0,0,0
+2070,episode,0,0,0,0
+2071,proceeding,0,0,0,0
+2072,matter,0,0,0,0
+2073,affair,0,0,0,0
+2074,set of circumstances,0,0,0,0
+2075,investigation,0,0,0,0
+2076,enquiry,0,0,0,0
+2077,examination,0,0,0,0
+2078,exploration,0,0,0,0
+2079,probe,0,0,0,0
+2080,search,0,0,0,0
+2081,scrutiny,0,0,0,0
+2082,scrutinization,0,0,0,0
+2083,study,0,0,0,0
+2084,inspection,0,0,0,0
+2085,inquest,0,0,0,0
+2086,reconnoitring,0,0,0,0
+2087,sounding,0,0,0,0
+2088,client,0,0,0,0
+2089,patient,0,0,0,0
+2090,sick person,0,0,0,0
+2091,invalid,0,0,0,0
+2092,sufferer,0,0,0,0
+2093,victim,0,0,0,0
+2094,lawsuit,0,0,0,0
+2095,action,0,0,0,0
+2096,legal action,0,0,0,0
+2097,suit,0,0,0,0
+2098,suit at law,0,0,0,0
+2099,cause,0,0,0,0
+2100,legal cause,0,0,0,0
+2101,trial,0,0,0,0
+2102,proceedings,0,0,0,0
+2103,legal proceeding,0,0,0,0
+2104,legal proceedings,0,0,0,0
+2105,judicial proceedings,0,0,0,0
+2106,litigation,0,0,0,0
+2107,legal process,0,0,0,0
+2108,legal dispute,0,0,0,0
+2109,indictment,0,0,0,0
+2110,statement,0,0,0,0
+2111,postulation,0,0,0,0
+2112,explanation,0,0,0,0
+2113,exposition,0,0,0,0
+2114,thesis,0,0,0,0
+2115,presentation,0,0,0,0
+2116,proclamation,0,0,0,0
+2117,expounding,0,0,0,0
+2118,claim,0,0,0,0
+2119,plea,0,0,0,0
+2120,appeal,0,0,0,0
+2121,petition,0,0,0,0
+2122,argument,0,0,0,0
+2123,contention,0,0,0,0
+2124,reasoning,0,0,0,0
+2125,logic,0,0,0,0
+2126,defence,0,0,0,0
+2127,justification,0,0,0,0
+2128,vindication,0,0,0,0
+2129,apology,0,0,0,0
+2130,polemic,0,0,0,0
+2131,morphology,0,0,0,0
+2132,semantic relationship,0,0,0,0
+2133,inflection,0,0,0,0
+2134,form,0,0,0,0
+2135,ending,0,0,0,0
+2136,function,0,0,0,0
+2137,gathering,0,0,0,0
+2138,get-together,0,0,0,0
+2139,jamboree,0,0,0,0
+2140,bash,0,0,0,0
+2141,do,0,0,0,0
+2142,jolly,0,0,0,0
+2143,shindig,0,0,0,0
+2144,shindy,0,0,0,0
+2145,occurrence,0,0,0,0
+2146,happening,0,0,0,0
+2147,proceeding,0,0,0,0
+2148,episode,0,0,0,0
+2149,incident,0,0,0,0
+2150,affair,0,0,0,0
+2151,circumstance,0,0,0,0
+2152,occasion,0,0,0,0
+2153,business,0,0,0,0
+2154,matter,0,0,0,0
+2155,experience,0,0,0,0
+2156,eventuality,0,0,0,0
+2157,phenomenon,0,0,0,0
+2158,race,0,0,0,0
+2159,bout,0,0,0,0
+2160,fight,0,0,0,0
+2161,play-off,0,0,0,0
+2162,replay,0,0,0,0
+2163,rematch,0,0,0,0
+2164,clash,0,0,0,0
+2165,playdown,0,0,0,0
+2166,split,0,0,0,0
+2167,mill,0,0,0,0
+2168,tourney,0,0,0,0
+2169,competition,0,0,0,0
+2170,contest,0,0,0,0
+2171,tournament,0,0,0,0
+2172,round,0,0,0,0
+2173,heat,0,0,0,0
+2174,game,0,0,0,0
+2175,match,0,0,0,0
+2176,fixture,0,0,0,0
+2177,meet,0,0,0,0
+2178,meeting,0,0,0,0
+2179,encounter,0,0,0,0
+2180,ball game,0,0,0,0
+2181,sitch,0,0,0,0
+2182,circumstances,0,0,0,0
+2183,set of circumstances,0,0,0,0
+2184,state of affairs,0,0,0,0
+2185,affairs,0,0,0,0
+2186,state,0,0,0,0
+2187,condition,0,0,0,0
+2188,case,0,0,0,0
+2189,the state of play,0,0,0,0
+2190,the lay of the land,0,0,0,0
+2191,what's what,0,0,0,0
+2192,the score,0,0,0,0
+2193,the set-up,0,0,0,0
+2194,the facts,0,0,0,0
+2195,the picture,0,0,0,0
+2196,how things stand,0,0,0,0
+2197,the lie of the land,0,0,0,0
+2198,what's going on,0,0,0,0
+2199,problem,0,0,0,0
+2200,problematic situation,0,0,0,0
+2201,awkward situation,0,0,0,0
+2202,difficult situation,0,0,0,0
+2203,difficulty,0,0,0,0
+2204,issue,0,0,0,0
+2205,plight,0,0,0,0
+2206,predicament,0,0,0,0
+2207,tight spot,0,0,0,0
+2208,tight corner,0,0,0,0
+2209,mess,0,0,0,0
+2210,trouble,0,0,0,0
+2211,bother,0,0,0,0
+2212,scrape,0,0,0,0
+2213,jam,0,0,0,0
+2214,fix,0,0,0,0
+2215,pickle,0,0,0,0
+2216,bind,0,0,0,0
+2217,hole,0,0,0,0
+2218,sticky situation,0,0,0,0
+2219,pretty kettle of fish,0,0,0,0
+2220,fine kettle of fish,0,0,0,0
+2221,how-do-you-do,0,0,0,0
+2222,hot water,0,0,0,0
+2223,emergency,0,0,0,0
+2224,emergency situation,0,0,0,0
+2225,urgent situation,0,0,0,0
+2226,crisis,0,0,0,0
+2227,potential crisis,0,0,0,0
+2228,setting,0,0,0,0
+2229,environment,0,0,0,0
+2230,possie,0,0,0,0
+2231,locus,0,0,0,0
+2232,location,0,0,0,0
+2233,place,0,0,0,0
+2234,position,0,0,0,0
+2235,spot,0,0,0,0
+2236,site,0,0,0,0
+2237,locality,0,0,0,0
+2238,locale,0,0,0,0
+2239,employment,0,0,0,0
+2240,berth,0,0,0,0
+2241,grip,0,0,0,0
+2242,employ,0,0,0,0
+2243,job,0,0,0,0
+2244,day job,0,0,0,0
+2245,post,0,0,0,0
+2246,position,0,0,0,0
+2247,place,0,0,0,0
+2248,appointment,0,0,0,0
+2249,status,0,0,0,0
+2250,station,0,0,0,0
+2251,position,0,0,0,0
+2252,standing,0,0,0,0
+2253,footing,0,0,0,0
+2254,rank,0,0,0,0
+2255,degree,0,0,0,0
+2256,bring about,0,0,0,0
+2257,engineer,0,0,0,0
+2258,effect,0,0,0,0
+2259,realize,0,0,0,0
+2260,pull off,0,0,0,0
+2261,effectuate,0,0,0,0
+2262,carry out,0,0,0,0
+2263,undertake,0,0,0,0
+2264,discharge,0,0,0,0
+2265,execute,0,0,0,0
+2266,perpetrate,0,0,0,0
+2267,perform,0,0,0,0
+2268,accomplish,0,0,0,0
+2269,implement,0,0,0,0
+2270,achieve,0,0,0,0
+2271,complete,0,0,0,0
+2272,finish,0,0,0,0
+2273,conclude,0,0,0,0
+2274,comport oneself,0,0,0,0
+2275,deport oneself,0,0,0,0
+2276,act,0,0,0,0
+2277,behave,0,0,0,0
+2278,conduct oneself,0,0,0,0
+2279,acquit oneself,0,0,0,0
+2280,be enough,0,0,0,0
+2281,be sufficient,0,0,0,0
+2282,make the grade,0,0,0,0
+2283,cut the mustard,0,0,0,0
+2284,be up to snuff,0,0,0,0
+2285,suffice,0,0,0,0
+2286,be adequate,0,0,0,0
+2287,be satisfactory,0,0,0,0
+2288,be acceptable,0,0,0,0
+2289,be good enough,0,0,0,0
+2290,be of use,0,0,0,0
+2291,fill the bill,0,0,0,0
+2292,fit the bill,0,0,0,0
+2293,answer the purpose,0,0,0,0
+2294,serve the purpose,0,0,0,0
+2295,meet one's needs,0,0,0,0
+2296,pass muster,0,0,0,0
+2297,prepare,0,0,0,0
+2298,make,0,0,0,0
+2299,get ready,0,0,0,0
+2300,fix,0,0,0,0
+2301,produce,0,0,0,0
+2302,see to,0,0,0,0
+2303,arrange,0,0,0,0
+2304,organize,0,0,0,0
+2305,be responsible for,0,0,0,0
+2306,be in charge of,0,0,0,0
+2307,look after,0,0,0,0
+2308,take on,0,0,0,0
+2309,make,0,0,0,0
+2310,create,0,0,0,0
+2311,produce,0,0,0,0
+2312,turn out,0,0,0,0
+2313,fashion,0,0,0,0
+2314,design,0,0,0,0
+2315,fabricate,0,0,0,0
+2316,manufacture,0,0,0,0
+2317,knock up,0,0,0,0
+2318,knock together,0,0,0,0
+2319,knock off,0,0,0,0
+2320,paint,0,0,0,0
+2321,draw,0,0,0,0
+2322,sketch,0,0,0,0
+2323,deck out,0,0,0,0
+2324,trick out,0,0,0,0
+2325,trim,0,0,0,0
+2326,do up,0,0,0,0
+2327,tart up,0,0,0,0
+2328,decorate,0,0,0,0
+2329,furnish,0,0,0,0
+2330,adorn,0,0,0,0
+2331,ornament,0,0,0,0
+2332,embellish,0,0,0,0
+2333,brush,0,0,0,0
+2334,comb,0,0,0,0
+2335,wash,0,0,0,0
+2336,dry,0,0,0,0
+2337,cut,0,0,0,0
+2338,fix,0,0,0,0
+2339,style,0,0,0,0
+2340,arrange,0,0,0,0
+2341,adjust,0,0,0,0
+2342,groom,0,0,0,0
+2343,preen,0,0,0,0
+2344,primp,0,0,0,0
+2345,prink,0,0,0,0
+2346,perform in,0,0,0,0
+2347,act in,0,0,0,0
+2348,play in,0,0,0,0
+2349,take part in,0,0,0,0
+2350,participate in,0,0,0,0
+2351,be involved in,0,0,0,0
+2352,be engaged in,0,0,0,0
+2353,put on,0,0,0,0
+2354,present,0,0,0,0
+2355,produce,0,0,0,0
+2356,give,0,0,0,0
+2357,grant,0,0,0,0
+2358,pay,0,0,0,0
+2359,render,0,0,0,0
+2360,afford,0,0,0,0
+2361,give,0,0,0,0
+2362,bestow,0,0,0,0
+2363,solve,0,0,0,0
+2364,resolve,0,0,0,0
+2365,puzzle out,0,0,0,0
+2366,decipher,0,0,0,0
+2367,tot up,0,0,0,0
+2368,work out,0,0,0,0
+2369,figure out,0,0,0,0
+2370,calculate,0,0,0,0
+2371,add up,0,0,0,0
+2372,study,0,0,0,0
+2373,read,0,0,0,0
+2374,learn,0,0,0,0
+2375,take a course in,0,0,0,0
+2376,take classes in,0,0,0,0
+2377,be taught,0,0,0,0
+2378,what is …'s job?,0,0,0,0
+2379,do for a living,0,0,0,0
+2380,work at,0,0,0,0
+2381,be employed as,0,0,0,0
+2382,earn a living as,0,0,0,0
+2383,earn a living at,0,0,0,0
+2384,succeed,0,0,0,0
+2385,prosper,0,0,0,0
+2386,get on,0,0,0,0
+2387,get along,0,0,0,0
+2388,progress,0,0,0,0
+2389,fare,0,0,0,0
+2390,make out,0,0,0,0
+2391,get by,0,0,0,0
+2392,manage,0,0,0,0
+2393,cope,0,0,0,0
+2394,survive,0,0,0,0
+2395,drive at,0,0,0,0
+2396,travel at,0,0,0,0
+2397,go at,0,0,0,0
+2398,proceed at,0,0,0,0
+2399,move at,0,0,0,0
+2400,chalk up,0,0,0,0
+2401,notch up,0,0,0,0
+2402,travel,0,0,0,0
+2403,journey,0,0,0,0
+2404,go,0,0,0,0
+2405,cover,0,0,0,0
+2406,travel over,0,0,0,0
+2407,pass over,0,0,0,0
+2408,journey over,0,0,0,0
+2409,traverse,0,0,0,0
+2410,cross,0,0,0,0
+2411,range over,0,0,0,0
+2412,put behind one,0,0,0,0
+2413,get under one's belt,0,0,0,0
+2414,attain,0,0,0,0
+2415,achieve,0,0,0,0
+2416,log,0,0,0,0
+2417,visit,0,0,0,0
+2418,tour,0,0,0,0
+2419,sightsee in,0,0,0,0
+2420,look around,0,0,0,0
+2421,look round,0,0,0,0
+2422,take in the sights of,0,0,0,0
+2423,or else,0,0,0,0
+2424,or,0,0,0,0
+2425,if not,0,0,0,0
+2426,in other respects,0,0,0,0
+2427,in other ways,0,0,0,0
+2428,apart from that,0,0,0,0
+2429,differently,0,0,0,0
+2430,in any other way,0,0,0,0
+2431,alternative,0,0,0,0
+2432,different,0,0,0,0
+2433,dissimilar,0,0,0,0
+2434,disparate,0,0,0,0
+2435,distinct,0,0,0,0
+2436,separate,0,0,0,0
+2437,contrasting,0,0,0,0
+2438,unlike,0,0,0,0
+2439,variant,0,0,0,0
+2440,more,0,0,0,0
+2441,further,0,0,0,0
+2442,additional,0,0,0,0
+2443,extra,0,0,0,0
+2444,added,0,0,0,0
+2445,supplementary,0,0,0,0
+2446,supplemental,0,0,0,0
+2447,list,0,0,0,0
+2448,dump,0,0,0,0
+2449,put to bed,0,0,0,0
+2450,litho,0,0,0,0
+2451,set in print,0,0,0,0
+2452,send to press,0,0,0,0
+2453,run off,0,0,0,0
+2454,preprint,0,0,0,0
+2455,reprint,0,0,0,0
+2456,pull,0,0,0,0
+2457,proof,0,0,0,0
+2458,copy,0,0,0,0
+2459,reproduce,0,0,0,0
+2460,punch,0,0,0,0
+2461,inscribe,0,0,0,0
+2462,engrave,0,0,0,0
+2463,chase,0,0,0,0
+2464,etch,0,0,0,0
+2465,carve,0,0,0,0
+2466,deboss,0,0,0,0
+2467,emboss,0,0,0,0
+2468,imprint,0,0,0,0
+2469,impress,0,0,0,0
+2470,stamp,0,0,0,0
+2471,mark,0,0,0,0
+2472,brand,0,0,0,0
+2473,publish,0,0,0,0
+2474,issue,0,0,0,0
+2475,release,0,0,0,0
+2476,disseminate,0,0,0,0
+2477,circulate,0,0,0,0
+2478,propagate,0,0,0,0
+2479,purvey,0,0,0,0
+2480,register,0,0,0,0
+2481,record,0,0,0,0
+2482,note,0,0,0,0
+2483,impress,0,0,0,0
+2484,imprint,0,0,0,0
+2485,engrave,0,0,0,0
+2486,etch,0,0,0,0
+2487,stamp,0,0,0,0
+2488,mark,0,0,0,0
+2489,brand,0,0,0,0
+2490,set,0,0,0,0
+2491,ingrain,0,0,0,0
+2492,works,0,0,0,0
+2493,writings,0,0,0,0
+2494,creation,0,0,0,0
+2495,oeuvre,0,0,0,0
+2496,production,0,0,0,0
+2497,product,0,0,0,0
+2498,amount produced,0,0,0,0
+2499,quantity produced,0,0,0,0
+2500,yield,0,0,0,0
+2501,harvest,0,0,0,0
+2502,return,0,0,0,0
+2503,volume,0,0,0,0
+2504,gross national product,0,0,0,0
+2505,gross domestic product,0,0,0,0
+2506,out-turn,0,0,0,0
+2507,achievement,0,0,0,0
+2508,accomplishment,0,0,0,0
+2509,solutions,0,0,0,0
+2510,alert,0,0,0,0
+2511,warn,0,0,0,0
+2512,forewarn,0,0,0,0
+2513,clue in,0,0,0,0
+2514,inform,0,0,0,0
+2515,let know,0,0,0,0
+2516,notify,0,0,0,0
+2517,apprise,0,0,0,0
+2518,make aware,0,0,0,0
+2519,mention something to,0,0,0,0
+2520,acquaint with,0,0,0,0
+2521,advise,0,0,0,0
+2522,put in the picture,0,0,0,0
+2523,brief,0,0,0,0
+2524,fill in,0,0,0,0
+2525,break the news to,0,0,0,0
+2526,communicate,0,0,0,0
+2527,make known,0,0,0,0
+2528,impart,0,0,0,0
+2529,divulge,0,0,0,0
+2530,announce,0,0,0,0
+2531,proclaim,0,0,0,0
+2532,broadcast,0,0,0,0
+2533,relate,0,0,0,0
+2534,recount,0,0,0,0
+2535,narrate,0,0,0,0
+2536,give an account of,0,0,0,0
+2537,set forth,0,0,0,0
+2538,unfold,0,0,0,0
+2539,retail,0,0,0,0
+2540,report,0,0,0,0
+2541,chronicle,0,0,0,0
+2542,recite,0,0,0,0
+2543,rehearse,0,0,0,0
+2544,describe,0,0,0,0
+2545,portray,0,0,0,0
+2546,sketch,0,0,0,0
+2547,delineate,0,0,0,0
+2548,depict,0,0,0,0
+2549,paint,0,0,0,0
+2550,weave,0,0,0,0
+2551,spin,0,0,0,0
+2552,speak,0,0,0,0
+2553,utter,0,0,0,0
+2554,say,0,0,0,0
+2555,voice,0,0,0,0
+2556,state,0,0,0,0
+2557,declare,0,0,0,0
+2558,bid,0,0,0,0
+2559,instruct,0,0,0,0
+2560,order,0,0,0,0
+2561,give orders,0,0,0,0
+2562,command,0,0,0,0
+2563,direct,0,0,0,0
+2564,charge,0,0,0,0
+2565,enjoin,0,0,0,0
+2566,call on,0,0,0,0
+2567,require,0,0,0,0
+2568,warrant,0,0,0,0
+2569,assure,0,0,0,0
+2570,promise,0,0,0,0
+2571,give someone one's word,0,0,0,0
+2572,swear,0,0,0,0
+2573,guarantee,0,0,0,0
+2574,display,0,0,0,0
+2575,exhibit,0,0,0,0
+2576,reveal,0,0,0,0
+2577,show,0,0,0,0
+2578,be evidence of,0,0,0,0
+2579,give evidence of,0,0,0,0
+2580,disclose,0,0,0,0
+2581,indicate,0,0,0,0
+2582,convey,0,0,0,0
+2583,signify,0,0,0,0
+2584,spill the beans,0,0,0,0
+2585,let the cat out of the bag,0,0,0,0
+2586,blab,0,0,0,0
+2587,blow the gaff,0,0,0,0
+2588,give the game away,0,0,0,0
+2589,talk,0,0,0,0
+2590,tell tales,0,0,0,0
+2591,open one's mouth,0,0,0,0
+2592,tattle,0,0,0,0
+2593,split on,0,0,0,0
+2594,blow the whistle on,0,0,0,0
+2595,rat on,0,0,0,0
+2596,peach on,0,0,0,0
+2597,squeal on,0,0,0,0
+2598,squeak on,0,0,0,0
+2599,stitch up,0,0,0,0
+2600,do the dirty on,0,0,0,0
+2601,sell down the river,0,0,0,0
+2602,grass on,0,0,0,0
+2603,sneak on,0,0,0,0
+2604,shop,0,0,0,0
+2605,rat out,0,0,0,0
+2606,drop a dime on,0,0,0,0
+2607,drop the dime on,0,0,0,0
+2608,finger,0,0,0,0
+2609,dob on,0,0,0,0
+2610,pimp on,0,0,0,0
+2611,pool,0,0,0,0
+2612,shelf,0,0,0,0
+2613,put someone's pot on,0,0,0,0
+2614,delate,0,0,0,0
+2615,inform against,0,0,0,0
+2616,inform on,0,0,0,0
+2617,tell tales on,0,0,0,0
+2618,give away,0,0,0,0
+2619,denounce,0,0,0,0
+2620,sell out,0,0,0,0
+2621,stab someone in the back,0,0,0,0
+2622,be sure,0,0,0,0
+2623,be certain,0,0,0,0
+2624,figure out,0,0,0,0
+2625,get a fix on,0,0,0,0
+2626,suss out,0,0,0,0
+2627,ascertain,0,0,0,0
+2628,decide,0,0,0,0
+2629,determine,0,0,0,0
+2630,work out,0,0,0,0
+2631,make out,0,0,0,0
+2632,deduce,0,0,0,0
+2633,discern,0,0,0,0
+2634,perceive,0,0,0,0
+2635,see,0,0,0,0
+2636,identify,0,0,0,0
+2637,recognize,0,0,0,0
+2638,understand,0,0,0,0
+2639,comprehend,0,0,0,0
+2640,distinguish,0,0,0,0
+2641,differentiate,0,0,0,0
+2642,tell apart,0,0,0,0
+2643,discriminate,0,0,0,0
+2644,take its toll on,0,0,0,0
+2645,leave its mark on,0,0,0,0
+2646,have an adverse effect on,0,0,0,0
+2647,affect,0,0,0,0
+2648,appear,0,0,0,0
+2649,be revealed,0,0,0,0
+2650,be obvious,0,0,0,0
+2651,be visible,0,0,0,0
+2652,be seen,0,0,0,0
+2653,be in view,0,0,0,0
+2654,manifest,0,0,0,0
+2655,launch,0,0,0,0
+2656,introduce,0,0,0,0
+2657,air,0,0,0,0
+2658,demonstrate,0,0,0,0
+2659,set out,0,0,0,0
+2660,set forth,0,0,0,0
+2661,arrange,0,0,0,0
+2662,array,0,0,0,0
+2663,flaunt,0,0,0,0
+2664,parade,0,0,0,0
+2665,uncover,0,0,0,0
+2666,reveal,0,0,0,0
+2667,display,0,0,0,0
+2668,exhibit,0,0,0,0
+2669,put on show,0,0,0,0
+2670,put on display,0,0,0,0
+2671,put on view,0,0,0,0
+2672,expose to view,0,0,0,0
+2673,unveil,0,0,0,0
+2674,present,0,0,0,0
+2675,indicate,0,0,0,0
+2676,express,0,0,0,0
+2677,proclaim,0,0,0,0
+2678,intimate,0,0,0,0
+2679,make plain,0,0,0,0
+2680,make obvious,0,0,0,0
+2681,signify,0,0,0,0
+2682,evince,0,0,0,0
+2683,evidence,0,0,0,0
+2684,disclose,0,0,0,0
+2685,betray,0,0,0,0
+2686,divulge,0,0,0,0
+2687,give away,0,0,0,0
+2688,manifest,0,0,0,0
+2689,make manifest,0,0,0,0
+2690,exhibit,0,0,0,0
+2691,reveal,0,0,0,0
+2692,convey,0,0,0,0
+2693,communicate,0,0,0,0
+2694,make known,0,0,0,0
+2695,clarify,0,0,0,0
+2696,make clear,0,0,0,0
+2697,illustrate,0,0,0,0
+2698,explicate,0,0,0,0
+2699,expound,0,0,0,0
+2700,elucidate,0,0,0,0
+2701,teach,0,0,0,0
+2702,instruct someone in,0,0,0,0
+2703,give instructions in,0,0,0,0
+2704,give an idea of,0,0,0,0
+2705,tutor someone in,0,0,0,0
+2706,indoctrinate someone in,0,0,0,0
+2707,demonstrate to,0,0,0,0
+2708,point out to,0,0,0,0
+2709,explain to,0,0,0,0
+2710,describe to,0,0,0,0
+2711,expound to,0,0,0,0
+2712,witness to,0,0,0,0
+2713,give substance to,0,0,0,0
+2714,determine,0,0,0,0
+2715,demonstrate the truth of,0,0,0,0
+2716,convince someone,0,0,0,0
+2717,substantiate,0,0,0,0
+2718,corroborate,0,0,0,0
+2719,verify,0,0,0,0
+2720,establish,0,0,0,0
+2721,ratify,0,0,0,0
+2722,validate,0,0,0,0
+2723,authenticate,0,0,0,0
+2724,attest,0,0,0,0
+2725,certify,0,0,0,0
+2726,testify,0,0,0,0
+2727,document,0,0,0,0
+2728,bear out,0,0,0,0
+2729,prove,0,0,0,0
+2730,demonstrate,0,0,0,0
+2731,confirm,0,0,0,0
+2732,show beyond doubt,0,0,0,0
+2733,manifest,0,0,0,0
+2734,produce proof,0,0,0,0
+2735,submit proof,0,0,0,0
+2736,produce evidence,0,0,0,0
+2737,submit evidence,0,0,0,0
+2738,establish evidence,0,0,0,0
+2739,evince,0,0,0,0
+2740,escort,0,0,0,0
+2741,accompany,0,0,0,0
+2742,take,0,0,0,0
+2743,walk,0,0,0,0
+2744,conduct,0,0,0,0
+2745,lead,0,0,0,0
+2746,usher,0,0,0,0
+2747,bow,0,0,0,0
+2748,guide,0,0,0,0
+2749,direct,0,0,0,0
+2750,steer,0,0,0,0
+2751,shepherd,0,0,0,0
+2752,attend,0,0,0,0
+2753,chaperone,0,0,0,0
+2754,clock on,0,0,0,0
+2755,punch in,0,0,0,0
+2756,punch the clock,0,0,0,0
+2757,punch the time clock,0,0,0,0
+2758,show up,0,0,0,0
+2759,appear,0,0,0,0
+2760,arrive,0,0,0,0
+2761,come,0,0,0,0
+2762,get here,0,0,0,0
+2763,get there,0,0,0,0
+2764,be present,0,0,0,0
+2765,put in an appearance,0,0,0,0
+2766,make an appearance,0,0,0,0
+2767,materialize,0,0,0,0
+2768,turn up,0,0,0,0
+2769,present oneself,0,0,0,0
+2770,report,0,0,0,0
+2771,clock in,0,0,0,0
+2772,sign in,0,0,0,0
+2773,put in writing,0,0,0,0
+2774,write down,0,0,0,0
+2775,put down,0,0,0,0
+2776,put in black and white,0,0,0,0
+2777,commit to paper,0,0,0,0
+2778,jot down,0,0,0,0
+2779,note,0,0,0,0
+2780,note down,0,0,0,0
+2781,make a note of,0,0,0,0
+2782,set down,0,0,0,0
+2783,take down,0,0,0,0
+2784,mark down,0,0,0,0
+2785,record,0,0,0,0
+2786,register,0,0,0,0
+2787,log,0,0,0,0
+2788,list,0,0,0,0
+2789,make a list of,0,0,0,0
+2790,inscribe,0,0,0,0
+2791,sign,0,0,0,0
+2792,scribble,0,0,0,0
+2793,scrawl,0,0,0,0
+2794,pencil,0,0,0,0
+2795,compose,0,0,0,0
+2796,draft,0,0,0,0
+2797,create,0,0,0,0
+2798,invent,0,0,0,0
+2799,think up,0,0,0,0
+2800,draw up,0,0,0,0
+2801,formulate,0,0,0,0
+2802,compile,0,0,0,0
+2803,put together,0,0,0,0
+2804,pen,0,0,0,0
+2805,dash off,0,0,0,0
+2806,produce,0,0,0,0
+2807,drop someone a line,0,0,0,0
+2808,drop someone a note,0,0,0,0
+2809,correspond,0,0,0,0
+2810,write a letter,0,0,0,0
+2811,communicate,0,0,0,0
+2812,get in touch,0,0,0,0
+2813,keep in touch,0,0,0,0
+2814,keep in contact,0,0,0,0
+2815,fatal,0,0,0,0
+2816,mortal,0,0,0,0
+2817,deadly,0,0,0,0
+2818,lethal,0,0,0,0
+2819,killing,0,0,0,0
+2820,incurable,0,0,0,0
+2821,untreatable,0,0,0,0
+2822,inoperable,0,0,0,0
+2823,end-stage,0,0,0,0
+2824,incurable,0,0,0,0
+2825,dying,0,0,0,0
+2826,near death,0,0,0,0
+2827,end,0,0,0,0
+2828,extreme,0,0,0,0
+2829,final,0,0,0,0
+2830,last,0,0,0,0
+2831,concluding,0,0,0,0
+2832,closing,0,0,0,0
+2833,ultimate,0,0,0,0
+2834,finishing,0,0,0,0
+2835,terminating,0,0,0,0
+2836,right,0,0,0,0
+2837,proper,0,0,0,0
+2838,fair,0,0,0,0
+2839,arrant,0,0,0,0
+2840,complete,0,0,0,0
+2841,utter,0,0,0,0
+2842,absolute,0,0,0,0
+2843,total,0,0,0,0
+2844,real,0,0,0,0
+2845,thorough,0,0,0,0
+2846,out-and-out,0,0,0,0
+2847,downright,0,0,0,0
+2848,consummate,0,0,0,0
+2849,perfect,0,0,0,0
+2850,veritable,0,0,0,0
