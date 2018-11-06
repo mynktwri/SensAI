@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import json
+import time
 from json import JSONDecoder
 global synonyms
 
@@ -11,30 +12,34 @@ language = 'en'
 word_id = 'create'
 words = []
 
-url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + \
- '/' + word_id.lower() + '/synonyms'
+
+def get_syns(word):
+    url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + \
+          '/' + word.lower() + '/synonyms'
+    r = requests.get(url, headers={'app_id': app_id, 'app_key': app_key})
+    if(r.status_code ==200):
+        print("200")
+        senses = r.json()["results"][0]["lexicalEntries"][0]["entries"][0]["senses"]
+        for i in senses:
+            for j in i:
+                if (j == "synonyms"):
+                    for l in i[j]:
+                        terms_df.loc[terms_df.index.max() + 1] = [l["text"], 0, 0, 0, 0]
+                elif (j == "subsenses"):
+                    for k in i[j]:
+                        for l in k["synonyms"]:
+                            terms_df.loc[terms_df.index.max() + 1] = [l["text"], 0, 0, 0, 0]
+
 
 terms_df = pd.read_csv("terms.csv")
 for i in terms_df["word"]:
-    print(i)
     words.append(i)
 print(len(words))
-r = requests.get(url, headers = {'app_id': app_id, 'app_key': app_key})
-
-print("code {}\n".format(r.status_code))
-#print("text \n" + r.text)
-
-senses = r.json()["results"][0]["lexicalEntries"][0]["entries"][0]["senses"]
-
-for i in senses:
-    for j in i:
-        if (j == "synonyms"):
-            for l in i[j]:
-                print(l["text"])
-        elif(j == "subsenses"):
-            for k in i[j]:
-                for l in k["synonyms"]:
-                    print(l["text"])
+for i in words:
+    get_syns(i)
+    time.sleep(.1)
+print(terms_df)
+terms_df.to_csv("terms_synonyms.csv")
           # [0]["senses"]["synonyms"])
 # results = r["results"]
 # print("json \n" + json.dumps(r))

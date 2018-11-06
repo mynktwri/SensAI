@@ -5,7 +5,6 @@ Insert,0,0,0,0
 Variable,0,0,0,0
 Make,0,0,0,0
 Equal,0,0,0,0
-Is,0,0,0,0
 Change,0,0,0,0
 Create,0,0,0,0
 Declare,0,0,0,0
@@ -14,7 +13,7 @@ Give,0,0,0,0
 put,0,0,0,0
 Inside,0,0,0,0
 Represents,0,0,0,0
-stores,0,0,0,0
+store,0,0,0,0
 For,0,0,0,0
 Each,0,0,0,0
 Loop,0,0,0,0
@@ -24,18 +23,13 @@ Through,0,0,0,0
 Over,0,0,0,0
 Consider,0,0,0,0
 Look,0,0,0,0
-For,0,0,0,0
-Each,0,0,0,0
 Element,0,0,0,0
 Object,0,0,0,0
 Component,0,0,0,0
 Unit,0,0,0,0
 Thing,0,0,0,0
-Inside,0,0,0,0
 Within,0,0,0,0
 Array,0,0,0,0
-Loop,0,0,0,0
-Through,0,0,0,0
 All,0,0,0,0
 Every,0,0,0,0
 check,0,0,0,0
@@ -49,10 +43,7 @@ Situation,0,0,0,0
 do,0,0,0,0
 Else,0,0,0,0
 Otherwise,0,0,0,0
-In ,0,0,0,0
 Other,0,0,0,0
-Case,0,0,0,0
-do,0,0,0,0
 Print,0,0,0,0
 Output,0,0,0,0
 Tell,0,0,0,0
