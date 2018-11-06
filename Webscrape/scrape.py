@@ -12,7 +12,7 @@ word_id = 'create'
 words = []
 
 url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + \
- '/' + word_id.lower() + '/synonyms;antonyms'
+ '/' + word_id.lower() + '/synonyms'
 
 terms_df = pd.read_csv("terms.csv")
 for i in terms_df["word"]:
@@ -24,17 +24,17 @@ r = requests.get(url, headers = {'app_id': app_id, 'app_key': app_key})
 print("code {}\n".format(r.status_code))
 #print("text \n" + r.text)
 
-# with open('data.json') as file:
-#     r = json.load(file)
 senses = r.json()["results"][0]["lexicalEntries"][0]["entries"][0]["senses"]
 
 for i in senses:
     for j in i:
         if (j == "synonyms"):
-            print(i[j])
+            for l in i[j]:
+                print(l["text"])
         elif(j == "subsenses"):
             for k in i[j]:
-                print(k["synonyms"])
+                for l in k["synonyms"]:
+                    print(l["text"])
           # [0]["senses"]["synonyms"])
 # results = r["results"]
 # print("json \n" + json.dumps(r))
