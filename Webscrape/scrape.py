@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup as BS
+import pandas as pd
 import requests
 import json
 from json import JSONDecoder
@@ -9,10 +9,16 @@ app_key = 'c47f4d57c7c38204f8fd3846e6b725f9'
 
 language = 'en'
 word_id = 'create'
+words = []
 
 url = 'https://od-api.oxforddictionaries.com:443/api/v1/entries/' + language + \
  '/' + word_id.lower() + '/synonyms;antonyms'
 
+terms_df = pd.read_csv("terms.csv")
+for i in terms_df["word"]:
+    print(i)
+    words.append(i)
+print(len(words))
 r = requests.get(url, headers = {'app_id': app_id, 'app_key': app_key})
 
 print("code {}\n".format(r.status_code))
@@ -36,9 +42,7 @@ for i in senses:
 # for i in senseslist:
 #     for j in i:
 #         print(j)
-
 # print(results[0]["lexicalEntries"])
-
 # with open('data.json', 'w') as outfile:
 #     json.dump(r.json(), outfile)
 #     print("data saved successfully.")
