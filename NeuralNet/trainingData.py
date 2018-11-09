@@ -1,0 +1,58 @@
+import tensorflow as tf
+from tensorflow import keras
+
+import numpy as np
+
+# training data
+
+train_labels = [1,2,3,2,1]
+train_string = [["set", "x", "equal", "to", "5"],["output","x"],["loop","through", "array","A","ten","times"],["print","test"],["set","total","to","zero"]]
+train_data = [[0,9999,5,9999,9999],[46,9999],[17,20,30,9999,9999,9999],[45,1287],[0,403,9999,9999]]
+
+train_data = keras.preprocessing.sequence.pad_sequences(train_data,value=9998,padding='post', maxlen=20)
+
+# validation data
+
+validation_labels = [3,1,2,3]
+validation_string = [["iterate", "through", "m", "for", "i", "=", "1", "to", "3"],["let","x","equal","4"],["output","the","variable","x"],["print","hello","for","each","element","in","array","m"]]
+validation_data = [[19,20,9999,15,9999,9999,9999,9999,9999],[9999,9999,5,9999],[46,9999,3,9999],[45,9999,15,16,24,37,30,9999]]
+
+validation_data = keras.preprocessing.sequence.pad_sequences(validation_data,value=9998,padding='post', maxlen=20)
+
+# test data
+
+test_labels = [1,2,2,1]
+test_string = [["initialize","y","to","6"],["print","hello","world"],["express","the","value","of","x"],["change","x","to","17"]] 
+test_data = [[9999,9999,9999,9999],[45,9999,9999],[607,422,9999,9999],[6,9999,9999,9999]]
+
+test_data = keras.preprocessing.sequence.pad_sequences(test_data,value=9998,padding='post', maxlen=20)
+
+# Build the model
+
+vocab_size = 10000
+
+model = keras.Sequential()
+model.add(keras.layers.Embedding(vocab_size, 16))
+model.add(keras.layers.GlobalAveragePooling1D())
+model.add(keras.layers.Dense(16, activation=tf.nn.relu))
+model.add(keras.layers.Dense(1, activation=tf.nn.sigmoid))
+
+#  ???
+
+model.compile(optimizer=tf.train.AdamOptimizer(),
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+#  Train the model
+
+history = model.fit(train_data,
+                    train_labels,
+                    epochs=40,
+                    batch_size=512,
+                    validation_data=(validation_data, validation_labels),
+                    verbose=1)
+
+results = model.evaluate(test_data, test_labels)
+
+print(results)
+
