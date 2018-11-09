@@ -19,6 +19,9 @@ Natural Language To Python Code
 * [Trello](https://trello.com/b/1esOdR71/sensai-sprint-2)
 * [Sprint 2 Plan](https://docs.google.com/document/d/1aL8AUe_HQZ2c0UczG3pkW76Pl1PnJ2HBX32Y9nx-WmY/edit)
 
+### Sprint 3
+* [Trello](https://trello.com/b/JBnAKGZq/sensai-sprint-3)
+* [Sprint 2 Plan](https://docs.google.com/document/d/1zH1EohfEB4GRL9fVTApgNAI5k_VZOzpy766LPRkEpiw/edit?usp=sharing)
 
 ## Built With
 
