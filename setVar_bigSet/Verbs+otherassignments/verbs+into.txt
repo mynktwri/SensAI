@@ -1,0 +1,5 @@
+insert
+place
+deposit
+turn
+put
