@@ -1,7 +1,7 @@
 ,word,if-then,variable,print,loop
-0,Set,0,5,0,0
-1,Assign,0,5,0,0
-2,Insert,0,5,0,0
+0,set,0,5,0,0
+1,assign,0,5,0,0
+2,insert,0,5,0,0
 3,Variable,0,5,0,0
 4,Make,0,5,0,5
 5,Equal,3,3,0,0
@@ -125,7 +125,6 @@
 123,aim,0,0,0,0
 124,train,0,0,0,0
 125,establish,3,3,0,0
-126,set up,0,5,0,0
 127,create,0,5,0,5
 128,provide,0,0,5,0
 129,institute,0,0,0,0
@@ -162,7 +161,6 @@
 160,allocate,0,5,0,0
 161,allot,0,5,0,0
 162,give,0,5,3,0
-163,set,0,5,0,0
 164,make,0,5,0,5
 165,create,0,5,0,5
 166,name,0,5,5,0
@@ -602,7 +600,6 @@
 600,pronounce,0,0,2,0
 601,express,0,0,2,0
 602,vent,0,0,0,0
-603,set forth,0,0,3,0
 604,publicize,0,0,0,0
 605,disseminate,0,0,0,0
 606,circulate,0,0,0,0
@@ -727,7 +724,6 @@
 725,plunk,0,0,0,0
 726,posit,0,0,0,0
 727,place,0,0,0,0
-728,set,0,0,0,0
 729,lay,0,0,0,0
 730,deposit,0,0,0,0
 731,situate,0,0,0,0
@@ -774,7 +770,6 @@
 772,compute,0,0,0,0
 773,establish,0,0,0,0
 774,fix,0,0,0,0
-775,set,0,0,0,0
 776,guess,0,0,0,0
 777,centre,0,0,0,0
 778,core,0,0,0,0
