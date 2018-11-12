@@ -4,23 +4,52 @@ from tensorflow import keras
 import numpy as np
 import pandas as pd
 
+
+def db_get(word):
+    count = 0
+    for i in data_df["word"].str.match(word):
+        if i:
+            return count
+        else:
+            count += 1
+    return -1
+
+
+def parse_input(sentence):
+    # TODO: sentence into NLP goes here
+
+    # TODO: parse through our database and add that to tensor
+    db_get(sentence)
+    #
+
+
 # training data
-data_df = pd.read_csv("../Webscrape/terms_synonyms.csv")
+data_df = pd.read_csv("../Webscrape/clean_terms.csv")
 
 data_df = data_df.drop(data_df.columns[:1], axis=1)
-print(data_df["word"].searchsorted("equal"))
+#  Categories:
+#  1: variable
+#  2: print
+#  3: loop
+#  4: if
+#
+
 train_labels = [1, 2, 3, 2, 1]
 train_string = [["set", "x", "equal", "to", "5"], ["output", "x"], ["loop", "through", "array", "A", "ten", "times"],
                 ["print", "test"], ["set", "total", "to", "zero"]]
 train_data = [[0, 9999, 5, 9999, 9999], [46, 9999], [17, 20, 30, 9999, 9999, 9999], [45, 1287], [0, 403, 9999, 9999]]
+test_train_data = []
 for i in train_string:
+    sentence = []
     for j in i:
-        continue
+        sentence.append(db_get(j))
         # print(data_df["word"])
         # if (data_df[i][j] != None):
         #     print(data_df[j])
         # else:
         #     print("not found")
+    test_train_data.append(sentence)
+print(test_train_data)
 
 #
 #
