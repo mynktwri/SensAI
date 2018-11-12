@@ -3,7 +3,7 @@ from tensorflow import keras
 
 import numpy as np
 import pandas as pd
-
+from NeuralNet import active_learning_module as learn
 
 def db_get(word):
     count = 0
@@ -12,7 +12,8 @@ def db_get(word):
             return count
         else:
             count += 1
-    return -1
+    learn.new_word(word, data_df)
+    # TODO: put new word into database and categorize
 
 
 def parse_input(sentence):
