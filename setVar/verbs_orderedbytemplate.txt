@@ -1,0 +1,107 @@
+WITH VERBS
+Verb_Variable_Preposition_Value (set x to 5)
+
+-to
+point
+turn
+set
+
+-as
+safe
+
+-a
+make
+
+
+Verb_Value_Preposition_Variable (insert 5 into x)
+
+-to
+designate
+change
+appoint
+schedule
+direct
+orientate
+realize
+write
+allocate
+
+-into
+change
+deposit
+put
+
+-in
+place
+store
+insert
+deposit
+put
+safe
+
+
+Value_Verb_Preposition_Variable (5 stored in x)
+
+-in
+placed
+stored
+inserted
+deposited
+put
+safed
+
+-as
+safed
+
+
+Preposition_Variable_Verb_Value (may x be 5)
+
+-may
+be
+have
+
+
+Variable_Verb_Preposition_Value (x changed to 5)
+
+-to
+designated
+directed
+changed
+appointed
+scheduled
+directed
+orientated
+realized
+
+
+
+Verb_Variable_Value (assign x 5)
+assign
+make
+give
+designate
+appoint
+
+
+
+
+WITHOUT VERBS
+Value_Preposition_Variable (5 -> x)
+
+->
+=
+equal
+isequalto
+
+
+
+Variable_Preposition_Value (x equal 5)
+
+is
+<-
+=
+
+
+Variable_Value (x 5)
+
+
