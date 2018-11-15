@@ -42,12 +42,12 @@ print(terms_df)
 terms_df.to_csv("terms_synonyms.csv")
           # [0]["senses"]["synonyms"])
 # results = r["results"]
-# print("json \n" + json.dumps(r))
-# senseslist = parse_syn(results)
-# for i in senseslist:
-#     for j in i:
-#         print(j)
+# print print(j)
 # print(results[0]["lexicalEntries"])
-# with open('data.json', 'w') as outfile:
+# with o("json \n" + json.dumps(r))
+# # senseslist = parse_syn(results)
+# # for i in senseslist:
+# #     for j in i:
+# #        pen('data.json', 'w') as outfile:
 #     json.dump(r.json(), outfile)
 #     print("data saved successfully.")
