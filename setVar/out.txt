@@ -1,5 +1,0 @@
-assign x 0 
-make x 0 
-give x 0 
-designate x 0 
-appoint x 0 
