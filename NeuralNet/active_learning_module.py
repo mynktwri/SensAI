@@ -3,9 +3,9 @@ import pandas as pd
 #takes a new word and adds it to the database
 def new_word(word, data_df):
     new_df = None
-    #TODO: add what category the word is in.
     for i in data_df:
         if i == "word":
+            # TODO: ask through command line what category the word is in.
             new_df = data_df.append(pd.DataFrame([[word, 0, 0, 0, 0]], columns=["word","if-then","variable","print","loop"]))
     return new_df
 
