@@ -1,26 +1,39 @@
 import tensorflow as tf
 from tensorflow import keras
-
+import NeuralNet.db_clean as db_clean
 import numpy as np
 import pandas as pd
 from NeuralNet import active_learning_module as learn
 
-def db_get(word):
+
+def db_get(word, df):
     count = 0
-    for i in data_df["word"].str.match(word):
+    for i in df["word"].str.match(word):
         if i:
             return count
         else:
             count += 1
-    learn.new_word(word, data_df)
-    # TODO: put new word into database and categorize
+    return -1
 
 
-def parse_input(sentence):
+def parse_input(sentence, df):
     # TODO: sentence into NLP goes here
 
     # TODO: parse through our database and add that to tensor
-    db_get(sentence)
+    newword = False
+    while not newword:
+        word_db_id = []
+        db_clean.db_clean(data_df)
+        newword = True
+        for i in range(len(sentence)):
+            temp = db_get(sentence[i], df)
+            if temp == -1:
+                df = learn.new_word(i, df)
+                newword = False
+            else:
+                word_db_id.append(temp)
+        print(word_db_id)
+
     #
 
 
@@ -43,7 +56,7 @@ test_train_data = []
 for i in train_string:
     sentence = []
     for j in i:
-        sentence.append(db_get(j))
+        sentence.append(db_get(j, data_df))
         # print(data_df["word"])
         # if (data_df[i][j] != None):
         #     print(data_df[j])

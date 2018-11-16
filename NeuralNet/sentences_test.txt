@@ -1,0 +1,13 @@
+set x equal to 5
+output x
+loop through array A ten times
+print test
+set total to zero
+if x is zero, then do something
+print jokes
+make count equal to eight
+iterate through list L
+set m to 3
+if h is 4, run h function
+set i to 2
+
