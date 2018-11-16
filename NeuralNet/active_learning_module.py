@@ -1,4 +1,3 @@
-from NeuralNet import db_clean
 import pandas as pd
 #takes a new word and adds it to the database
 def new_word(word, data_df):

@@ -1,9 +1,20 @@
 import tensorflow as tf
 from tensorflow import keras
-import NeuralNet.db_clean as db_clean
 import numpy as np
 import pandas as pd
 from NeuralNet import active_learning_module as learn
+
+
+def db_clean(data_df, save=False):
+    # data_df = data_df.drop(data_df.columns[:1], axis=1)
+    data_df["word"] = data_df["word"].str.lower()
+    data_df = data_df.drop_duplicates(["word"])
+    data_df = data_df.sort_values(by="word", axis=0)
+    # data_df = data_df.reset_index(drop=True, inplace=True)
+    return data_df
+    if save:
+        data_df.to_csv("clean_terms.csv")
+
 
 
 def db_get(word, df):
@@ -25,11 +36,12 @@ def parse_input(sentences, df):
     # TODO: sentence into NLP goes here
 
     # TODO: parse through our database and add that to tensor
+    indices = []
     for sentence in sentences:
         newword = False
         while not newword:
             word_db_id = []
-            df = db_clean.db_clean(df)
+            df = db_clean(df)
             newword = True
             for i in range(len(sentence)):
                 temp = db_get(sentence[i].lower(), df)
@@ -38,7 +50,8 @@ def parse_input(sentences, df):
                     newword = False
                 else:
                     word_db_id.append(temp)
-        return df, word_db_id
+        indices.append(word_db_id)
+    return df, indices
 
 
 # training data
@@ -57,7 +70,11 @@ train_string = [["set", "x", "equal", "to", "5"], ["output", "x"], ["loop", "thr
                 ["print", "test"], ["set", "total", "to", "zero"]]
 train_data = [[0, 9999, 5, 9999, 9999], [46, 9999], [17, 20, 30, 9999, 9999, 9999], [45, 1287], [0, 403, 9999, 9999]]
 test_train_data = []
-for i in train_string:
-    data_df, sentence = parse_input(i, data_df)
-    test_train_data.append(sentence)
-    print(sentence, " | ", i)
+
+data_df, indices = parse_input(train_string, data_df)
+print(indices)
+#
+# for i in train_string:
+#     data_df, sentence = parse_input(i, data_df)
+#     test_train_data.append(sentence)
+#     print(sentence, " | ", i)
