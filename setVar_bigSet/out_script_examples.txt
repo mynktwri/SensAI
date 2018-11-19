@@ -2,9 +2,9 @@ point x to 0, x 0
 turn x to 0, x 0
 set x to 0, x 0
 
-safe x as 0, x 0
+save x as 0, x 0
 
-make x a 0, x 0
+make x as 0, x 0
 
 
 designate 0 to x, x 0
@@ -22,7 +22,7 @@ store 0 in x, x 0
 insert 0 in x, x 0
 deposit 0 in x, x 0
 put 0 in x, x 0
-safe 0 in x, x 0
+save 0 in x, x 0
 
 change 0 into x, x 0
 deposit 0 into x, x 0
@@ -40,7 +40,7 @@ put 0 into x, x 0
 0 inserted in x, x 0
 0 deposited in x, x 0
 0 put in x, x 0
-0 safed in x, x 0
+0 saved in x, x 0
 0 realized in x, x 0
 
 0 deposited into x, x 0
