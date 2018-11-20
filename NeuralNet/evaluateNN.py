@@ -6,15 +6,23 @@ import pandas as pd
 
 input_data = []
 input_labels = []
+dictionary = {}
 
 def db_get(word):
-    count = 0
-    for i in data_df["word"].str.match(word):
-        if i:
-            return count
-        else:
-            count += 1
-    return 9999
+    word = word.lower()
+    try:
+        hash = dictionary[word]
+    except:
+        hash = len(dictionary)+1
+        dictionary[word] = hash
+    return hash
+#    count = 0
+#    for i in data_df["word"]==word:
+#        if i:
+#            return count
+#        else:
+#            count += 1
+#    return 9999
 
 def db_getlabel(input):
     if input == "variable":
@@ -28,26 +36,25 @@ def db_getlabel(input):
     else:
         return 9999
 
-def parse_input():
+def parse_input(filename):
     global input_data
     global input_labels
-    #data_sentences = pd.read_csv("test.txt")
-    data_sentences = pd.read_csv("../setVar_bigSet/out_script_16000sentences.txt")
+    data_sentences = pd.read_csv("data/"+filename)
     for (index, row) in data_sentences.iterrows():
         sentence_data = []
-        count = 0
+        #count = 0
         for word in row[0].split(' '):
             index = db_get(word)
             sentence_data = sentence_data + [index]
-            if ((word == row[2].strip()) and (len(input_data) == len(input_labels))):
-                input_labels = input_labels + [count]
-            count = count + 1
+#            if ((word == row[2].strip()) and (len(input_data) == len(input_labels))):
+#                input_labels = input_labels + [count]
+#            count = count + 1
         input_data = input_data + [sentence_data]
+        input_labels = input_labels + [db_getlabel(row[1])]
 
-# training data
-data_df = pd.read_csv("../Webscrape/clean_terms.csv")
+#data_df = pd.read_csv("../Webscrape/clean_terms.csv")
 
-data_df = data_df.drop(data_df.columns[:1], axis=1)
+#data_df = data_df.drop(data_df.columns[:1], axis=1)
 #  Categories:
 #  1: variable
 #  2: print
@@ -55,7 +62,11 @@ data_df = data_df.drop(data_df.columns[:1], axis=1)
 #  4: if
 #
 
-parse_input()
+# training data
+#parse_input("if_data.csv")
+#parse_input("variable_data.csv")
+parse_input("print_data.csv")
+parse_input("loop_data.csv")
 
 train_data = []
 train_labels = []
