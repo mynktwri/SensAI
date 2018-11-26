@@ -1,8 +1,0 @@
-<dsynts-list>
-  <dsynts id="0">
-    <dsyntnode lexeme="is" class="verb" mood="imp" rel="II">
-      <dsyntnode lexeme="this" class="ATTR" rel="ATTR"/>
-      <dsyntnode lexeme="test" class="common_noun" article="indef" gender="neut" rel="II"/>
-    </dsyntnode>
-  </dsynts>
-</dsynts-list>
