@@ -1,28 +1,12 @@
 import tensorflow as tf
 from tensorflow import keras
-
+from NeuralNet import DB_index_pull as db_pull
 import numpy as np
 import pandas as pd
 
 input_data = []
 input_labels = []
-dictionary = {}
 
-def db_get(word):
-    word = word.lower()
-    try:
-        hash = dictionary[word]
-    except:
-        hash = len(dictionary)+1
-        dictionary[word] = hash
-    return hash
-#    count = 0
-#    for i in data_df["word"]==word:
-#        if i:
-#            return count
-#        else:
-#            count += 1
-#    return 9999
 
 def db_getlabel(input):
     if input == "variable":
@@ -34,27 +18,35 @@ def db_getlabel(input):
     elif input == "if":
         return 4
     else:
-        return 9999
+        return -1
+
+
+def read_sentences(filename):
+    #TODO: THIS BITFCH
+    return pd.read_csv("data/" + filename)["sen"].transpose()
+
 
 def parse_input(filename):
-    global input_data
-    global input_labels
+    sentences = read_sentences(filename)
     data_sentences = pd.read_csv("data/"+filename)
+    #
+    # TODO: READ FILE FOR SENTENCES
     for (index, row) in data_sentences.iterrows():
         sentence_data = []
-        #count = 0
+        # count = 0
         for word in row[0].split(' '):
-            index = db_get(word)
+            index = db_pull.db_get(word)
             sentence_data = sentence_data + [index]
-#            if ((word == row[2].strip()) and (len(input_data) == len(input_labels))):
-#                input_labels = input_labels + [count]
-#            count = count + 1
+        #            if ((word == row[2].strip()) and (len(input_data) == len(input_labels))):
+        #                input_labels = input_labels + [count]
+        #            count = count + 1
         input_data = input_data + [sentence_data]
         input_labels = input_labels + [db_getlabel(row[1])]
 
-#data_df = pd.read_csv("../Webscrape/clean_terms.csv")
 
-#data_df = data_df.drop(data_df.columns[:1], axis=1)
+# data_df = pd.read_csv("../Webscrape/clean_terms.csv")
+
+# data_df = data_df.drop(data_df.columns[:1], axis=1)
 #  Categories:
 #  1: variable
 #  2: print
@@ -63,8 +55,8 @@ def parse_input(filename):
 #
 
 # training data
-#parse_input("if_data.csv")
-#parse_input("variable_data.csv")
+# parse_input("if_data.csv")
+# parse_input("variable_data.csv")
 parse_input("print_data.csv")
 parse_input("loop_data.csv")
 
@@ -77,20 +69,20 @@ test_labels = []
 
 i = 0
 for row in input_data:
-    if(i%3 == 0):
+    if (i % 3 == 0):
         train_data = train_data + [input_data[i]]
         train_labels = train_labels + [input_labels[i]]
-    if(i%3 == 1):
+    if (i % 3 == 1):
         validation_data = validation_data + [input_data[i]]
         validation_labels = validation_labels + [input_labels[i]]
-    if(i%3 == 2):
+    if (i % 3 == 2):
         test_data = test_data + [input_data[i]]
         test_labels = test_labels + [input_labels[i]]
     i = i + 1
 
-train_data = keras.preprocessing.sequence.pad_sequences(train_data,value=9998,padding='post', maxlen=20)
-validation_data = keras.preprocessing.sequence.pad_sequences(validation_data,value=9998,padding='post', maxlen=20)
-test_data = keras.preprocessing.sequence.pad_sequences(test_data,value=9998,padding='post', maxlen=20)
+train_data = keras.preprocessing.sequence.pad_sequences(train_data, value=9998, padding='post', maxlen=20)
+validation_data = keras.preprocessing.sequence.pad_sequences(validation_data, value=9998, padding='post', maxlen=20)
+test_data = keras.preprocessing.sequence.pad_sequences(test_data, value=9998, padding='post', maxlen=20)
 
 # Build the model
 
@@ -109,13 +101,12 @@ model.compile(optimizer=tf.train.AdamOptimizer(),
 #  Train the model
 
 history = model.fit(train_data,
-                     train_labels,
-                     epochs=40,
-                     batch_size=512,
-                     validation_data=(validation_data, validation_labels),
-                     verbose=1)
+                    train_labels,
+                    epochs=40,
+                    batch_size=512,
+                    validation_data=(validation_data, validation_labels),
+                    verbose=1)
 
 results = model.evaluate(test_data, test_labels)
 
 print(results)
-

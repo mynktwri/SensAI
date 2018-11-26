@@ -51,7 +51,7 @@ def parse_input(sentences, df):
 
 
 def in_pipe(sentences):
-    data_df = pd.read_csv("../Webscrape/clean_terms.csv")
+    data_df = pd.read_csv("../Webscrape/clean_terms_saved.csv")
     data_df = data_df.drop(data_df.columns[:1], axis=1)
     #  Categories:
     #  1: variable
