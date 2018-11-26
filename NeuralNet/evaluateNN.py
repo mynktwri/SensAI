@@ -28,20 +28,7 @@ def read_sentences(filename):
 
 def parse_input(filename):
     sentences = read_sentences(filename)
-    data_sentences = pd.read_csv("data/"+filename)
-    #
-    # TODO: READ FILE FOR SENTENCES
-    for (index, row) in data_sentences.iterrows():
-        sentence_data = []
-        # count = 0
-        for word in row[0].split(' '):
-            index = db_pull.db_get(word)
-            sentence_data = sentence_data + [index]
-        #            if ((word == row[2].strip()) and (len(input_data) == len(input_labels))):
-        #                input_labels = input_labels + [count]
-        #            count = count + 1
-        input_data = input_data + [sentence_data]
-        input_labels = input_labels + [db_getlabel(row[1])]
+    indices = db_pull.in_pipe(sentences)
 
 
 # data_df = pd.read_csv("../Webscrape/clean_terms.csv")
