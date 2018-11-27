@@ -1,6 +1,6 @@
 import pandas as pd
 from NeuralNet import active_learning_module as learn
-
+from NLP import Process
 
 def db_clean(data_df, save=False):
     # data_df = data_df.drop(data_df.columns[:1], axis=1)
@@ -12,7 +12,7 @@ def db_clean(data_df, save=False):
         data_df.to_csv("clean_terms_saved.csv")
     return data_df
 
-
+# TODO: make faster, database is sorted alphabetically
 def db_get(word, df):
     count = 0
     found = 0
@@ -30,10 +30,13 @@ def db_get(word, df):
 
 def parse_input(sentences, df):
     # TODO: sentence into NLP goes here
-
+    sentences_list = []
+    for s in sentences:
+        sentences_list.append(Process.getWord(s))
     # parse through our database
     indices = []
-    for sentence in sentences:
+    count = 0
+    for sentence in sentences_list:
         newword = False
         while not newword:
             word_db_id = []
@@ -46,12 +49,14 @@ def parse_input(sentences, df):
                 else:
                     word_db_id.append(temp)
             if not newword: df = db_clean(df, save=True)
+        print( count/len(sentences_list) )
+        count+=1
         indices.append(word_db_id)
     return df, indices
 
 
 def in_pipe(sentences):
-    data_df = pd.read_csv("../Webscrape/clean_terms_saved.csv")
+    data_df = pd.read_csv("clean_terms_saved.csv")
     data_df = data_df.drop(data_df.columns[:1], axis=1)
     #  Categories:
     #  1: variable

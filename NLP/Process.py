@@ -45,9 +45,7 @@ def getTag(text):
 
 
 def getWord(text):
-    text = word_tokenize(text)
-    return text
-
+    return word_tokenize(text)
 
 
 def getLength(text):

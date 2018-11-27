@@ -20,15 +20,34 @@ def db_getlabel(input):
     else:
         return -1
 
-
+# reads sentences from filename
+# returns a list of Series of words in the sentence
+#   each index of list is one sentence
 def read_sentences(filename):
-    #TODO: THIS BITFCH
     return pd.read_csv("data/" + filename)["sen"].transpose()
 
 
+def parse_sentences(sentences):
+    for s in sentences:
+        test = pos_sentence(s)
+        print(test)
+
+
+
+def pos_sentence(sentence):
+    print(sentence)
+
+# parse input through a file
+# sentences returns the list of series words in each sentence
 def parse_input(filename):
     sentences = read_sentences(filename)
     indices = db_pull.in_pipe(sentences)
+
+    sentence_details = parse_sentences(sentences)
+
+    return sentences, indices, sentence_details
+
+
 
 
 # data_df = pd.read_csv("../Webscrape/clean_terms.csv")
