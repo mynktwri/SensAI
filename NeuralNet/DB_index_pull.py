@@ -2,6 +2,7 @@ import pandas as pd
 from NeuralNet import active_learning_module as learn
 from NLP import Process
 
+
 def db_clean(data_df, save=False):
     # data_df = data_df.drop(data_df.columns[:1], axis=1)
     data_df["word"] = data_df["word"].str.lower()
@@ -12,20 +13,26 @@ def db_clean(data_df, save=False):
         data_df.to_csv("clean_terms_saved.csv")
     return data_df
 
-# TODO: make faster, database is sorted alphabetically
-def db_get(word, df):
-    count = 0
-    found = 0
-    for i in df["word"].str.match(word):
-        if i:
-            found = 1
-            break
-        else:
-            count += 1
-    if found:
-        return count
+
+def db_binary(array, l, r, word):
+    if r >= l:
+        mid = int(l + (r - l) / 2)
+        # middle
+        if array[mid] == word:
+            return mid
+        # left
+        if array[mid] > word:
+            return db_binary(array, l, mid - 1, word)
+        # right
+        if array[mid] < word:
+            return db_binary(array, mid + 1, r, word)
     else:
         return -1
+
+
+def db_get(word, df):
+    db_1D = df["word"].ravel()
+    return db_binary(db_1D, 0, len(db_1D) - 1, word)
 
 
 def parse_input(sentences, df):
@@ -49,8 +56,8 @@ def parse_input(sentences, df):
                 else:
                     word_db_id.append(temp)
             if not newword: df = db_clean(df, save=True)
-        print( count/len(sentences_list) )
-        count+=1
+        print(count / len(sentences_list))
+        count += 1
         indices.append(word_db_id)
     return df, indices
 
