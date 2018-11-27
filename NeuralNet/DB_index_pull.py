@@ -13,19 +13,45 @@ def db_clean(data_df, save=False):
     return data_df
 
 # TODO: make faster, database is sorted alphabetically
-def db_get(word, df):
-    count = 0
-    found = 0
-    for i in df["word"].str.match(word):
-        if i:
-            found = 1
-            break
-        else:
-            count += 1
-    if found:
-        return count
+def db_binary(array, l, r, word):
+    if r>=l:
+        mid = int(l+(r-l)/2)
+        #middle
+        if array[mid]==word:
+            return mid
+        #left
+        if array[mid]>word:
+            return db_binary(array, l, mid-1, word)
+        #right
+        if array[mid]<word:
+            return db_binary(array, mid+1, r, word)
     else:
         return -1
+
+
+
+
+def db_get(word, df):
+    db_1D = df["word"].ravel()
+    return db_binary(db_1D, 0, len(db_1D)-1, word)
+
+
+
+
+
+    #
+    # count = 0
+    # found = 0
+    # for i in df["word"].str.match(word):
+    #     if i:
+    #         found = 1
+    #         break
+    #     else:
+    #         count += 1
+    # if found:
+    #     return count
+    # else:
+    #     return -1
 
 
 def parse_input(sentences, df):
