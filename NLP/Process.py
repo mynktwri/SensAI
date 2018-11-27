@@ -5,7 +5,6 @@ from nltk.tokenize import word_tokenize
 def getTag(text):
     text = word_tokenize(text)
     pos_tags = nltk.pos_tag(text)
-    print(pos_tags)
     verbs = ["MD", "TO", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"]
     nouns = ["PRP", "PRP$", "POS", "NN", "NNS", "FW", "UH", "NNP", "NNPS"]
     adj = ["JJ", "JJR", "JJS", "PDT"]
