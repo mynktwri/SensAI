@@ -52,6 +52,7 @@ def parse_input(sentences, df):
                 wordlist.remove(wordlist[i])
                 poslist.remove(poslist[i])
         sentences_list.append(wordlist)
+        # TODO: YOUNJAEKIM put pos to integer mapping here.
         sentences_pos.append(poslist)
     # parse through our database
     indices = []
