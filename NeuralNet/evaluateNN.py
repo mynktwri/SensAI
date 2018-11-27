@@ -1,6 +1,8 @@
+import os, sys
+# sys.path.append(os.path.join(os.getcwd()))
 import tensorflow as tf
 from tensorflow import keras
-from NeuralNet import DB_index_pull as db_pull
+import DB_index_pull as db_pull
 import numpy as np
 import pandas as pd
 

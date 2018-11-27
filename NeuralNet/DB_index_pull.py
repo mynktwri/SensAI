@@ -1,6 +1,9 @@
+import os, sys
 import pandas as pd
-from NeuralNet import active_learning_module as learn
-from NLP import Process
+import active_learning_module as learn
+sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
+import Process
+sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 
 def db_clean(data_df, save=False):
     # data_df = data_df.drop(data_df.columns[:1], axis=1)
