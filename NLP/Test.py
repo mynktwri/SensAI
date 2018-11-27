@@ -1,7 +1,7 @@
 from NLP import Process
 import csv
 
-test = "This isn't a test."
+test = "This is a test."
 
 # Getting the total length of a sentence: (Note that punctuations also count as a word)
 # print(Process.getLength(test))
@@ -17,7 +17,10 @@ POSlist = []
 POSlist = Process.getTag(test)
 wordlist = Process.getWord(test)
 
-with open("output.csv", "w") as f:
-    writer = csv.writer(f)
-    writer.writerow(wordlist)
-    writer.writerow(POSlist)
+for i in range(len(wordlist)):
+    if POSlist[i] == "punctuation":
+        # remove it
+        print("removing " + wordlist[i])
+        wordlist.remove(wordlist[i])
+        POSlist.remove(POSlist[i])
+print(wordlist)
