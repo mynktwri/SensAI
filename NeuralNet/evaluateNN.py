@@ -41,11 +41,13 @@ def pos_sentence(sentence):
 # sentences returns the list of series words in each sentence
 def parse_input(filename):
     sentences = read_sentences(filename)
-    indices = db_pull.in_pipe(sentences)
+    indices, wordlist, poslist = db_pull.in_pipe(sentences)
 
-    sentence_details = parse_sentences(sentences)
+    # print(len(indices))
+    # print(len(wordlist))
+    # print(len(poslist))
 
-    return sentences, indices, sentence_details
+    return indices, poslist
 
 
 
@@ -63,8 +65,8 @@ def parse_input(filename):
 # training data
 # parse_input("if_data.csv")
 # parse_input("variable_data.csv")
-parse_input("print_data.csv")
-parse_input("loop_data.csv")
+print_indices, print_poslist = parse_input("print_data.csv")
+loop_indices, loop_poslist = parse_input("loop_data.csv")
 
 train_data = []
 train_labels = []

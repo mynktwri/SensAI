@@ -7,7 +7,6 @@ test = "This is a test."
 # print(Process.getLength(test))
 total = Process.getLength(test)
 # Getting the tags list:
-print(Process.getTag(test))
 
 # Getting each words
 # print(Process.getWord(test))
@@ -23,4 +22,3 @@ for i in range(len(wordlist)):
         print("removing " + wordlist[i])
         wordlist.remove(wordlist[i])
         POSlist.remove(POSlist[i])
-print(wordlist)

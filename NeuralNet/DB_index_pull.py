@@ -38,8 +38,18 @@ def db_get(word, df):
 def parse_input(sentences, df):
     # TODO: sentence into NLP goes here
     sentences_list = []
+    sentences_pos = []
     for s in sentences:
-        sentences_list.append(Process.getWord(s))
+        poslist = Process.getTag(s)
+        wordlist = Process.getWord(s)
+        for i in range(len(wordlist), 0):
+            if poslist[i] == "punctuation":
+                # remove it
+                print("removing " + wordlist[i])
+                wordlist.remove(wordlist[i])
+                poslist.remove(poslist[i])
+        sentences_list.append(wordlist)
+        sentences_pos.append(poslist)
     # parse through our database
     indices = []
     count = 0
@@ -59,7 +69,7 @@ def parse_input(sentences, df):
         print(count / len(sentences_list))
         count += 1
         indices.append(word_db_id)
-    return df, indices
+    return df, indices, sentences_list, sentences_pos
 
 
 def in_pipe(sentences):
@@ -70,8 +80,8 @@ def in_pipe(sentences):
     #  2: print
     #  3: loop
     #  4: if
-    data_df, indices = parse_input(sentences, data_df)
-    return indices
+    data_df, indices, wordlist, poslist = parse_input(sentences, data_df)
+    return indices, wordlist, poslist
 
 # SAMPLE USAGE
 # print(in_pipe(sentences=[["set", "x", "equal", "to", "5"], ["output", "x"], ["loop", "through", "array", "A", "ten", "times"],
