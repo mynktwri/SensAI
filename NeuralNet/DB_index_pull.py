@@ -38,6 +38,41 @@ def db_get(word, df):
     return db_binary(db_1D, 0, len(db_1D) - 1, word)
 
 
+def changePOS(poslist):
+    # Verb = 1, noun = 2, adj = 3, adv = 4,
+    # Preposition = 5, article = 6, participle = 7, quantifier = 8,
+    # number = 9, symbol = 10
+    for x in range(len(poslist)):
+        if poslist[x] == "verbs":
+            poslist[x] = 1
+
+        elif poslist[x] == "nouns":
+            poslist[x] = 2
+
+        elif poslist[x] == "adj":
+            poslist[x] = 3
+
+        elif poslist[x] == "Adv":
+            poslist[x] = 4
+
+        elif poslist[x] == "prep":
+            poslist[x] = 5
+
+        elif poslist[x] == "article":
+            poslist[x] = 6
+
+        elif poslist[x] == "participle":
+            poslist[x] = 7
+
+        elif poslist[x] == "quantifier":
+            poslist[x] = 8
+
+        elif poslist[x] == "number":
+            poslist[x] = 9
+
+        elif poslist[x] == "symbol":
+            poslist[x] = 10
+    return poslist
 def parse_input(sentences, df):
     sentences_list = []
     sentences_pos = []
@@ -50,39 +85,7 @@ def parse_input(sentences, df):
                 print("removing " + wordlist[i])
                 wordlist.remove(wordlist[i])
                 poslist.remove(poslist[i])
-        # Verb = 1, noun = 2, adj = 3, adv = 4,
-        # Preposition = 5, article = 6, participle = 7, quantifier = 8,
-        # number = 9, symbol = 10
-        for x in range(len(poslist)):
-            if poslist[x] == "verbs":
-                poslist[x] = 1
-
-            elif poslist[x] == "nouns":
-                poslist[x] = 2
-
-            elif poslist[x] == "adj":
-                poslist[x] = 3
-
-            elif poslist[x] == "Adv":
-                poslist[x] = 4
-
-            elif poslist[x] == "prep":
-                poslist[x] = 5
-
-            elif poslist[x] == "article":
-                poslist[x] = 6
-
-            elif poslist[x] == "participle":
-                poslist[x] = 7
-
-            elif poslist[x] == "quantifier":
-                poslist[x] = 8
-
-            elif poslist[x] == "number":
-                poslist[x] = 9
-
-            elif poslist[x] == "symbol":
-                poslist[x] = 10
+        poslist = changePOS(poslist)
         sentences_list.append(wordlist)
         # TODO: YOUNJAEKIM put pos to integer mapping here.
         sentences_pos.append(poslist)
