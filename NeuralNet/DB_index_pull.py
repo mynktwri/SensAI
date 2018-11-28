@@ -39,7 +39,6 @@ def db_get(word, df):
 
 
 def parse_input(sentences, df):
-    # TODO: sentence into NLP goes here
     sentences_list = []
     sentences_pos = []
     for s in sentences:
