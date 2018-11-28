@@ -85,6 +85,7 @@ def parse_input(sentences, df):
             elif poslist[x] == "symbol":
                 poslist[x] = 10
         sentences_list.append(wordlist)
+        # TODO: YOUNJAEKIM put pos to integer mapping here.
         sentences_pos.append(poslist)
     # parse through our database
     indices = []
