@@ -1,9 +1,10 @@
 import os, sys
 import pandas as pd
-import active_learning_module as learn
 sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
-import Process
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
+
+import active_learning_module as learn
+import Process
 
 
 def db_clean(data_df, save=False):
@@ -73,6 +74,8 @@ def changePOS(poslist):
         elif poslist[x] == "symbol":
             poslist[x] = 10
     return poslist
+
+
 def parse_input(sentences, df):
     sentences_list = []
     sentences_pos = []

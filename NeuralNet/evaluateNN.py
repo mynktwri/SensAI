@@ -26,30 +26,19 @@ def db_getlabel(input):
 # returns a list of Series of words in the sentence
 #   each index of list is one sentence
 def read_sentences(filename):
-    return pd.read_csv("data/" + filename)["sen"].transpose()
-
-
-def parse_sentences(sentences):
-    for s in sentences:
-        test = pos_sentence(s)
-        print(test)
-
-
-
-def pos_sentence(sentence):
-    print(sentence)
+    return pd.read_csv("data/" + filename)["sen"].transpose(), pd.read_csv("data/" + filename)["cat"].transpose()
 
 # parse input through a file
 # sentences returns the list of series words in each sentence
 def parse_input(filename):
-    sentences = read_sentences(filename)
+    sentences, targets = read_sentences(filename)
     indices, wordlist, poslist = db_pull.in_pipe(sentences)
 
     # print(len(indices))
     # print(len(wordlist))
     # print(len(poslist))
 
-    return indices, poslist
+    return indices, poslist, targets
 
 
 
@@ -65,10 +54,10 @@ def parse_input(filename):
 #
 
 # training data
-# parse_input("if_data.csv")
-# parse_input("variable_data.csv")
-print_indices, print_poslist = parse_input("print_data.csv")
-loop_indices, loop_poslist = parse_input("loop_data.csv")
+# if_indices, if_poslist, if_targets = parse_input("if_data.csv")
+variable_indices, variable_poslist, variable_targets = parse_input("variable_data.csv")
+print_indices, print_poslist, print_targets = parse_input("print_data.csv")
+loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv")
 
 train_data = []
 train_labels = []
