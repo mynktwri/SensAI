@@ -1,3 +1,4 @@
+sen, cat, 0, 1, 2
 if 0 unequal 0, if, 0, !=, 0
 if 0 unequal x, if, 0, !=, x
 if 0 unequal end, if, 0, !=, end

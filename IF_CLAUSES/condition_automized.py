@@ -23,8 +23,8 @@ def getSentences(kind, variation):
 
 	#////////////////////////////////////COMPARE////////////////////////////////////////////
 	#not ()
-	negation_not = ["!", "isn't", "not"];
-	negation_doesnt = ["doesn't", "!"];
+	negation_not = ["!", "not"];
+	negation_doesnt = ["!"];
 
 	equal_negation= ["equal", "match"];
 
@@ -136,15 +136,16 @@ def getSentences(kind, variation):
 						for fifth in arrFifth:
 							for sixth in arrSixth:
 								line = command + " " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth
-								line_p = command + " ( " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth 
+								#line_p = command + " ( " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth 
 								line = line.strip()
-								line_p = line_p.strip() + " )"
+								#line_p = line_p.strip() + " )"
 								arrLine = line.split();
-								arrLine_p = line_p.split();
+								#arrLine_p = line_p.split();
 								lineScript = line + ", if, " + arrLine[posVariable] + ", "  + compare_symbol + ", " + arrLine[posValue]
-								lineScript_p = line_p + ", if, " + arrLine[posVariable ] + ", "  + compare_symbol + ", " + arrLine[posValue ]
+								#lineScript_p = line_p + ", if, " + arrLine[posVariable ] + ", "  + compare_symbol + ", " + arrLine[posValue ]
 								#out.write(line); out.write("\n"); out.write(line_p); out.write("\n")
-								out_script.write(lineScript); out_script.write("\n"); out_script.write(lineScript_p); out_script.write("\n")
+								out_script.write(lineScript); out_script.write("\n"); 
+								#out_script.write(lineScript_p); out_script.write("\n")
 
 	#out_script.write(variation); out_script.write("\n\n\n");					
 	out.close()

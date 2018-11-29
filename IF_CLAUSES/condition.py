@@ -135,15 +135,17 @@ for command in commandFile:
 					for fifth in arrFifth:
 						for sixth in arrSixth:
 							line = command + " " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth
-							line_p = command + " ( " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth 
+							#line_p = command + " ( " + first + " " +second + " " + third + " " + fourth + " " + fifth + " " + sixth 
 							line = line.strip()
-							line_p = line_p.strip() + " )"
+							#line_p = line_p.strip() + " )"
 							arrLine = line.split();
-							arrLine_p = line_p.split();
+							#arrLine_p = line_p.split();
 							lineScript = line + ", if, " + arrLine[posVariable] + ", "  + compare_symbol + ", " + arrLine[posValue]
-							lineScript_p = line_p + ", if, " + arrLine[posVariable ] + ", "  + compare_symbol + ", " + arrLine[posValue ]
+							#lineScript_p = line_p + ", if, " + arrLine[posVariable ] + ", "  + compare_symbol + ", " + arrLine[posValue ]
 							out.write(line); out.write("\n"); out.write(line_p); out.write("\n")
-							out_script.write(lineScript); out_script.write("\n"); out_script.write(lineScript_p); out_script.write("\n")
+							out_script.write(lineScript); out_script.write("\n"); 
+							#out_script.write(lineScript_p); 
+							#out_script.write("\n")
 
 
 out.close()
