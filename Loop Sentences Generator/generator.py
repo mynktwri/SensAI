@@ -11,7 +11,7 @@ SIZE2 = len(filler)
 SIZE3 = len(var1)
 SIZE4 = len(array_vars)
 
-output.write("sen, cat, 1\n")
+output.write("sen, cat, 0\n")
 
 for i in range (0, SIZE1):
     for j in range (0, SIZE2):
