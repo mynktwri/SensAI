@@ -77,10 +77,10 @@ test_labels = []
 
 i = 0
 for row in input_data:
-    if (i % 7 == 0):
-        test_data = test_data + input_data[i]
-        test_labels = test_labels + input_labels[i]
     if (i % 10 == 0):
+        test_data = test_data + [input_data[i]]
+        test_labels = test_labels + [input_labels[i]]
+    elif (i % 10 == 1):
         validation_data = validation_data + [input_data[i]]
         validation_labels = validation_labels + [input_labels[i]]
     else:
