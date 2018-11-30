@@ -1,0 +1,61 @@
+
+#command position array: go through array 
+
+-- command 
+go 
+loop 
+pass
+walk
+move
+iterate
+scan
+
+-- position
+through 
+over
+along
+
+-- position + loop
+the
+
+
+
+
+#command position array preposition variable: go through array with x
+
+-- preposition
+with
+using
+utilizing
+for
+as
+
+
+
+#for variable in array
+for x in array
+
+
+#for count variable in array
+
+-- count
+every
+all
+each
+
+
+#for variable in object array: for i in range of array
+--object
+scope
+spectrum
+area
+
+
+#command position count element in array
+
+#command count element in array
+
+look through
+look up
+
+

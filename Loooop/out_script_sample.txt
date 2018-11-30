@@ -1,0 +1,365 @@
+go through arr, loop, arr,
+go over arr, loop, arr,
+go along arr, loop, arr,
+loop through arr, loop, arr,
+loop over arr, loop, arr,
+loop along arr, loop, arr,
+pass through arr, loop, arr,
+pass over arr, loop, arr,
+pass along arr, loop, arr,
+walk through arr, loop, arr,
+walk over arr, loop, arr,
+walk along arr, loop, arr,
+flip through arr, loop, arr,
+flip over arr, loop, arr,
+flip along arr, loop, arr,
+move through arr, loop, arr,
+move over arr, loop, arr,
+move along arr, loop, arr,
+iterate through arr, loop, arr,
+iterate over arr, loop, arr,
+iterate along arr, loop, arr,
+scan through arr, loop, arr,
+scan over arr, loop, arr,
+scan along arr, loop, arr,
+check through arr, loop, arr,
+check over arr, loop, arr,
+check along arr, loop, arr,
+browse through arr, loop, arr,
+browse over arr, loop, arr,
+browse along arr, loop, arr,
+skim through arr, loop, arr,
+skim over arr, loop, arr,
+skim along arr, loop, arr,
+look through arr, loop, arr,
+look over arr, loop, arr,
+look along arr, loop, arr,
+1
+
+
+loop the arr, loop, arr,
+2
+
+
+go through arr with x, loop, arr, x
+go through arr using x, loop, arr, x
+go through arr utilizing x, loop, arr, x
+go through arr for x, loop, arr, x
+go through arr as x, loop, arr, x
+go over arr with x, loop, arr, x
+go over arr using x, loop, arr, x
+go over arr utilizing x, loop, arr, x
+go over arr for x, loop, arr, x
+go over arr as x, loop, arr, x
+go along arr with x, loop, arr, x
+go along arr using x, loop, arr, x
+go along arr utilizing x, loop, arr, x
+go along arr for x, loop, arr, x
+go along arr as x, loop, arr, x
+loop through arr with x, loop, arr, x
+loop through arr using x, loop, arr, x
+loop through arr utilizing x, loop, arr, x
+loop through arr for x, loop, arr, x
+loop through arr as x, loop, arr, x
+loop over arr with x, loop, arr, x
+loop over arr using x, loop, arr, x
+loop over arr utilizing x, loop, arr, x
+loop over arr for x, loop, arr, x
+loop over arr as x, loop, arr, x
+loop along arr with x, loop, arr, x
+loop along arr using x, loop, arr, x
+loop along arr utilizing x, loop, arr, x
+loop along arr for x, loop, arr, x
+loop along arr as x, loop, arr, x
+pass through arr with x, loop, arr, x
+pass through arr using x, loop, arr, x
+pass through arr utilizing x, loop, arr, x
+pass through arr for x, loop, arr, x
+pass through arr as x, loop, arr, x
+pass over arr with x, loop, arr, x
+pass over arr using x, loop, arr, x
+pass over arr utilizing x, loop, arr, x
+pass over arr for x, loop, arr, x
+pass over arr as x, loop, arr, x
+pass along arr with x, loop, arr, x
+pass along arr using x, loop, arr, x
+pass along arr utilizing x, loop, arr, x
+pass along arr for x, loop, arr, x
+pass along arr as x, loop, arr, x
+walk through arr with x, loop, arr, x
+walk through arr using x, loop, arr, x
+walk through arr utilizing x, loop, arr, x
+walk through arr for x, loop, arr, x
+walk through arr as x, loop, arr, x
+walk over arr with x, loop, arr, x
+walk over arr using x, loop, arr, x
+walk over arr utilizing x, loop, arr, x
+walk over arr for x, loop, arr, x
+walk over arr as x, loop, arr, x
+walk along arr with x, loop, arr, x
+walk along arr using x, loop, arr, x
+walk along arr utilizing x, loop, arr, x
+walk along arr for x, loop, arr, x
+walk along arr as x, loop, arr, x
+flip through arr with x, loop, arr, x
+flip through arr using x, loop, arr, x
+flip through arr utilizing x, loop, arr, x
+flip through arr for x, loop, arr, x
+flip through arr as x, loop, arr, x
+flip over arr with x, loop, arr, x
+flip over arr using x, loop, arr, x
+flip over arr utilizing x, loop, arr, x
+flip over arr for x, loop, arr, x
+flip over arr as x, loop, arr, x
+flip along arr with x, loop, arr, x
+flip along arr using x, loop, arr, x
+flip along arr utilizing x, loop, arr, x
+flip along arr for x, loop, arr, x
+flip along arr as x, loop, arr, x
+move through arr with x, loop, arr, x
+move through arr using x, loop, arr, x
+move through arr utilizing x, loop, arr, x
+move through arr for x, loop, arr, x
+move through arr as x, loop, arr, x
+move over arr with x, loop, arr, x
+move over arr using x, loop, arr, x
+move over arr utilizing x, loop, arr, x
+move over arr for x, loop, arr, x
+move over arr as x, loop, arr, x
+move along arr with x, loop, arr, x
+move along arr using x, loop, arr, x
+move along arr utilizing x, loop, arr, x
+move along arr for x, loop, arr, x
+move along arr as x, loop, arr, x
+iterate through arr with x, loop, arr, x
+iterate through arr using x, loop, arr, x
+iterate through arr utilizing x, loop, arr, x
+iterate through arr for x, loop, arr, x
+iterate through arr as x, loop, arr, x
+iterate over arr with x, loop, arr, x
+iterate over arr using x, loop, arr, x
+iterate over arr utilizing x, loop, arr, x
+iterate over arr for x, loop, arr, x
+iterate over arr as x, loop, arr, x
+iterate along arr with x, loop, arr, x
+iterate along arr using x, loop, arr, x
+iterate along arr utilizing x, loop, arr, x
+iterate along arr for x, loop, arr, x
+iterate along arr as x, loop, arr, x
+scan through arr with x, loop, arr, x
+scan through arr using x, loop, arr, x
+scan through arr utilizing x, loop, arr, x
+scan through arr for x, loop, arr, x
+scan through arr as x, loop, arr, x
+scan over arr with x, loop, arr, x
+scan over arr using x, loop, arr, x
+scan over arr utilizing x, loop, arr, x
+scan over arr for x, loop, arr, x
+scan over arr as x, loop, arr, x
+scan along arr with x, loop, arr, x
+scan along arr using x, loop, arr, x
+scan along arr utilizing x, loop, arr, x
+scan along arr for x, loop, arr, x
+scan along arr as x, loop, arr, x
+check through arr with x, loop, arr, x
+check through arr using x, loop, arr, x
+check through arr utilizing x, loop, arr, x
+check through arr for x, loop, arr, x
+check through arr as x, loop, arr, x
+check over arr with x, loop, arr, x
+check over arr using x, loop, arr, x
+check over arr utilizing x, loop, arr, x
+check over arr for x, loop, arr, x
+check over arr as x, loop, arr, x
+check along arr with x, loop, arr, x
+check along arr using x, loop, arr, x
+check along arr utilizing x, loop, arr, x
+check along arr for x, loop, arr, x
+check along arr as x, loop, arr, x
+browse through arr with x, loop, arr, x
+browse through arr using x, loop, arr, x
+browse through arr utilizing x, loop, arr, x
+browse through arr for x, loop, arr, x
+browse through arr as x, loop, arr, x
+browse over arr with x, loop, arr, x
+browse over arr using x, loop, arr, x
+browse over arr utilizing x, loop, arr, x
+browse over arr for x, loop, arr, x
+browse over arr as x, loop, arr, x
+browse along arr with x, loop, arr, x
+browse along arr using x, loop, arr, x
+browse along arr utilizing x, loop, arr, x
+browse along arr for x, loop, arr, x
+browse along arr as x, loop, arr, x
+skim through arr with x, loop, arr, x
+skim through arr using x, loop, arr, x
+skim through arr utilizing x, loop, arr, x
+skim through arr for x, loop, arr, x
+skim through arr as x, loop, arr, x
+skim over arr with x, loop, arr, x
+skim over arr using x, loop, arr, x
+skim over arr utilizing x, loop, arr, x
+skim over arr for x, loop, arr, x
+skim over arr as x, loop, arr, x
+skim along arr with x, loop, arr, x
+skim along arr using x, loop, arr, x
+skim along arr utilizing x, loop, arr, x
+skim along arr for x, loop, arr, x
+skim along arr as x, loop, arr, x
+look through arr with x, loop, arr, x
+look through arr using x, loop, arr, x
+look through arr utilizing x, loop, arr, x
+look through arr for x, loop, arr, x
+look through arr as x, loop, arr, x
+look over arr with x, loop, arr, x
+look over arr using x, loop, arr, x
+look over arr utilizing x, loop, arr, x
+look over arr for x, loop, arr, x
+look over arr as x, loop, arr, x
+look along arr with x, loop, arr, x
+look along arr using x, loop, arr, x
+look along arr utilizing x, loop, arr, x
+look along arr for x, loop, arr, x
+look along arr as x, loop, arr, x
+3
+
+
+for x in scope of arr, loop, arr, x
+for x in spectrum of arr, loop, arr, x
+for x in area of arr, loop, arr, x
+4
+
+
+for x in arr, loop, arr, x
+5
+
+
+for all x in arr, loop, arr, x
+for every x in arr, loop, arr, x
+for each x in arr, loop, arr, x
+6
+
+
+go through all x in arr, loop, arr, x
+go through every x in arr, loop, arr, x
+go through each x in arr, loop, arr, x
+go over all x in arr, loop, arr, x
+go over every x in arr, loop, arr, x
+go over each x in arr, loop, arr, x
+go along all x in arr, loop, arr, x
+go along every x in arr, loop, arr, x
+go along each x in arr, loop, arr, x
+loop through all x in arr, loop, arr, x
+loop through every x in arr, loop, arr, x
+loop through each x in arr, loop, arr, x
+loop over all x in arr, loop, arr, x
+loop over every x in arr, loop, arr, x
+loop over each x in arr, loop, arr, x
+loop along all x in arr, loop, arr, x
+loop along every x in arr, loop, arr, x
+loop along each x in arr, loop, arr, x
+pass through all x in arr, loop, arr, x
+pass through every x in arr, loop, arr, x
+pass through each x in arr, loop, arr, x
+pass over all x in arr, loop, arr, x
+pass over every x in arr, loop, arr, x
+pass over each x in arr, loop, arr, x
+pass along all x in arr, loop, arr, x
+pass along every x in arr, loop, arr, x
+pass along each x in arr, loop, arr, x
+walk through all x in arr, loop, arr, x
+walk through every x in arr, loop, arr, x
+walk through each x in arr, loop, arr, x
+walk over all x in arr, loop, arr, x
+walk over every x in arr, loop, arr, x
+walk over each x in arr, loop, arr, x
+walk along all x in arr, loop, arr, x
+walk along every x in arr, loop, arr, x
+walk along each x in arr, loop, arr, x
+flip through all x in arr, loop, arr, x
+flip through every x in arr, loop, arr, x
+flip through each x in arr, loop, arr, x
+flip over all x in arr, loop, arr, x
+flip over every x in arr, loop, arr, x
+flip over each x in arr, loop, arr, x
+flip along all x in arr, loop, arr, x
+flip along every x in arr, loop, arr, x
+flip along each x in arr, loop, arr, x
+move through all x in arr, loop, arr, x
+move through every x in arr, loop, arr, x
+move through each x in arr, loop, arr, x
+move over all x in arr, loop, arr, x
+move over every x in arr, loop, arr, x
+move over each x in arr, loop, arr, x
+move along all x in arr, loop, arr, x
+move along every x in arr, loop, arr, x
+move along each x in arr, loop, arr, x
+iterate through all x in arr, loop, arr, x
+iterate through every x in arr, loop, arr, x
+iterate through each x in arr, loop, arr, x
+iterate over all x in arr, loop, arr, x
+iterate over every x in arr, loop, arr, x
+iterate over each x in arr, loop, arr, x
+iterate along all x in arr, loop, arr, x
+iterate along every x in arr, loop, arr, x
+iterate along each x in arr, loop, arr, x
+scan through all x in arr, loop, arr, x
+scan through every x in arr, loop, arr, x
+scan through each x in arr, loop, arr, x
+scan over all x in arr, loop, arr, x
+scan over every x in arr, loop, arr, x
+scan over each x in arr, loop, arr, x
+scan along all x in arr, loop, arr, x
+scan along every x in arr, loop, arr, x
+scan along each x in arr, loop, arr, x
+check through all x in arr, loop, arr, x
+check through every x in arr, loop, arr, x
+check through each x in arr, loop, arr, x
+check over all x in arr, loop, arr, x
+check over every x in arr, loop, arr, x
+check over each x in arr, loop, arr, x
+check along all x in arr, loop, arr, x
+check along every x in arr, loop, arr, x
+check along each x in arr, loop, arr, x
+browse through all x in arr, loop, arr, x
+browse through every x in arr, loop, arr, x
+browse through each x in arr, loop, arr, x
+browse over all x in arr, loop, arr, x
+browse over every x in arr, loop, arr, x
+browse over each x in arr, loop, arr, x
+browse along all x in arr, loop, arr, x
+browse along every x in arr, loop, arr, x
+browse along each x in arr, loop, arr, x
+skim through all x in arr, loop, arr, x
+skim through every x in arr, loop, arr, x
+skim through each x in arr, loop, arr, x
+skim over all x in arr, loop, arr, x
+skim over every x in arr, loop, arr, x
+skim over each x in arr, loop, arr, x
+skim along all x in arr, loop, arr, x
+skim along every x in arr, loop, arr, x
+skim along each x in arr, loop, arr, x
+look through all x in arr, loop, arr, x
+look through every x in arr, loop, arr, x
+look through each x in arr, loop, arr, x
+look over all x in arr, loop, arr, x
+look over every x in arr, loop, arr, x
+look over each x in arr, loop, arr, x
+look along all x in arr, loop, arr, x
+look along every x in arr, loop, arr, x
+look along each x in arr, loop, arr, x
+7
+
+
+check all x in arr, loop, arr, x
+check every x in arr, loop, arr, x
+check each x in arr, loop, arr, x
+investigate all x in arr, loop, arr, x
+investigate every x in arr, loop, arr, x
+investigate each x in arr, loop, arr, x
+consider all x in arr, loop, arr, x
+consider every x in arr, loop, arr, x
+consider each x in arr, loop, arr, x
+8
+
+
