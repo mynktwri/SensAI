@@ -132,7 +132,7 @@ def create_model():
 
 estimator =KerasClassifier(build_fn=create_model, epochs=10, batch_size=1024, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
-results = cross_val_score(estimator, input_data, encoded_labels, cv=5)
+results = cross_val_score(estimator, input_data, encoded_labels, cv=kfold)
 print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
 # history = model.fit(x=train_data,
 #                     y=train_labels,
