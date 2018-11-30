@@ -120,4 +120,17 @@ def ifObject(sentence):
     return objone, operator, objtwo
 
 
+def varCode(obj1, obj2):
+    return obj1 + "=" + obj2
+
+def printCode(obj1):
+    return "print(" + obj1 + ")"
+
+def loopCode(obj1):
+    return "for x in range ( , ):"
+
+def ifCode(obj1, oper, obj2):
+    return "if " + obj1 + " " + oper + " " + obj2 + ":"
+
+
 
