@@ -1,0 +1,71 @@
+point x to 0, x 0
+turn x to 0, x 0
+set x to 0, x 0
+
+safe x as 0, x 0
+
+make x a 0, x 0
+
+
+designate 0 to x, x 0
+change 0 to x, x 0
+appoint 0 to x, x 0
+schedule 0 to x, x 0
+direct 0 to x, x 0
+orientate 0 to x, x 0
+realize 0 to x, x 0
+write 0 to x, x 0
+allocate 0 to x, x 0
+
+place 0 in x, x 0
+store 0 in x, x 0
+insert 0 in x, x 0
+deposit 0 in x, x 0
+put 0 in x, x 0
+safe 0 in x, x 0
+
+change 0 into x, x 0
+deposit 0 into x, x 0
+put 0 into x, x 0
+
+
+0 designated to x, x 0
+0 appointed to x, x 0
+0 directed to x, x 0
+0 written to x, x 0
+0 allocated to x, x 0
+
+0 placed in x, x 0
+0 stored in x, x 0
+0 inserted in x, x 0
+0 deposited in x, x 0
+0 put in x, x 0
+0 safed in x, x 0
+0 realized in x, x 0
+
+0 deposited into x, x 0
+0 put into x, x 0
+0 inserted into x, x 0
+
+
+may x be 0, x 0
+may x have 0, x 0
+may x take 0, x 0
+
+
+x designated to 0, x 0
+x changed to 0, x 0
+x appointed to 0, x 0
+x scheduled to 0, x 0
+x directed to 0, x 0
+x orientated to 0, x 0
+x realized to 0, x 0
+x directed to 0, x 0
+
+
+assign x 0 , x 0
+make x 0 , x 0
+give x 0 , x 0
+designate x 0 , x 0
+appoint x 0 , x 0
+
