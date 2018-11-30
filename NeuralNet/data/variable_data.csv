@@ -1,4 +1,4 @@
-sen, cat, 0, 1
+sen,cat,0,1
 point x to 0, variable, x, 0
 point x to x, variable, x, x
 point x to wrferer, variable, x, wrferer

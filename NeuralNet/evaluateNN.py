@@ -1,11 +1,18 @@
+import os, sys
+# sys.path.append(os.path.join(os.getcwd()))
 import tensorflow as tf
 from tensorflow import keras
-from NeuralNet import DB_index_pull as db_pull
+import DB_index_pull as db_pull
 import numpy as np
+from keras.utils import np_utils
+from keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
+from sklearn.preprocessing import LabelEncoder
 import pandas as pd
+import random
+random.seed(7)
 
-input_data = []
-input_labels = []
 
 
 def db_getlabel(input):
@@ -21,79 +28,108 @@ def db_getlabel(input):
         return -1
 
 
+# reads sentences from filename
+# returns a list of Series of words in the sentence
+#   each index of list is one sentence
 def read_sentences(filename):
-    #TODO: THIS BITFCH
-    return pd.read_csv("data/" + filename)["sen"].transpose()
+    return pd.read_csv("data/" + filename)["sen"], pd.read_csv("data/" + filename)["cat"]
 
 
+# parse input through a file
+# sentences returns the list of series words in each sentence
 def parse_input(filename):
-    sentences = read_sentences(filename)
-    indices = db_pull.in_pipe(sentences)
-
-
-# data_df = pd.read_csv("../Webscrape/clean_terms.csv")
-
-# data_df = data_df.drop(data_df.columns[:1], axis=1)
+    sentences, targets = read_sentences(filename)
+    indices, wordlist, poslist = db_pull.in_pipe(sentences)
+    # pad sequences to the same length
+    indices = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
+    poslist = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
+    # print(len(indices))
+    # print(len(wordlist))
+    # print(len(poslist))
+    # TODO: assert to confirm shape of dataframes
+    return indices, poslist, targets
 #  Categories:
 #  1: variable
 #  2: print
 #  3: loop
 #  4: if
-#
 
 # training data
-# parse_input("if_data.csv")
-# parse_input("variable_data.csv")
-parse_input("print_data.csv")
-parse_input("loop_data.csv")
+# if_indices, if_poslist, if_targets = parse_input("if_data.csv")
+variable_indices, variable_poslist, variable_targets = parse_input("variable_data.csv")
+print_indices, print_poslist, print_targets = parse_input("print_data.csv")
+loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv")
 
-train_data = []
-train_labels = []
-validation_data = []
-validation_labels = []
-test_data = []
-test_labels = []
+#concatenate data to a meaningful shape for the neural network
+id_list = pd.concat([variable_indices, print_indices, loop_indices], axis=0, ignore_index=True)
+pos_list = pd.concat([variable_poslist, print_poslist, loop_poslist], axis=0, ignore_index=True)
 
-i = 0
-for row in input_data:
-    if (i % 3 == 0):
-        train_data = train_data + [input_data[i]]
-        train_labels = train_labels + [input_labels[i]]
-    if (i % 3 == 1):
-        validation_data = validation_data + [input_data[i]]
-        validation_labels = validation_labels + [input_labels[i]]
-    if (i % 3 == 2):
-        test_data = test_data + [input_data[i]]
-        test_labels = test_labels + [input_labels[i]]
-    i = i + 1
+input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
+input_labels = pd.concat([variable_targets, print_targets, loop_targets], axis=0, ignore_index=True)
 
-train_data = keras.preprocessing.sequence.pad_sequences(train_data, value=9998, padding='post', maxlen=20)
-validation_data = keras.preprocessing.sequence.pad_sequences(validation_data, value=9998, padding='post', maxlen=20)
-test_data = keras.preprocessing.sequence.pad_sequences(test_data, value=9998, padding='post', maxlen=20)
+
+train_data = pd.DataFrame()
+train_labels = pd.Series()
+# validation_data = pd.DataFrame()
+# validation_labels = pd.Series()
+test_data = pd.DataFrame()
+test_labels = pd.Series()
+
+shuffled_data = pd.DataFrame.reset_index(pd.DataFrame.sample(pd.concat([input_data, input_labels],
+                                                                       axis=1, ignore_index=True),
+                                                             frac=1), drop=True)
+train_labels = shuffled_data[20]
+train_data = shuffled_data.drop(columns=20)
+train_data, test_data = np.split(train_data, [int(.9*len(train_data))])
+# TODO: onehot encoding for labels
+# encode class values as integers
+encoder = LabelEncoder()
+encoder.fit(train_labels)
+encoded_labels = encoder.transform(train_labels)
+# convert integers to dummy variables (i.e. one hot encoded)
+encoded_labels = np_utils.to_categorical(encoded_labels)
+train_labels, test_labels = np.split(encoded_labels, [int(.9*len(encoded_labels))])
+
+
+
+print(test_data.shape)
+print(test_labels.shape)
+# print(validation_data.shape)
+# print(validation_labels.shape)
+print(train_data.shape)
+print(train_labels.shape)
 
 # Build the model
-
-vocab_size = 10000
+# vocab_size is the size of our database at model initialization.
+# this ensures that all new words have already been added to the database.
+vocab_size = db_pull.db_len
 
 model = keras.Sequential()
-model.add(keras.layers.Embedding(vocab_size, 16))
+# Input Layer
+model.add(keras.layers.Embedding(vocab_size, 64, input_length=20))
+#   Outputs shape=
 model.add(keras.layers.GlobalAveragePooling1D())
-model.add(keras.layers.Dense(16, activation=tf.nn.relu))
-model.add(keras.layers.Dense(1, activation=tf.nn.sigmoid))
+#   Outputs 1D shape=
+# Hidden Layer
+model.add(keras.layers.Dense(64, activation=tf.nn.relu))
+# Output Layer: needs as many nodes as there are categories.
+model.add(keras.layers.Dense(3, activation='softmax'))
 
+print(model.summary())
 model.compile(optimizer=tf.train.AdamOptimizer(),
-              loss='binary_crossentropy',
-              metrics=['accuracy'])
+              loss='categorical_crossentropy',
+              metrics=['accuracy']) # consider RMSE or MSE as metric for error
 
 #  Train the model
 
-history = model.fit(train_data,
-                    train_labels,
+history = model.fit(x=train_data,
+                    y=train_labels,
                     epochs=40,
                     batch_size=512,
-                    validation_data=(validation_data, validation_labels),
+                    validation_split=0.1,
+                    # validation_data=(validation_data, validation_labels),
                     verbose=1)
-
+print(history)
 results = model.evaluate(test_data, test_labels)
 
 print(results)
