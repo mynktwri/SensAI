@@ -6,6 +6,7 @@ sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 import active_learning_module as learn
 import Process
 
+db_len = 0
 
 def db_clean(data_df, save=False):
     # data_df = data_df.drop(data_df.columns[:1], axis=1)
@@ -122,6 +123,7 @@ def parse_input(sentences, df):
 
 
 def in_pipe(sentences):
+    global db_len
     data_df = pd.read_csv("clean_terms_saved.csv")
     data_df = data_df.drop(data_df.columns[:1], axis=1)
     #  Categories:
@@ -130,6 +132,7 @@ def in_pipe(sentences):
     #  3: loop
     #  4: if
     data_df, indices, wordlist, poslist = parse_input(sentences, data_df)
+    db_len = len(data_df)
     return indices, wordlist, poslist
 
 # SAMPLE USAGE

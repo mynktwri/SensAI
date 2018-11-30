@@ -60,16 +60,13 @@ variable_indices, variable_poslist, variable_targets = parse_input("variable_dat
 print_indices, print_poslist, print_targets = parse_input("print_data.csv")
 loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv")
 
-
-
-
-
-
+#concatenate data to a meaningful shape for the neural network
 id_list = pd.concat([variable_indices, print_indices, loop_indices], axis=0, ignore_index=True)
 pos_list = pd.concat([variable_poslist, print_poslist, loop_poslist], axis=0, ignore_index=True)
 
 input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
 input_labels = pd.concat([variable_targets, print_targets, loop_targets], axis=0, ignore_index=True)
+
 
 train_data = []
 train_labels = []
@@ -81,40 +78,47 @@ test_labels = []
 i = 0
 for row in input_data:
     if (i % 7 == 0):
-        test_data = test_data + [input_data[i]]
-        test_labels = test_labels + [input_labels[i]]
+        test_data = test_data + input_data[i]
+        test_labels = test_labels + input_labels[i]
+    if (i % 10 == 0):
+        validation_data = validation_data + [input_data[i]]
+        validation_labels = validation_labels + [input_labels[i]]
     else:
         train_data = train_data + [input_data[i]]
         train_labels = train_labels + [input_labels[i]]
     i = i + 1
 
-train_data = keras.preprocessing.sequence.pad_sequences(train_data, value=9, padding='post', maxlen=20)
-validation_data = keras.preprocessing.sequence.pad_sequences(validation_data, value=9, padding='post', maxlen=20)
-test_data = keras.preprocessing.sequence.pad_sequences(test_data, value=9, padding='post', maxlen=20)
-
 # Build the model
 
-vocab_size = 10
+# vocab_size is the size of our database at model initialization.
+# this ensures that all new words have already been added to the database.
+# TODO
+vocab_size = db_pull.db_len
 
 model = keras.Sequential()
+# Input Layer
 model.add(keras.layers.Embedding(vocab_size, 16))
+#   Outputs shape=
 model.add(keras.layers.GlobalAveragePooling1D())
+#   Outputs 1D shape=
+# Hidden Layer
 model.add(keras.layers.Dense(16, activation=tf.nn.relu))
+# Output Layer: needs as many nodes as there are categories.
 model.add(keras.layers.Dense(1, activation=tf.nn.sigmoid))
 
 model.compile(optimizer=tf.train.AdamOptimizer(),
-              loss='binary_crossentropy',
-              metrics=['accuracy'])
+              loss='binary_crossentropy', #change loss function to one that can do multi-class classification
+              metrics=['accuracy']) # consider RMSE or MSE as metric for error
 
 #  Train the model
 
-history = model.fit(train_data,
-                    train_labels,
+history = model.fit(x=train_data,
+                    y=train_labels,
                     epochs=40,
                     batch_size=512,
                     validation_data=(validation_data, validation_labels),
                     verbose=1)
-
+print(history)
 results = model.evaluate(test_data, test_labels)
 
 print(results)
