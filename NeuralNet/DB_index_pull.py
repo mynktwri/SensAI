@@ -43,20 +43,24 @@ def changePOS(poslist):
     # Verb = 1, noun = 2, adj = 3, adv = 4,
     # Preposition = 5, article = 6, participle = 7, quantifier = 8,
     # number = 9, symbol = 10
-    for x in range(len(poslist)):
-        if poslist[x] == "verbs":
+    for x in range(0, len(poslist)):
+        # if poslist[x] == "punctuation":
+        #     poslist[x] = 0
+        #
+        # else
+        if poslist[x] == "verb":
             poslist[x] = 1
 
-        elif poslist[x] == "nouns":
+        elif poslist[x] == "noun":
             poslist[x] = 2
 
-        elif poslist[x] == "adj":
+        elif poslist[x] == "adjective":
             poslist[x] = 3
 
-        elif poslist[x] == "Adv":
+        elif poslist[x] == "adverb":
             poslist[x] = 4
 
-        elif poslist[x] == "prep":
+        elif poslist[x] == "preposition":
             poslist[x] = 5
 
         elif poslist[x] == "article":
@@ -68,48 +72,52 @@ def changePOS(poslist):
         elif poslist[x] == "quantifier":
             poslist[x] = 8
 
-        elif poslist[x] == "number":
+        elif poslist[x] == "numeral":
             poslist[x] = 9
 
         elif poslist[x] == "symbol":
             poslist[x] = 10
+
+        elif poslist[x] == "coordinating_conj":
+            poslist[x] = 11
+
     return poslist
 
 
 def parse_input(sentences, df):
     sentences_list = []
     sentences_pos = []
+    indices = []
+    count = 0
     for s in sentences:
         poslist = Process.getTag(s)
         wordlist = Process.getWord(s)
-        for i in range(len(wordlist), 0):
+        for i in range(0, len(poslist)):
             if poslist[i] == "punctuation":
                 # remove it
                 print("removing " + wordlist[i])
                 wordlist.remove(wordlist[i])
                 poslist.remove(poslist[i])
-        poslist = changePOS(poslist)
+        # poslist = changePOS(poslist)
         sentences_list.append(wordlist)
-        sentences_pos.append(poslist)
-    # parse through our database
-    indices = []
-    count = 0
-    for sentence in sentences_list:
+        sentences_pos.append(changePOS(poslist))
         newword = False
         while not newword:
             word_db_id = []
             newword = True
-            for i in range(len(sentence)):
-                temp = db_get(sentence[i].lower(), df)
+            for i in range(len(wordlist)):
+                temp = db_get(wordlist[i].lower(), df)
                 if temp == -1:
-                    df = learn.new_word(sentence[i].lower(), df)
+                    df = learn.new_word(wordlist[i].lower(), df)
                     newword = False
                 else:
                     word_db_id.append(temp)
             if not newword: df = db_clean(df, save=True)
-        print(count / len(sentences_list))
+        if count % 1000 == 0:
+            print(f'{count / len(sentences):1.4f}')
         count += 1
         indices.append(word_db_id)
+    # parse through our database
     return df, indices, sentences_list, sentences_pos
 
 
