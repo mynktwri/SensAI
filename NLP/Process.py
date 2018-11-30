@@ -17,8 +17,7 @@ def getTag(text):
     quantifier = ["LS"]
     pos_map = {"adjective": ["JJ", "JJR", "JJS", "PDT"],
                "adverb": ["RB", "RBR", "RBS", "EX", "WDT", "WP", "WP$", "WRB"],
-               "common_noun": ["PRP", "PRP$", "POS", "NN", "NNS", "FW", "UH"],
-               "proper_noun": ["NNP", "NNPS"],
+               "noun": ["PRP", "PRP$", "POS", "NN", "NNS", "FW", "UH", "NNP", "NNPS"],
                "verb": ["MD", "TO", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"],
                "symbol": ["SYM"
                           "BOL"],
