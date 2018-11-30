@@ -78,7 +78,7 @@ test_labels = pd.Series()
 
 shuffled_data = pd.DataFrame.reset_index(pd.DataFrame.sample(pd.concat([input_data, input_labels],
                                                                        axis=1, ignore_index=True),
-                                                             frac=1))
+                                                             frac=1), drop=True)
 train_labels = shuffled_data[20]
 train_data = shuffled_data.drop(columns=20)
 train_data, test_data = np.split(train_data, [int(.9*len(train_data))])
@@ -103,7 +103,7 @@ print(test_labels.shape)
 # print(validation_labels.shape)
 print(train_data.shape)
 print(train_labels.shape)
-exit(0)
+
 # Build the model
 
 # vocab_size is the size of our database at model initialization.
@@ -112,12 +112,12 @@ vocab_size = db_pull.db_len
 
 model = keras.Sequential()
 # Input Layer
-model.add(keras.layers.Embedding(vocab_size, 16))
+model.add(keras.layers.Embedding(vocab_size, 64, input_length=20))
 #   Outputs shape=
 model.add(keras.layers.GlobalAveragePooling1D())
 #   Outputs 1D shape=
 # Hidden Layer
-model.add(keras.layers.Dense(16, activation=tf.nn.relu))
+model.add(keras.layers.Dense(64, activation=tf.nn.relu))
 # Output Layer: needs as many nodes as there are categories.
 model.add(keras.layers.Dense(3, activation='softmax'))
 
@@ -131,7 +131,7 @@ history = model.fit(x=train_data,
                     y=train_labels,
                     epochs=40,
                     batch_size=512,
-                    validation_split = 0.1,
+                    validation_split=0.1,
                     # validation_data=(validation_data, validation_labels),
                     verbose=1)
 print(history)
