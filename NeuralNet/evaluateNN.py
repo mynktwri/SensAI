@@ -4,9 +4,15 @@ import tensorflow as tf
 from tensorflow import keras
 import DB_index_pull as db_pull
 import numpy as np
+from keras.utils import np_utils
+from keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
+from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import random
 random.seed(7)
+
 
 
 def db_getlabel(input):
@@ -34,26 +40,19 @@ def read_sentences(filename):
 def parse_input(filename):
     sentences, targets = read_sentences(filename)
     indices, wordlist, poslist = db_pull.in_pipe(sentences)
-    indices = keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post')
-    poslist = keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post')
+    # pad sequences to the same length
+    indices = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
+    poslist = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
     # print(len(indices))
     # print(len(wordlist))
     # print(len(poslist))
-    indices = pd.DataFrame.from_dict(indices)
-    poslist = pd.DataFrame.from_dict(poslist)
-    #TODO: assert to confirm shape of dataframes
+    # TODO: assert to confirm shape of dataframes
     return indices, poslist, targets
-
-
-# data_df = pd.read_csv("../Webscrape/clean_terms.csv")
-
-# data_df = data_df.drop(data_df.columns[:1], axis=1)
 #  Categories:
 #  1: variable
 #  2: print
 #  3: loop
 #  4: if
-#
 
 # training data
 # if_indices, if_poslist, if_targets = parse_input("if_data.csv")
@@ -82,21 +81,17 @@ shuffled_data = pd.DataFrame.reset_index(pd.DataFrame.sample(pd.concat([input_da
 train_labels = shuffled_data[20]
 train_data = shuffled_data.drop(columns=20)
 train_data, test_data = np.split(train_data, [int(.9*len(train_data))])
-train_labels, test_labels = np.split(train_labels, [int(.9*len(train_labels))])
+# TODO: onehot encoding for labels
+# encode class values as integers
+encoder = LabelEncoder()
+encoder.fit(train_labels)
+encoded_labels = encoder.transform(train_labels)
+# convert integers to dummy variables (i.e. one hot encoded)
+encoded_labels = np_utils.to_categorical(encoded_labels)
+train_labels, test_labels = np.split(encoded_labels, [int(.9*len(encoded_labels))])
 
 
-# for i in range(1, len(input_data)):
-#     if i % 7 == 0:
-#         test_data = pd.concat([test_data, input_data[:i]], axis=0, ignore_index=True)
-#         test_labels.append(pd.Series(input_labels[i]), ignore_index=True)
-#         print(i/len(input_data))
-#     if i % 10 == 0:
-#         validation_data = pd.concat([validation_data, input_data[:i]], axis=0, ignore_index=True)
-#         validation_labels.append(pd.Series(input_labels[i]), ignore_index=True)
-#         print(i / len(input_data))
-#     else:
-#         train_data = pd.concat([train_data, input_data[:i]], axis=0, ignore_index=True)
-#         train_labels.append(pd.Series(input_labels[i]), ignore_index=True)
+
 print(test_data.shape)
 print(test_labels.shape)
 # print(validation_data.shape)
@@ -105,7 +100,6 @@ print(train_data.shape)
 print(train_labels.shape)
 
 # Build the model
-
 # vocab_size is the size of our database at model initialization.
 # this ensures that all new words have already been added to the database.
 vocab_size = db_pull.db_len
@@ -121,6 +115,7 @@ model.add(keras.layers.Dense(64, activation=tf.nn.relu))
 # Output Layer: needs as many nodes as there are categories.
 model.add(keras.layers.Dense(3, activation='softmax'))
 
+print(model.summary())
 model.compile(optimizer=tf.train.AdamOptimizer(),
               loss='categorical_crossentropy',
               metrics=['accuracy']) # consider RMSE or MSE as metric for error
