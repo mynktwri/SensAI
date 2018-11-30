@@ -32,11 +32,15 @@ def varObject(sentence):
                 objtwo = wordlist[2]
             else:
                 objtwo = wordlist[3]
-        elif poslist[2] == "noun" or "numeral":
+        elif poslist[2] == "noun" or "numeral" or wordlist[2] == "to":
             objtwo = wordlist[2]
     elif poslist[0] == "noun" or "numeral":
-        objone = wordlist[0]
-        objtwo = wordlist[2]
+        if wordlist[0] == "Set" or "set":
+            objone = wordlist[1]
+            objtwo = wordlist[3]
+        else:
+            objone = wordlist[0]
+            objtwo = wordlist[2]
     elif wordlist[1] == "=" or "->":
         objone = wordlist[0]
         objtwo = wordlist[2]
@@ -51,7 +55,7 @@ def printObject(sentence):
     wordlist = p.getWord(sentence)
     poslist = p.getTag(sentence)
     for x in range(0, len(poslist)):
-        if poslist[x] == "verb":
+        if poslist[x] == "verb" or wordlist[x] == "print":
             if poslist[x + 1] == "article":
                 return wordlist[x + 2]
             else:
@@ -70,6 +74,7 @@ def LoopObject(sentence):
 def ifObject(sentence):
     wordlist = p.getWord(sentence)
     poslist = p.getTag(sentence)
+    objtwo = ""
     objone = wordlist[1]
     operator = ""
     lessthan = ["light", "less", "tin", "small", "lower", "young"]
@@ -116,7 +121,9 @@ def ifObject(sentence):
         else:
             operator = "=="
 
-    objtwo = wordlist(len(wordlist)-1)
+        if x == len(wordlist) - 1:
+            objtwo = wordlist[x]
+
     return objone, operator, objtwo
 
 
