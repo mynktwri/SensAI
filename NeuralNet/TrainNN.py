@@ -5,17 +5,17 @@ import DB_index_pull as db_pull
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_validate
-import pandas as pd
+from pandas import read_csv
 import random
 from keras.models import load_model
 import data_collection as collect
 import final_output as fo
 random.seed(7)
 
-collect.gather()
+# collect.gather()
 
-encoded_labels = pd.read_csv("encoded_labels.csv")
-input_data = pd.read_csv("train_data.csv")
+encoded_labels = read_csv("encoded_labels.csv")
+input_data = read_csv("train_data.csv")
 
 # Build the model
 # vocab_size is the size of our database at model initialization.
@@ -33,6 +33,11 @@ def create_model():
     model.add(keras.layers.Dense(64, activation='relu'))
     model.add(keras.layers.Dense(64, activation='relu'))
     model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
     # Output Layer: needs as many nodes as there are categories.
     model.add(keras.layers.Dense(4, activation='softmax'))
 
@@ -43,7 +48,7 @@ def create_model():
     return model
 #  Train the model
 
-estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=256, verbose=1)
+estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=2048, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
 estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
                             return_train_score=True)
