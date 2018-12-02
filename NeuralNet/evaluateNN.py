@@ -9,7 +9,6 @@ from sklearn.model_selection import cross_validate
 import pandas as pd
 import random
 from keras.models import load_model
-
 import data_collection as collect
 import final_output as fo
 random.seed(7)
@@ -58,7 +57,21 @@ estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, ret
 #                      verbose=1)
 # print(history)
 # results = model.evaluate(test_data, test_labels)
+max_score = 0
+k = 0
+for i in estimators["train_score"]:
+    if i > max_score:
+        model = i["estimator"][k]
+        max_score = i
+    k+=1
+print(model.summary())
 
+model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
+del model  # deletes the existing model
+exit(0)
+# returns a compiled model
+# identical to the previous one
+model = load_model('my_model.h5')
 
 # history = model.fit(x=train_data,
 #                     y=train_labels,
