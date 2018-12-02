@@ -1,0 +1,578 @@
+if x unequal y, if, x, !=, y
+if ( x unequal y ), if, x, !=, y
+1
+
+
+if x equal y, if, x, ==, y
+if ( x equal y ), if, x, ==, y
+if x matched y, if, x, ==, y
+if ( x matched y ), if, x, ==, y
+if x matches y, if, x, ==, y
+if ( x matches y ), if, x, ==, y
+if x equals y, if, x, ==, y
+if ( x equals y ), if, x, ==, y
+if x matching y, if, x, ==, y
+if ( x matching y ), if, x, ==, y
+if x balances y, if, x, ==, y
+if ( x balances y ), if, x, ==, y
+if x == y, if, x, ==, y
+if ( x == y ), if, x, ==, y
+2
+
+
+if x corresponds to y, if, x, ==, y
+if ( x corresponds to y ), if, x, ==, y
+if x agrees with y, if, x, ==, y
+if ( x agrees with y ), if, x, ==, y
+if x same as y, if, x, ==, y
+if ( x same as y ), if, x, ==, y
+if x duplicate of y, if, x, ==, y
+if ( x duplicate of y ), if, x, ==, y
+if x equal to y, if, x, ==, y
+if ( x equal to y ), if, x, ==, y
+if x equivalent to y, if, x, ==, y
+if ( x equivalent to y ), if, x, ==, y
+if x identical to y, if, x, ==, y
+if ( x identical to y ), if, x, ==, y
+3
+
+
+if x is same as y, if, x, ==, y
+if ( x is same as y ), if, x, ==, y
+if x is duplicate of y, if, x, ==, y
+if ( x is duplicate of y ), if, x, ==, y
+if x is equal to y, if, x, ==, y
+if ( x is equal to y ), if, x, ==, y
+if x is equivalent to y, if, x, ==, y
+if ( x is equivalent to y ), if, x, ==, y
+if x is identical to y, if, x, ==, y
+if ( x is identical to y ), if, x, ==, y
+4
+
+
+if x lower y, if, x, <, y
+if ( x lower y ), if, x, <, y
+if x younger y, if, x, <, y
+if ( x younger y ), if, x, <, y
+if x lighter y, if, x, <, y
+if ( x lighter y ), if, x, <, y
+if x less y, if, x, <, y
+if ( x less y ), if, x, <, y
+if x tinier y, if, x, <, y
+if ( x tinier y ), if, x, <, y
+if x smaller y, if, x, <, y
+if ( x smaller y ), if, x, <, y
+if x lower y, if, x, <, y
+if ( x lower y ), if, x, <, y
+5
+
+
+if x taller y, if, x, >, y
+if ( x taller y ), if, x, >, y
+if x higher y, if, x, >, y
+if ( x higher y ), if, x, >, y
+if x greater y, if, x, >, y
+if ( x greater y ), if, x, >, y
+if x older y, if, x, >, y
+if ( x older y ), if, x, >, y
+if x heavier y, if, x, >, y
+if ( x heavier y ), if, x, >, y
+if x bigger y, if, x, >, y
+if ( x bigger y ), if, x, >, y
+if x taler y, if, x, >, y
+if ( x taler y ), if, x, >, y
+6
+
+
+if x smallerEqual y, if, x, <=, y
+if ( x smallerEqual y ), if, x, <=, y
+if x lessEqual y, if, x, <=, y
+if ( x lessEqual y ), if, x, <=, y
+if x lowerEqual y, if, x, <=, y
+if ( x lowerEqual y ), if, x, <=, y
+if x youngerEqual y, if, x, <=, y
+if ( x youngerEqual y ), if, x, <=, y
+if x lighterEqual y, if, x, <=, y
+if ( x lighterEqual y ), if, x, <=, y
+7
+
+
+if x greaterEqual y, if, x, >=, y
+if ( x greaterEqual y ), if, x, >=, y
+if x higherEqual y, if, x, >=, y
+if ( x higherEqual y ), if, x, >=, y
+if x olderEqual y, if, x, >=, y
+if ( x olderEqual y ), if, x, >=, y
+if x heavierEqual y, if, x, >=, y
+if ( x heavierEqual y ), if, x, >=, y
+if x biggerEqual y, if, x, >=, y
+if ( x biggerEqual y ), if, x, >=, y
+8
+
+
+if x is lower than y, if, x, <, y
+if ( x is lower than y ), if, x, <, y
+if x is younger than y, if, x, <, y
+if ( x is younger than y ), if, x, <, y
+if x is lighter than y, if, x, <, y
+if ( x is lighter than y ), if, x, <, y
+if x is less than y, if, x, <, y
+if ( x is less than y ), if, x, <, y
+if x is tinier than y, if, x, <, y
+if ( x is tinier than y ), if, x, <, y
+if x is smaller than y, if, x, <, y
+if ( x is smaller than y ), if, x, <, y
+if x is lower than y, if, x, <, y
+if ( x is lower than y ), if, x, <, y
+9
+
+
+if x is taller than y, if, x, >, y
+if ( x is taller than y ), if, x, >, y
+if x is higher than y, if, x, >, y
+if ( x is higher than y ), if, x, >, y
+if x is greater than y, if, x, >, y
+if ( x is greater than y ), if, x, >, y
+if x is older than y, if, x, >, y
+if ( x is older than y ), if, x, >, y
+if x is heavier than y, if, x, >, y
+if ( x is heavier than y ), if, x, >, y
+if x is bigger than y, if, x, >, y
+if ( x is bigger than y ), if, x, >, y
+if x is taler than y, if, x, >, y
+if ( x is taler than y ), if, x, >, y
+10
+
+
+if x lower than y, if, x, <, y
+if ( x lower than y ), if, x, <, y
+if x younger than y, if, x, <, y
+if ( x younger than y ), if, x, <, y
+if x lighter than y, if, x, <, y
+if ( x lighter than y ), if, x, <, y
+if x less than y, if, x, <, y
+if ( x less than y ), if, x, <, y
+if x tinier than y, if, x, <, y
+if ( x tinier than y ), if, x, <, y
+if x smaller than y, if, x, <, y
+if ( x smaller than y ), if, x, <, y
+if x lower than y, if, x, <, y
+if ( x lower than y ), if, x, <, y
+11
+
+
+if x taller than y, if, x, >, y
+if ( x taller than y ), if, x, >, y
+if x higher than y, if, x, >, y
+if ( x higher than y ), if, x, >, y
+if x greater than y, if, x, >, y
+if ( x greater than y ), if, x, >, y
+if x older than y, if, x, >, y
+if ( x older than y ), if, x, >, y
+if x heavier than y, if, x, >, y
+if ( x heavier than y ), if, x, >, y
+if x bigger than y, if, x, >, y
+if ( x bigger than y ), if, x, >, y
+if x taler than y, if, x, >, y
+if ( x taler than y ), if, x, >, y
+12
+
+
+if x and y are equivalent, if, x, ==, y
+if ( x and y are equivalent ), if, x, ==, y
+if x and y are invariable, if, x, ==, y
+if ( x and y are invariable ), if, x, ==, y
+if x and y are balanced, if, x, ==, y
+if ( x and y are balanced ), if, x, ==, y
+if x and y are corresponding, if, x, ==, y
+if ( x and y are corresponding ), if, x, ==, y
+if x and y are agreeing, if, x, ==, y
+if ( x and y are agreeing ), if, x, ==, y
+if x and y are uniform, if, x, ==, y
+if ( x and y are uniform ), if, x, ==, y
+if x and y are alike, if, x, ==, y
+if ( x and y are alike ), if, x, ==, y
+13
+
+
+if x and y are unequal, if, x, !=, y
+if ( x and y are unequal ), if, x, !=, y
+if x and y are differing, if, x, !=, y
+if ( x and y are differing ), if, x, !=, y
+if x and y are dissimilar, if, x, !=, y
+if ( x and y are dissimilar ), if, x, !=, y
+if x and y are unalike, if, x, !=, y
+if ( x and y are unalike ), if, x, !=, y
+if x and y are vary, if, x, !=, y
+if ( x and y are vary ), if, x, !=, y
+if x and y are diverge, if, x, !=, y
+if ( x and y are diverge ), if, x, !=, y
+if x and y are disagree, if, x, !=, y
+if ( x and y are disagree ), if, x, !=, y
+if x and y are clash, if, x, !=, y
+if ( x and y are clash ), if, x, !=, y
+14
+
+
+if x not same as y, if, x, !=, y
+if ( x not same as y ), if, x, !=, y
+if x not duplicate of y, if, x, !=, y
+if ( x not duplicate of y ), if, x, !=, y
+if x not equal to y, if, x, !=, y
+if ( x not equal to y ), if, x, !=, y
+if x not equivalent to y, if, x, !=, y
+if ( x not equivalent to y ), if, x, !=, y
+if x not identical to y, if, x, !=, y
+if ( x not identical to y ), if, x, !=, y
+15
+
+
+if x is not same as y, if, x, !=, y
+if ( x is not same as y ), if, x, !=, y
+if x is not duplicate of y, if, x, !=, y
+if ( x is not duplicate of y ), if, x, !=, y
+if x is not equal to y, if, x, !=, y
+if ( x is not equal to y ), if, x, !=, y
+if x is not equivalent to y, if, x, !=, y
+if ( x is not equivalent to y ), if, x, !=, y
+if x is not identical to y, if, x, !=, y
+if ( x is not identical to y ), if, x, !=, y
+16
+
+
+if x ! lower y, if, x, >=, y
+if ( x ! lower y ), if, x, >=, y
+if x ! younger y, if, x, >=, y
+if ( x ! younger y ), if, x, >=, y
+if x ! lighter y, if, x, >=, y
+if ( x ! lighter y ), if, x, >=, y
+if x ! less y, if, x, >=, y
+if ( x ! less y ), if, x, >=, y
+if x ! tinier y, if, x, >=, y
+if ( x ! tinier y ), if, x, >=, y
+if x ! smaller y, if, x, >=, y
+if ( x ! smaller y ), if, x, >=, y
+if x ! lower y, if, x, >=, y
+if ( x ! lower y ), if, x, >=, y
+if x isn't lower y, if, x, >=, y
+if ( x isn't lower y ), if, x, >=, y
+if x isn't younger y, if, x, >=, y
+if ( x isn't younger y ), if, x, >=, y
+if x isn't lighter y, if, x, >=, y
+if ( x isn't lighter y ), if, x, >=, y
+if x isn't less y, if, x, >=, y
+if ( x isn't less y ), if, x, >=, y
+if x isn't tinier y, if, x, >=, y
+if ( x isn't tinier y ), if, x, >=, y
+if x isn't smaller y, if, x, >=, y
+if ( x isn't smaller y ), if, x, >=, y
+if x isn't lower y, if, x, >=, y
+if ( x isn't lower y ), if, x, >=, y
+if x not lower y, if, x, >=, y
+if ( x not lower y ), if, x, >=, y
+if x not younger y, if, x, >=, y
+if ( x not younger y ), if, x, >=, y
+if x not lighter y, if, x, >=, y
+if ( x not lighter y ), if, x, >=, y
+if x not less y, if, x, >=, y
+if ( x not less y ), if, x, >=, y
+if x not tinier y, if, x, >=, y
+if ( x not tinier y ), if, x, >=, y
+if x not smaller y, if, x, >=, y
+if ( x not smaller y ), if, x, >=, y
+if x not lower y, if, x, >=, y
+if ( x not lower y ), if, x, >=, y
+17
+
+
+if x ! taller y, if, x, <=, y
+if ( x ! taller y ), if, x, <=, y
+if x ! higher y, if, x, <=, y
+if ( x ! higher y ), if, x, <=, y
+if x ! greater y, if, x, <=, y
+if ( x ! greater y ), if, x, <=, y
+if x ! older y, if, x, <=, y
+if ( x ! older y ), if, x, <=, y
+if x ! heavier y, if, x, <=, y
+if ( x ! heavier y ), if, x, <=, y
+if x ! bigger y, if, x, <=, y
+if ( x ! bigger y ), if, x, <=, y
+if x ! taler y, if, x, <=, y
+if ( x ! taler y ), if, x, <=, y
+if x isn't taller y, if, x, <=, y
+if ( x isn't taller y ), if, x, <=, y
+if x isn't higher y, if, x, <=, y
+if ( x isn't higher y ), if, x, <=, y
+if x isn't greater y, if, x, <=, y
+if ( x isn't greater y ), if, x, <=, y
+if x isn't older y, if, x, <=, y
+if ( x isn't older y ), if, x, <=, y
+if x isn't heavier y, if, x, <=, y
+if ( x isn't heavier y ), if, x, <=, y
+if x isn't bigger y, if, x, <=, y
+if ( x isn't bigger y ), if, x, <=, y
+if x isn't taler y, if, x, <=, y
+if ( x isn't taler y ), if, x, <=, y
+if x not taller y, if, x, <=, y
+if ( x not taller y ), if, x, <=, y
+if x not higher y, if, x, <=, y
+if ( x not higher y ), if, x, <=, y
+if x not greater y, if, x, <=, y
+if ( x not greater y ), if, x, <=, y
+if x not older y, if, x, <=, y
+if ( x not older y ), if, x, <=, y
+if x not heavier y, if, x, <=, y
+if ( x not heavier y ), if, x, <=, y
+if x not bigger y, if, x, <=, y
+if ( x not bigger y ), if, x, <=, y
+if x not taler y, if, x, <=, y
+if ( x not taler y ), if, x, <=, y
+18
+
+
+if x ! smallerEqual y, if, x, >, y
+if ( x ! smallerEqual y ), if, x, >, y
+if x ! lessEqual y, if, x, >, y
+if ( x ! lessEqual y ), if, x, >, y
+if x ! lowerEqual y, if, x, >, y
+if ( x ! lowerEqual y ), if, x, >, y
+if x ! youngerEqual y, if, x, >, y
+if ( x ! youngerEqual y ), if, x, >, y
+if x ! lighterEqual y, if, x, >, y
+if ( x ! lighterEqual y ), if, x, >, y
+if x isn't smallerEqual y, if, x, >, y
+if ( x isn't smallerEqual y ), if, x, >, y
+if x isn't lessEqual y, if, x, >, y
+if ( x isn't lessEqual y ), if, x, >, y
+if x isn't lowerEqual y, if, x, >, y
+if ( x isn't lowerEqual y ), if, x, >, y
+if x isn't youngerEqual y, if, x, >, y
+if ( x isn't youngerEqual y ), if, x, >, y
+if x isn't lighterEqual y, if, x, >, y
+if ( x isn't lighterEqual y ), if, x, >, y
+if x not smallerEqual y, if, x, >, y
+if ( x not smallerEqual y ), if, x, >, y
+if x not lessEqual y, if, x, >, y
+if ( x not lessEqual y ), if, x, >, y
+if x not lowerEqual y, if, x, >, y
+if ( x not lowerEqual y ), if, x, >, y
+if x not youngerEqual y, if, x, >, y
+if ( x not youngerEqual y ), if, x, >, y
+if x not lighterEqual y, if, x, >, y
+if ( x not lighterEqual y ), if, x, >, y
+19
+
+
+if x ! greaterEqual y, if, x, <, y
+if ( x ! greaterEqual y ), if, x, <, y
+if x ! higherEqual y, if, x, <, y
+if ( x ! higherEqual y ), if, x, <, y
+if x ! olderEqual y, if, x, <, y
+if ( x ! olderEqual y ), if, x, <, y
+if x ! heavierEqual y, if, x, <, y
+if ( x ! heavierEqual y ), if, x, <, y
+if x ! biggerEqual y, if, x, <, y
+if ( x ! biggerEqual y ), if, x, <, y
+if x isn't greaterEqual y, if, x, <, y
+if ( x isn't greaterEqual y ), if, x, <, y
+if x isn't higherEqual y, if, x, <, y
+if ( x isn't higherEqual y ), if, x, <, y
+if x isn't olderEqual y, if, x, <, y
+if ( x isn't olderEqual y ), if, x, <, y
+if x isn't heavierEqual y, if, x, <, y
+if ( x isn't heavierEqual y ), if, x, <, y
+if x isn't biggerEqual y, if, x, <, y
+if ( x isn't biggerEqual y ), if, x, <, y
+if x not greaterEqual y, if, x, <, y
+if ( x not greaterEqual y ), if, x, <, y
+if x not higherEqual y, if, x, <, y
+if ( x not higherEqual y ), if, x, <, y
+if x not olderEqual y, if, x, <, y
+if ( x not olderEqual y ), if, x, <, y
+if x not heavierEqual y, if, x, <, y
+if ( x not heavierEqual y ), if, x, <, y
+if x not biggerEqual y, if, x, <, y
+if ( x not biggerEqual y ), if, x, <, y
+20
+
+
+if x is not lower than y, if, x, >=, y
+if ( x is not lower than y ), if, x, >=, y
+if x is not younger than y, if, x, >=, y
+if ( x is not younger than y ), if, x, >=, y
+if x is not lighter than y, if, x, >=, y
+if ( x is not lighter than y ), if, x, >=, y
+if x is not less than y, if, x, >=, y
+if ( x is not less than y ), if, x, >=, y
+if x is not tinier than y, if, x, >=, y
+if ( x is not tinier than y ), if, x, >=, y
+if x is not smaller than y, if, x, >=, y
+if ( x is not smaller than y ), if, x, >=, y
+if x is not lower than y, if, x, >=, y
+if ( x is not lower than y ), if, x, >=, y
+21
+
+
+if x is not taller than y, if, x, <=, y
+if ( x is not taller than y ), if, x, <=, y
+if x is not higher than y, if, x, <=, y
+if ( x is not higher than y ), if, x, <=, y
+if x is not greater than y, if, x, <=, y
+if ( x is not greater than y ), if, x, <=, y
+if x is not older than y, if, x, <=, y
+if ( x is not older than y ), if, x, <=, y
+if x is not heavier than y, if, x, <=, y
+if ( x is not heavier than y ), if, x, <=, y
+if x is not bigger than y, if, x, <=, y
+if ( x is not bigger than y ), if, x, <=, y
+if x is not taler than y, if, x, <=, y
+if ( x is not taler than y ), if, x, <=, y
+22
+
+
+if x ! lower y, if, x, >=, y
+if ( x ! lower y ), if, x, >=, y
+if x ! younger y, if, x, >=, y
+if ( x ! younger y ), if, x, >=, y
+if x ! lighter y, if, x, >=, y
+if ( x ! lighter y ), if, x, >=, y
+if x ! less y, if, x, >=, y
+if ( x ! less y ), if, x, >=, y
+if x ! tinier y, if, x, >=, y
+if ( x ! tinier y ), if, x, >=, y
+if x ! smaller y, if, x, >=, y
+if ( x ! smaller y ), if, x, >=, y
+if x ! lower y, if, x, >=, y
+if ( x ! lower y ), if, x, >=, y
+if x isn't lower y, if, x, >=, y
+if ( x isn't lower y ), if, x, >=, y
+if x isn't younger y, if, x, >=, y
+if ( x isn't younger y ), if, x, >=, y
+if x isn't lighter y, if, x, >=, y
+if ( x isn't lighter y ), if, x, >=, y
+if x isn't less y, if, x, >=, y
+if ( x isn't less y ), if, x, >=, y
+if x isn't tinier y, if, x, >=, y
+if ( x isn't tinier y ), if, x, >=, y
+if x isn't smaller y, if, x, >=, y
+if ( x isn't smaller y ), if, x, >=, y
+if x isn't lower y, if, x, >=, y
+if ( x isn't lower y ), if, x, >=, y
+if x not lower y, if, x, >=, y
+if ( x not lower y ), if, x, >=, y
+if x not younger y, if, x, >=, y
+if ( x not younger y ), if, x, >=, y
+if x not lighter y, if, x, >=, y
+if ( x not lighter y ), if, x, >=, y
+if x not less y, if, x, >=, y
+if ( x not less y ), if, x, >=, y
+if x not tinier y, if, x, >=, y
+if ( x not tinier y ), if, x, >=, y
+if x not smaller y, if, x, >=, y
+if ( x not smaller y ), if, x, >=, y
+if x not lower y, if, x, >=, y
+if ( x not lower y ), if, x, >=, y
+23
+
+
+if x ! taller y, if, x, <=, y
+if ( x ! taller y ), if, x, <=, y
+if x ! higher y, if, x, <=, y
+if ( x ! higher y ), if, x, <=, y
+if x ! greater y, if, x, <=, y
+if ( x ! greater y ), if, x, <=, y
+if x ! older y, if, x, <=, y
+if ( x ! older y ), if, x, <=, y
+if x ! heavier y, if, x, <=, y
+if ( x ! heavier y ), if, x, <=, y
+if x ! bigger y, if, x, <=, y
+if ( x ! bigger y ), if, x, <=, y
+if x ! taler y, if, x, <=, y
+if ( x ! taler y ), if, x, <=, y
+if x isn't taller y, if, x, <=, y
+if ( x isn't taller y ), if, x, <=, y
+if x isn't higher y, if, x, <=, y
+if ( x isn't higher y ), if, x, <=, y
+if x isn't greater y, if, x, <=, y
+if ( x isn't greater y ), if, x, <=, y
+if x isn't older y, if, x, <=, y
+if ( x isn't older y ), if, x, <=, y
+if x isn't heavier y, if, x, <=, y
+if ( x isn't heavier y ), if, x, <=, y
+if x isn't bigger y, if, x, <=, y
+if ( x isn't bigger y ), if, x, <=, y
+if x isn't taler y, if, x, <=, y
+if ( x isn't taler y ), if, x, <=, y
+if x not taller y, if, x, <=, y
+if ( x not taller y ), if, x, <=, y
+if x not higher y, if, x, <=, y
+if ( x not higher y ), if, x, <=, y
+if x not greater y, if, x, <=, y
+if ( x not greater y ), if, x, <=, y
+if x not older y, if, x, <=, y
+if ( x not older y ), if, x, <=, y
+if x not heavier y, if, x, <=, y
+if ( x not heavier y ), if, x, <=, y
+if x not bigger y, if, x, <=, y
+if ( x not bigger y ), if, x, <=, y
+if x not taler y, if, x, <=, y
+if ( x not taler y ), if, x, <=, y
+24
+
+
+if x and y are not equivalent, if, x, !=, y
+if ( x and y are not equivalent ), if, x, !=, y
+if x and y are not invariable, if, x, !=, y
+if ( x and y are not invariable ), if, x, !=, y
+if x and y are not balanced, if, x, !=, y
+if ( x and y are not balanced ), if, x, !=, y
+if x and y are not corresponding, if, x, !=, y
+if ( x and y are not corresponding ), if, x, !=, y
+if x and y are not agreeing, if, x, !=, y
+if ( x and y are not agreeing ), if, x, !=, y
+if x and y are not uniform, if, x, !=, y
+if ( x and y are not uniform ), if, x, !=, y
+if x and y are not alike, if, x, !=, y
+if ( x and y are not alike ), if, x, !=, y
+25
+
+
+if x and y are not unequal, if, x, ==, y
+if ( x and y are not unequal ), if, x, ==, y
+if x and y are not differing, if, x, ==, y
+if ( x and y are not differing ), if, x, ==, y
+if x and y are not dissimilar, if, x, ==, y
+if ( x and y are not dissimilar ), if, x, ==, y
+if x and y are not unalike, if, x, ==, y
+if ( x and y are not unalike ), if, x, ==, y
+if x and y are not vary, if, x, ==, y
+if ( x and y are not vary ), if, x, ==, y
+if x and y are not diverge, if, x, ==, y
+if ( x and y are not diverge ), if, x, ==, y
+if x and y are not disagree, if, x, ==, y
+if ( x and y are not disagree ), if, x, ==, y
+if x and y are not clash, if, x, ==, y
+if ( x and y are not clash ), if, x, ==, y
+26
+
+
+if x ! unequal y, if, x, ==, y
+if ( x ! unequal y ), if, x, ==, y
+if x isn't unequal y, if, x, ==, y
+if ( x isn't unequal y ), if, x, ==, y
+if x not unequal y, if, x, ==, y
+if ( x not unequal y ), if, x, ==, y
+27
+
+
+if x doesn't equal y, if, x, !=, y
+if ( x doesn't equal y ), if, x, !=, y
+if x doesn't match y, if, x, !=, y
+if ( x doesn't match y ), if, x, !=, y
+if x ! equal y, if, x, !=, y
+if ( x ! equal y ), if, x, !=, y
+if x ! match y, if, x, !=, y
+if ( x ! match y ), if, x, !=, y
+28
+
+
