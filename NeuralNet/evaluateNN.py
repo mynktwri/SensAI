@@ -8,7 +8,9 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 import pandas as pd
 import random
+
 import data_collection as collect
+import final_output as fo
 random.seed(7)
 
 collect.gather()
@@ -43,7 +45,18 @@ def create_model():
 estimator =KerasClassifier(build_fn=create_model, epochs=10, batch_size=1024, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
 results = cross_val_score(estimator, input_data, encoded_labels, cv=kfold)
-print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+# print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+
+# history = model.fit(x=train_data,
+                    y=train_labels,
+                    epochs=10,
+                    batch_size=512,
+                    validation_split=0.1,
+                    # validation_data=(validation_data, validation_labels),
+                    verbose=1)
+# print(history)
+# results = model.evaluate(test_data, test_labels)
+
 print(results)
 
 # history = model.fit(x=train_data,
@@ -74,11 +87,18 @@ def makePrediction(sentence):
         if (value >= best):
             best=value
             best_i=i
-    print(best_i)
-    if(best_i==0):
-        return "variable"
-    if(best_i==1):
-        return "loop"
-    if(best_i==2):
-        return "print"
-    return best_i
+    # print(best_i)
+    if best_i == 1:
+        obj1, obj2 = fo.varObject(sentence)
+        print(fo.varCode(obj1, obj2))
+    elif best_i == 2:
+        obj1 = fo.printObject(sentence)
+        print(fo.printCode(obj1))
+    elif best_i == 3:
+        obj1 = fo.LoopObject(sentence)
+        print(fo.loopCode(obj1))
+    elif best_i == 4:
+        obj1, opera, obj2 = fo.ifObject(sentence)
+        print(fo.ifCode(obj1, opera, obj2))
+    else:
+        return -1
