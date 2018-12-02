@@ -6,6 +6,9 @@ Natural Language To Python Code
 ### General
 * [Trello](https://trello.com/sensai2/)
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
+* [Test Plan] **need to add**
+* [Prototype Document] **need to add**
+* [Installation Guide] **need to add**
 
 ### Sprint 1
 * [Trello](https://trello.com/b/6yXcGGpN/sensai-sprint-1)
@@ -29,11 +32,6 @@ Natural Language To Python Code
 * [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
 * [Sprint 4 Plan] **need to add**
 * [Sprint 4 Report] **need to add**
-
-### Final Deliverables
-* [Test Plan] **need to add**
-* [Prototype Document] **need to add**
-* [Installation Guide] **need to add**
 
 ## Built With
 
