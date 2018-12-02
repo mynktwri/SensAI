@@ -20,7 +20,7 @@ def getTag(text):
                "noun": ["PRP", "PRP$", "POS", "NN", "NNS", "FW", "UH", "NNP", "NNPS"],
                "verb": ["MD", "TO", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ"],
                "symbol": ["SYM"
-                          "BOL", "<", ">", "=", ">=", "<=", "!="],
+                          "BOL", "<", ">", "=", ">=", "<=", "!=", "!"],
                "article": ["DT", ],
                "coordinating_conj": ["CC"],
                "demonstrative_pronoun": [],
@@ -30,7 +30,7 @@ def getTag(text):
                "preposition": ["IN"],
                "quantifier": ["LS"],
                "subordinating_conj": [],
-               "punctuation": [".", ",", "\"", "\'", "`", "!", "?", "(", ")", "``", "\""]}
+               "punctuation": [".", ",", "\"", "\'", "`", "?", "(", ")", "``", "\""]}
     simple_tags = []
     for p in pos_tags:
         for k, v in pos_map.items():
