@@ -23,6 +23,17 @@ Natural Language To Python Code
 ### Sprint 3
 * [Trello](https://trello.com/b/JBnAKGZq/sensai-sprint-3)
 * [Sprint 3 Plan](https://docs.google.com/document/d/1zH1EohfEB4GRL9fVTApgNAI5k_VZOzpy766LPRkEpiw/edit?usp=sharing)
+* [Sprint 3 Report] **need to add**
+
+### Sprint 4
+* [Trello] **need to add**
+* [Sprint 4 Plan] **need to add**
+* [Sprint 4 Report] **need to add**
+
+### Final Deliverables
+* [Test Plan] **need to add**
+* [Prototype Document] **need to add**
+* [Installation Guide] **need to add**
 
 ## Built With
 
