@@ -2,9 +2,9 @@
 x
 banana
 start
-int_5
+integer
 i
-int_5
-x3
+variable
+y
 34
 blue

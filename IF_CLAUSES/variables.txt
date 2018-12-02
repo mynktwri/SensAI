@@ -3,9 +3,9 @@ x
 end
 size
 london
-var4
+4
 str
-v2
+2
 i
 start
 var

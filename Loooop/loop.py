@@ -4,7 +4,7 @@ import os, sys
 
 def getSentences(v):
 
-	out_script = open("out_script.txt","a"); values = open("array.txt", "r"); variables = open("variable.txt", "r")
+	out_script = open("loop_data.csv","a"); values = open("array.txt", "r"); variables = open("variable.txt", "r")
 
 	#////////////////////////////////////COMMAND///////////////////////////////////////
 	command_for = ["for"];
@@ -99,9 +99,9 @@ def getSentences(v):
 							line = line.strip()
 							arrLine = line.split();
 							if(posVariable < 0):
-								lineScript = line + ", loop, " + arrLine[posValue] + ","
+								lineScript = line + ",loop," + arrLine[posValue] + ","
 							else:
-								lineScript = line + ", loop, " + arrLine[posValue] + ", " + arrLine[posVariable] 
+								lineScript = line + ",loop," + arrLine[posValue] + "," + arrLine[posVariable]
 							out_script.write(lineScript); out_script.write("\n"); 
 	
 	out_script.close()

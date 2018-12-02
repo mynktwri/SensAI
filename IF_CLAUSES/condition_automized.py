@@ -4,7 +4,7 @@ import os, sys
 
 
 def getSentences(kind, variation):
-	out = open("out.txt","a"); out_script = open("out_script.txt","a"); values = open("values.txt", "r"); variables = open("variables.txt", "r")
+	out = open("out.txt","a"); out_script = open("if_data.csv","a"); values = open("values.txt", "r"); variables = open("variables.txt", "r")
 
 	#////////////////////////////////////COMMAND///////////////////////////////////////
 	commandFile = ["if"];
@@ -141,7 +141,7 @@ def getSentences(kind, variation):
 								#line_p = line_p.strip() + " )"
 								arrLine = line.split();
 								#arrLine_p = line_p.split();
-								lineScript = line + ", if, " + arrLine[posVariable] + ", "  + compare_symbol + ", " + arrLine[posValue]
+								lineScript = line + ",if," + arrLine[posVariable] + ","  + compare_symbol + "," + arrLine[posValue]
 								#lineScript_p = line_p + ", if, " + arrLine[posVariable ] + ", "  + compare_symbol + ", " + arrLine[posValue ]
 								#out.write(line); out.write("\n"); out.write(line_p); out.write("\n")
 								out_script.write(lineScript); out_script.write("\n"); 
