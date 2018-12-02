@@ -28,7 +28,7 @@ Natural Language To Python Code
 * [Trello](https://trello.com/b/JBnAKGZq/sensai-sprint-3)
 * [Burn-up Screenshot](https://i.imgur.com/UueTao7.png)
 * [Sprint 3 Plan](https://docs.google.com/document/d/1zH1EohfEB4GRL9fVTApgNAI5k_VZOzpy766LPRkEpiw/edit?usp=sharing)
-* [Sprint 3 Report] **need to add**
+* [Sprint 3 Report](https://docs.google.com/document/d/1NB3cZClAcjdDBIRZ8BAmIrD0s8M51vtX-2x83EcgN5g/edit)
 
 ### Sprint 4
 * [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
