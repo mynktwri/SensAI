@@ -11,6 +11,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import random
+import final_output as fo
 random.seed(7)
 
 
@@ -124,7 +125,7 @@ model.compile(optimizer=tf.train.AdamOptimizer(),
 
 history = model.fit(x=train_data,
                     y=train_labels,
-                    epochs=40,
+                    epochs=10,
                     batch_size=512,
                     validation_split=0.1,
                     # validation_data=(validation_data, validation_labels),
@@ -151,11 +152,18 @@ def makePrediction(sentence):
         if (value >= best):
             best=value
             best_i=i
-    print(best_i)
-    if(best_i==0):
-        return "variable"
-    if(best_i==1):
-        return "loop"
-    if(best_i==2):
-        return "print"
-    return best_i
+    # print(best_i)
+    if best_i == 1:
+        obj1, obj2 = fo.varObject(sentence)
+        print(fo.varCode(obj1, obj2))
+    elif best_i == 2:
+        obj1 = fo.printObject(sentence)
+        print(fo.printCode(obj1))
+    elif best_i == 3:
+        obj1 = fo.LoopObject(sentence)
+        print(fo.loopCode(obj1))
+    elif best_i == 4:
+        obj1, opera, obj2 = fo.ifObject(sentence)
+        print(fo.ifCode(obj1, opera, obj2))
+    else:
+        return -1
