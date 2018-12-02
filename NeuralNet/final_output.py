@@ -39,14 +39,20 @@ def varObject(sentence):
 def printObject(sentence):
     wordlist = p.getWord(sentence)
     poslist = p.getTag(sentence)
+    total = ""
     for x in range(0, len(poslist)):
         if poslist[x] == "verb" or wordlist[x] == "print":
-            if poslist[x + 1] == "article":
-                return wordlist[x + 2]
-            else:
-                return wordlist[x + 1]
-        else:
-            pass
+            if len(wordlist) == 1:
+                return ""
+            elif len(wordlist) == 2:
+                return wordlist[1]
+            elif len(wordlist) > 2:
+                if len(wordlist) == 3 and wordlist[1] == "a":
+                    return wordlist[2]
+                else:
+                    for x in range(2, len(wordlist)):
+                        total = total + wordlist[x]
+                    return total
     return ""
 
 

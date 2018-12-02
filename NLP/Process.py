@@ -38,7 +38,7 @@ def getTag(text):
                 simple_tags.append(k)
             else:
                 pass
-
+# The code does not take words that are not in the nltk dictionary.
     return simple_tags
 
 
