@@ -76,35 +76,35 @@ def getSentences(kind, variation):
 		#if (variation == "7"): secondFile = lessEqual; thirdFile = variables; compare_symbol = "<=";
 		#if (variation == "8"): secondFile = greaterEqual; thirdFile = variables; compare_symbol = ">=";
 
-		if (variation == "9"): secondFile = verb_is; thirdFile = less; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = "<";
-		if (variation == "10"): secondFile = verb_is; thirdFile = greater; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = ">";
-		if (variation == "11"): secondFile = less; thirdFile = than; fourthFile = variables; posValue = 4; compare_symbol = "<";
-		if (variation == "12"): secondFile = greater; thirdFile = than; fourthFile = variables; posValue = 4; compare_symbol = ">";
+		if (variation == "7"): secondFile = verb_is; thirdFile = less; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = "<";
+		if (variation == "8"): secondFile = verb_is; thirdFile = greater; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = ">";
+		if (variation == "9"): secondFile = less; thirdFile = than; fourthFile = variables; posValue = 4; compare_symbol = "<";
+		if (variation == "10"): secondFile = greater; thirdFile = than; fourthFile = variables; posValue = 4; compare_symbol = ">";
 
 
-		if (variation == "13"): secondFile = and_; thirdFile = variables; fourthFile = verb_are; fifthFile = equal_are; posValue = 3; compare_symbol = "==";
-		if (variation == "14"): secondFile = and_; thirdFile = variables; fourthFile = verb_are; fifthFile = unequal_are; posValue = 3; compare_symbol = "!=";
+		if (variation == "11"): secondFile = and_; thirdFile = variables; fourthFile = verb_are; fifthFile = equal_are; posValue = 3; compare_symbol = "==";
+		if (variation == "12"): secondFile = and_; thirdFile = variables; fourthFile = verb_are; fifthFile = unequal_are; posValue = 3; compare_symbol = "!=";
 
 		#Negation
-		if (variation == "15"): secondFile = equal_prep_1_not; thirdFile = variables; posValue = 5; compare_symbol = "!=";
-		if (variation == "16"): secondFile = is_equal_prep_1_not; thirdFile = variables; posValue = 6; compare_symbol = "!=";
+		if (variation == "13"): secondFile = equal_prep_1_not; thirdFile = variables; posValue = 5; compare_symbol = "!=";
+		if (variation == "14"): secondFile = is_equal_prep_1_not; thirdFile = variables; posValue = 6; compare_symbol = "!=";
 
-		if (variation == "17"): secondFile = negation_not; thirdFile = less; fourthFile = variables; posValue = 4; compare_symbol = ">=";
-		if (variation == "18"): secondFile = negation_not; thirdFile = greater; fourthFile = variables; posValue = 4; compare_symbol = "<=";
-		if (variation == "19"): secondFile = negation_not; thirdFile = lessEqual; fourthFile = variables; posValue = 4; compare_symbol = ">";
-		if (variation == "20"): secondFile = negation_not; thirdFile = greaterEqual; fourthFile = variables; posValue = 4; compare_symbol = "<";
+		if (variation == "15"): secondFile = negation_not; thirdFile = less; fourthFile = variables; posValue = 4; compare_symbol = ">=";
+		if (variation == "16"): secondFile = negation_not; thirdFile = greater; fourthFile = variables; posValue = 4; compare_symbol = "<=";
+		if (variation == "17"): secondFile = negation_not; thirdFile = lessEqual; fourthFile = variables; posValue = 4; compare_symbol = ">";
+		if (variation == "18"): secondFile = negation_not; thirdFile = greaterEqual; fourthFile = variables; posValue = 4; compare_symbol = "<";
 
-		if (variation == "21"): secondFile = verb_is_not; thirdFile = less; fourthFile = than; fifthFile = variables; posValue = 6; compare_symbol = ">=";
-		if (variation == "22"): secondFile = verb_is_not; thirdFile = greater; fourthFile = than; fifthFile = variables; posValue = 6; compare_symbol = "<=";
-		if (variation == "23"): secondFile = negation_not; thirdFile = less; fourthFile = than; fourthFile = variables; posValue = 4; compare_symbol = ">=";
-		if (variation == "24"): secondFile = negation_not; thirdFile = greater; fourthFile = than; fourthFile = variables; posValue = 4; compare_symbol = "<=";
+		if (variation == "19"): secondFile = verb_is_not; thirdFile = less; fourthFile = than; fifthFile = variables; posValue = 6; compare_symbol = ">=";
+		if (variation == "20"): secondFile = verb_is_not; thirdFile = greater; fourthFile = than; fifthFile = variables; posValue = 6; compare_symbol = "<=";
+		if (variation == "21"): secondFile = negation_not; thirdFile = less; fourthFile = than; fourthFile = variables; posValue = 4; compare_symbol = ">=";
+		if (variation == "22"): secondFile = negation_not; thirdFile = greater; fourthFile = than; fourthFile = variables; posValue = 4; compare_symbol = "<=";
 
-		if (variation == "25"): secondFile = and_; thirdFile = variables; fourthFile = verb_are_not; fifthFile = equal_are; posValue = 3; compare_symbol = "!=";
-		if (variation == "26"): secondFile = and_; thirdFile = variables; fourthFile = verb_are_not; fifthFile = unequal_are; posValue = 3; compare_symbol = "==";
+		if (variation == "23"): secondFile = and_; thirdFile = variables; fourthFile = verb_are_not; fifthFile = equal_are; posValue = 3; compare_symbol = "!=";
+		if (variation == "24"): secondFile = and_; thirdFile = variables; fourthFile = verb_are_not; fifthFile = unequal_are; posValue = 3; compare_symbol = "==";
 
 
-		if (variation == "27"): secondFile = negation_not; thirdFile = unequal; fourthFile = variables; posValue = 4; compare_symbol = "==";
-		if (variation == "28"): secondFile = negation_doesnt; thirdFile = equal_negation; fourthFile = variables; posValue = 4;  compare_symbol = "!=";
+		if (variation == "25"): secondFile = negation_not; thirdFile = unequal; fourthFile = variables; posValue = 4; compare_symbol = "==";
+		if (variation == "26"): secondFile = negation_doesnt; thirdFile = equal_negation; fourthFile = variables; posValue = 4;  compare_symbol = "!=";
 
 
 
@@ -155,7 +155,7 @@ def getSentences(kind, variation):
 
 
 
-for i in range (1,29):
+for i in range (1,27):
 	v = str(i)
 	getSentences("variable_compare_variable", v)
 
