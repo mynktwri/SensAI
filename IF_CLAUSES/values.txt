@@ -1,0 +1,10 @@
+0
+x
+banana
+start
+int_5
+i
+int_5
+x3
+34
+blue
