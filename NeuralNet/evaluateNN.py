@@ -47,6 +47,7 @@ def parse_input(filename):
     # print(len(wordlist))
     # print(len(poslist))
     # TODO: assert to confirm shape of dataframes
+    assert type(indices) == pd.DataFrame
     return indices, poslist, targets
 #  Categories:
 #  1: variable
@@ -134,6 +135,8 @@ estimator =KerasClassifier(build_fn=create_model, epochs=10, batch_size=1024, ve
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
 results = cross_val_score(estimator, input_data, encoded_labels, cv=kfold)
 print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
+print(results)
+
 # history = model.fit(x=train_data,
 #                     y=train_labels,
 #                     epochs=40,
