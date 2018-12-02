@@ -5,9 +5,10 @@ import keras
 import DB_index_pull as db_pull
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_validate
 import pandas as pd
 import random
+from keras.models import load_model
 
 import data_collection as collect
 import final_output as fo
@@ -44,20 +45,20 @@ def create_model():
 
 estimator =KerasClassifier(build_fn=create_model, epochs=10, batch_size=1024, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
-results = cross_val_score(estimator, input_data, encoded_labels, cv=kfold)
+estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
+                            return_train_score=True)
 # print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
 
 # history = model.fit(x=train_data,
-                    y=train_labels,
-                    epochs=10,
-                    batch_size=512,
-                    validation_split=0.1,
-                    # validation_data=(validation_data, validation_labels),
-                    verbose=1)
+#                      y=train_labels,
+#                      epochs=10,
+#                      batch_size=512,
+#                      validation_split=0.1,
+#                      # validation_data=(validation_data, validation_labels),
+#                      verbose=1)
 # print(history)
 # results = model.evaluate(test_data, test_labels)
 
-print(results)
 
 # history = model.fit(x=train_data,
 #                     y=train_labels,
