@@ -4,8 +4,8 @@ import tensorflow as tf
 from tensorflow import keras
 import DB_index_pull as db_pull
 import numpy as np
-from keras.utils import np_utils
-from keras.wrappers.scikit_learn import KerasClassifier
+# from keras.utils import np_utils
+from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.preprocessing import LabelEncoder
@@ -79,7 +79,7 @@ shuffled_data = pd.DataFrame.reset_index(pd.DataFrame.sample(pd.concat([input_da
                                                                        axis=1, ignore_index=True),
                                                              frac=1), drop=True)
 train_labels = shuffled_data[20]
-train_data = shuffled_data.drop(columns=20)
+train_data = shuffled_data.drop(columns=[20])
 train_data, test_data = np.split(train_data, [int(.9*len(train_data))])
 # TODO: onehot encoding for labels
 # encode class values as integers
@@ -87,7 +87,7 @@ encoder = LabelEncoder()
 encoder.fit(train_labels)
 encoded_labels = encoder.transform(train_labels)
 # convert integers to dummy variables (i.e. one hot encoded)
-encoded_labels = np_utils.to_categorical(encoded_labels)
+encoded_labels = keras.utils.to_categorical(encoded_labels)
 train_labels, test_labels = np.split(encoded_labels, [int(.9*len(encoded_labels))])
 
 
@@ -133,3 +133,29 @@ print(history)
 results = model.evaluate(test_data, test_labels)
 
 print(results)
+
+def makePrediction(sentence):
+    (indices, wordlist, poslist) = db_pull.in_pipe([sentence])
+    id_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
+    pos_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
+    input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
+    prediction = model.predict(pd.DataFrame(data=input_data))
+    print("-------")
+    best=0
+    best_i=0
+    i=0
+    print(prediction)
+    for i in range(0,3):
+        value = prediction[0][i]
+        print(value)
+        if (value >= best):
+            best=value
+            best_i=i
+    print(best_i)
+    if(best_i==0):
+        return "variable"
+    if(best_i==1):
+        return "loop"
+    if(best_i==2):
+        return "print"
+    return best_i
