@@ -6,6 +6,9 @@ Natural Language To Python Code
 ### General
 * [Trello](https://trello.com/sensai2/)
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
+* [Test Plan] **need to add**
+* [Prototype Document] **need to add**
+* [Installation Guide] **need to add**
 
 ### Sprint 1
 * [Trello](https://trello.com/b/6yXcGGpN/sensai-sprint-1)
@@ -17,12 +20,21 @@ Natural Language To Python Code
 
 ### Sprint 2
 * [Trello](https://trello.com/b/1esOdR71/sensai-sprint-2)
+* [Burn-up Screenshot](https://i.imgur.com/42ojZwS.png)
 * [Sprint 2 Plan](https://docs.google.com/document/d/1aL8AUe_HQZ2c0UczG3pkW76Pl1PnJ2HBX32Y9nx-WmY/edit)
 * [Sprint 2 Report](https://docs.google.com/document/d/15ccOsTAzRa2vY6o-q0IodE00yRj1Vm42Mo7kZp2fSUU/edit)
 
 ### Sprint 3
 * [Trello](https://trello.com/b/JBnAKGZq/sensai-sprint-3)
+* [Burn-up Screenshot](https://i.imgur.com/UueTao7.png)
 * [Sprint 3 Plan](https://docs.google.com/document/d/1zH1EohfEB4GRL9fVTApgNAI5k_VZOzpy766LPRkEpiw/edit?usp=sharing)
+* [Sprint 3 Report] **need to add**
+
+### Sprint 4
+* [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
+* [Burn-up Screenshot] **need to add**
+* [Sprint 4 Plan] **need to add**
+* [Sprint 4 Report] **need to add**
 
 ## Built With
 

@@ -57,3 +57,28 @@ print(results)
 # results = model.evaluate(test_data, test_labels)
 #
 # print(results)
+def makePrediction(sentence):
+    (indices, wordlist, poslist) = db_pull.in_pipe([sentence])
+    id_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
+    pos_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
+    input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
+    prediction = model.predict(pd.DataFrame(data=input_data))
+    print("-------")
+    best=0
+    best_i=0
+    i=0
+    print(prediction)
+    for i in range(0,3):
+        value = prediction[0][i]
+        print(value)
+        if (value >= best):
+            best=value
+            best_i=i
+    print(best_i)
+    if(best_i==0):
+        return "variable"
+    if(best_i==1):
+        return "loop"
+    if(best_i==2):
+        return "print"
+    return best_i
