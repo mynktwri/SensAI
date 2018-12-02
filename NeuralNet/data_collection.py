@@ -60,7 +60,7 @@ def gather():
                                                              frac=1), drop=True)
     # onehot encode class values as integers
     encoder = LabelEncoder()
-    encoder.fit(shuffled_data[20])
+    encoder.fit(["variable", "print", "loop", "if"])
     encoded_labels = encoder.transform(shuffled_data[20])
     #   convert integers to variables
     encoded_labels = pd.DataFrame(keras.utils.to_categorical(encoded_labels))

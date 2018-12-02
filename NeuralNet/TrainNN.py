@@ -31,6 +31,8 @@ def create_model():
     #   Outputs 1D shape=
     # Hidden Layer
     model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
+    model.add(keras.layers.Dense(64, activation='relu'))
     # Output Layer: needs as many nodes as there are categories.
     model.add(keras.layers.Dense(4, activation='softmax'))
 
@@ -41,7 +43,7 @@ def create_model():
     return model
 #  Train the model
 
-estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=1024, verbose=1)
+estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=256, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
 estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
                             return_train_score=True)
