@@ -41,7 +41,7 @@ def create_model():
     return model
 #  Train the model
 
-estimator =KerasClassifier(build_fn=create_model, epochs=10, batch_size=1024, verbose=1)
+estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=1024, verbose=1)
 kfold = KFold(n_splits=10, shuffle=True, random_state=7)
 estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
                             return_train_score=True)

@@ -36,23 +36,23 @@ def makePrediction(sentence):
     best_i=0
     i=0
     print(prediction)
-    for i in range(0,3):
+    for i in range(0,4):
         value = prediction[0][i]
         print(value)
         if (value >= best):
             best=value
             best_i=i
     # print(best_i)
-    if best_i == 1:
+    if best_i == 0:
         obj1, obj2 = fo.varObject(sentence)
         print(fo.varCode(obj1, obj2))
-    elif best_i == 2:
+    elif best_i == 1:
         obj1 = fo.printObject(sentence)
         print(fo.printCode(obj1))
-    elif best_i == 3:
+    elif best_i == 2:
         obj1 = fo.LoopObject(sentence)
         print(fo.loopCode(obj1))
-    elif best_i == 4:
+    elif best_i == 3:
         obj1, opera, obj2 = fo.ifObject(sentence)
         print(fo.ifCode(obj1, opera, obj2))
     else:
