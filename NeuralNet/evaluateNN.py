@@ -61,7 +61,7 @@ max_score = 0
 k = 0
 for i in estimators["train_score"]:
     if i > max_score:
-        model = i["estimator"][k]
+        model = estimators["estimator"][k]
         max_score = i
     k+=1
 print(model.summary())
