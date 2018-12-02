@@ -1,9 +1,7 @@
 x
-wrferer
 banana
 start
 time
-num
 var4
 size
 i
@@ -12,4 +10,5 @@ a
 int_5
 str
 var
-b
+element
+elem
