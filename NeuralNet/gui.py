@@ -17,11 +17,6 @@ def callNN():
     L2.pack()
     sentence = E1.get()
     prediction = enn.makePrediction(sentence)
-    #TODO: move to ENN
-    #convertedSentence = parse_input(sentence)
-    #model.predict(convertedSentence)
-    #for now, our "prediction" is the input sentence
-    #prediction = sentence
     output.set(prediction)
 bottom = Frame(root)
 bottom.pack(side = BOTTOM)
