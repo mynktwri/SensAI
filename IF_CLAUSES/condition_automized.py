@@ -46,14 +46,14 @@ def getSentences(kind, variation):
 	unequal = ["unequal"];
 	equal = ["equal", "matched", "matches", "equals", "matching", "balances", "=="];
 	less = ["lower", "younger", "lighter", "less", "tinier", "smaller", "lower"]; #isn't, not, !
-	greater = ["taller", "higher", "greater", "older","heavier","bigger","taler"]; #isn't, not, !
+	greater = ["taller", "higher", "greater", "older","heavier","bigger"]; #isn't, not, !
 	lessEqual = ["smallerEqual", "lessEqual", "lowerEqual", "youngerEqual", "lighterEqual"]; #isnt, not, !
 	greaterEqual = ["greaterEqual", "higherEqual", "olderEqual","heavierEqual","biggerEqual"]; #isnt, not, !
 
 
 	is_unequal_to = ["unequal"];
 	is_less_than = ["lower", "younger", "lighter", "less","tinier","smaller","lower"]; #not, !
-	is_greater_than = ["taller", "higher", "greater", "older","heavier","bigger","taler"]; #not, !
+	is_greater_than = ["taller", "higher", "greater", "older","heavier","bigger"]; #not, !
 
 
 	# v and v are (the) compare 
@@ -73,8 +73,8 @@ def getSentences(kind, variation):
 
 		if (variation == "5"): secondFile = less; thirdFile = variables; compare_symbol = "<";
 		if (variation == "6"): secondFile = greater; thirdFile = variables; compare_symbol = ">";
-		if (variation == "7"): secondFile = lessEqual; thirdFile = variables; compare_symbol = "<=";
-		if (variation == "8"): secondFile = greaterEqual; thirdFile = variables; compare_symbol = ">=";
+		#if (variation == "7"): secondFile = lessEqual; thirdFile = variables; compare_symbol = "<=";
+		#if (variation == "8"): secondFile = greaterEqual; thirdFile = variables; compare_symbol = ">=";
 
 		if (variation == "9"): secondFile = verb_is; thirdFile = less; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = "<";
 		if (variation == "10"): secondFile = verb_is; thirdFile = greater; fourthFile = than; fifthFile = variables; posValue = 5; compare_symbol = ">";
