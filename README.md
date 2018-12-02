@@ -26,7 +26,7 @@ Natural Language To Python Code
 * [Sprint 3 Report] **need to add**
 
 ### Sprint 4
-* [Trello] **need to add**
+* [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
 * [Sprint 4 Plan] **need to add**
 * [Sprint 4 Report] **need to add**
 
