@@ -44,17 +44,17 @@ def parse_input(filename):
 #  4: if
 def gather():
     # training data
-    # if_indices, if_poslist, if_targets = parse_input("if_data.csv")
+    if_indices, if_poslist, if_targets = parse_input("if_data.csv")
     variable_indices, variable_poslist, variable_targets = parse_input("variable_data.csv")
     print_indices, print_poslist, print_targets = parse_input("print_data.csv")
     loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv")
 
     #concatenate data to a meaningful shape for the neural network
-    id_list = pd.concat([variable_indices, print_indices, loop_indices], axis=0, ignore_index=True)
-    pos_list = pd.concat([variable_poslist, print_poslist, loop_poslist], axis=0, ignore_index=True)
+    id_list = pd.concat([if_indices, variable_indices, print_indices, loop_indices], axis=0, ignore_index=True)
+    pos_list = pd.concat([if_poslist, variable_poslist, print_poslist, loop_poslist], axis=0, ignore_index=True)
 
     input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
-    input_labels = pd.concat([variable_targets, print_targets, loop_targets], axis=0, ignore_index=True)
+    input_labels = pd.concat([if_targets, variable_targets, print_targets, loop_targets], axis=0, ignore_index=True)
     shuffled_data = pd.DataFrame.reset_index(pd.DataFrame.sample(pd.concat([input_data, input_labels],
                                                                        axis=1, ignore_index=True),
                                                              frac=1), drop=True)

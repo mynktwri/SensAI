@@ -32,7 +32,7 @@ def create_model():
     # Hidden Layer
     model.add(keras.layers.Dense(64, activation='relu'))
     # Output Layer: needs as many nodes as there are categories.
-    model.add(keras.layers.Dense(3, activation='softmax'))
+    model.add(keras.layers.Dense(4, activation='softmax'))
 
     print(model.summary())
     model.compile(optimizer='adam',
