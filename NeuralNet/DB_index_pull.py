@@ -95,12 +95,16 @@ def parse_input(sentences, df):
     for s in sentences:
         poslist = Process.getTag(s)
         wordlist = Process.getWord(s)
-        for i in range(0, len(poslist)):
-            if poslist[i] == "punctuation":
+        k=0
+        for i in poslist:
+            if i == "punctuation":
                 # remove it
-                print("removing " + wordlist[i])
-                wordlist.remove(wordlist[i])
-                poslist.remove(poslist[i])
+                if (wordlist[k]=="banana"):
+                    print("caught!")
+                print("removing " + wordlist[k])
+                wordlist.remove(wordlist[k])
+                poslist.remove(poslist[k])
+            k+=1
         # poslist = changePOS(poslist)
         sentences_list.append(wordlist)
         sentences_pos.append(changePOS(poslist))
