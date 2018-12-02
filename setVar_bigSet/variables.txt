@@ -9,6 +9,7 @@ size
 i
 j
 a
-weather_london
 int_5
 str
+var
+b

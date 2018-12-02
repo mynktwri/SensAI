@@ -1,0 +1,5 @@
+arr
+array
+a
+animals
+int_5

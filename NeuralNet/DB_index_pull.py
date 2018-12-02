@@ -1,5 +1,6 @@
 import os, sys
 import pandas as pd
+
 sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 
@@ -7,6 +8,7 @@ import active_learning_module as learn
 import Process
 
 db_len = 0
+
 
 def db_clean(data_df, save=False):
     # data_df = data_df.drop(data_df.columns[:1], axis=1)
@@ -93,12 +95,16 @@ def parse_input(sentences, df):
     for s in sentences:
         poslist = Process.getTag(s)
         wordlist = Process.getWord(s)
-        for i in range(0, len(poslist)):
-            if poslist[i] == "punctuation":
+        k=0
+        for i in poslist:
+            if i == "punctuation":
                 # remove it
-                print("removing " + wordlist[i])
-                wordlist.remove(wordlist[i])
-                poslist.remove(poslist[i])
+                if (wordlist[k]=="banana"):
+                    print("caught!")
+                print("removing " + wordlist[k])
+                wordlist.remove(wordlist[k])
+                poslist.remove(poslist[k])
+            k+=1
         # poslist = changePOS(poslist)
         sentences_list.append(wordlist)
         sentences_pos.append(changePOS(poslist))
@@ -135,6 +141,13 @@ def in_pipe(sentences):
     db_len = len(data_df)
     return indices, wordlist, poslist
 
+
+def get_db_len():
+    global db_len
+    data_df = pd.read_csv("clean_terms_saved.csv")
+    data_df = data_df.drop(data_df.columns[:1], axis=1)
+    db_len = len(data_df)
+    return db_len
 # SAMPLE USAGE
 # print(in_pipe(sentences=[["set", "x", "equal", "to", "5"], ["output", "x"], ["loop", "through", "array", "A", "ten", "times"],
 #                    ["print", "test"], ["set", "total", "to", "zero"]]))

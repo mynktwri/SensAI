@@ -4,21 +4,6 @@ sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 import Process as p
 
-#This is the action.
-def categoryconvert(categorynum):
-    categorynum = int(categorynum)
-    if categorynum == 1:
-        return "variable"
-    elif categorynum == 2:
-        return "print"
-    elif categorynum == 3:
-        return "loop"
-    elif categorynum == 4:
-        return "if"
-    else:
-        return -1
-
-
 # Get Object for variable statements
 def varObject(sentence):
     wordlist = p.getWord(sentence)
@@ -54,14 +39,20 @@ def varObject(sentence):
 def printObject(sentence):
     wordlist = p.getWord(sentence)
     poslist = p.getTag(sentence)
+    total = ""
     for x in range(0, len(poslist)):
         if poslist[x] == "verb" or wordlist[x] == "print":
-            if poslist[x + 1] == "article":
-                return wordlist[x + 2]
-            else:
-                return wordlist[x + 1]
-        else:
-            pass
+            if len(wordlist) == 1:
+                return ""
+            elif len(wordlist) == 2:
+                return wordlist[1]
+            elif len(wordlist) > 2:
+                if len(wordlist) == 3 and wordlist[1] == "a":
+                    return wordlist[2]
+                else:
+                    for x in range(2, len(wordlist)):
+                        total = total + wordlist[x]
+                    return total
     return ""
 
 

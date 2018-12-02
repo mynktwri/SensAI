@@ -1,0 +1,10 @@
+0
+x
+banana
+start
+integer
+i
+variable
+y
+34
+blue
