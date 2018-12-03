@@ -1,13 +1,12 @@
 import os, sys
 # sys.path.append(os.path.join(os.getcwd()))
-import keras
+import tensorflow.keras as keras
 import DB_index_pull as db_pull
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_validate
 from pandas import read_csv
 import random
-from keras.models import load_model
 import data_collection as collect
 import final_output as fo
 random.seed(7)

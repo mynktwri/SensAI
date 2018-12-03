@@ -1,5 +1,6 @@
 import pandas as pd
-import keras
+import tensorflow
+from tensorflow import keras
 import DB_index_pull as db_pull
 from sklearn.preprocessing import LabelEncoder
 
