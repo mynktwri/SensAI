@@ -45,15 +45,15 @@ def makePrediction(sentence):
     # print(best_i)
     if best_i == 0:
         obj1, obj2 = fo.varObject(sentence)
-        print(fo.varCode(obj1, obj2))
+        return(fo.varCode(obj1, obj2))
     elif best_i == 1:
         obj1 = fo.printObject(sentence)
-        print(fo.printCode(obj1))
+        return(fo.printCode(obj1))
     elif best_i == 2:
         obj1 = fo.LoopObject(sentence)
-        print(fo.loopCode(obj1))
+        return(fo.loopCode(obj1))
     elif best_i == 3:
         obj1, opera, obj2 = fo.ifObject(sentence)
-        print(fo.ifCode(obj1, opera, obj2))
+        return(fo.ifCode(obj1, opera, obj2))
     else:
         return -1
