@@ -9,7 +9,7 @@ Natural Language To Python Code
 * [Release Plan](https://docs.google.com/document/d/1PnQBH3M0vnkfXDqgluvsZLfLDADqtbxs5rIGLVJNkdU/edit)
 * [Test Plan: **incomplete**](https://docs.google.com/document/d/1L2Rd-Xe-VsMMioRh9M8LgiD-zVbRyPJirCkM8v2evzk/edit)
 * [Prototype Document:](https://docs.google.com/document/d/1nq0S60AGT_tx-7R9O4BpZYXi-7d6o2a6GTzMc1yinqI/edit)
-* [Installation Guide: **incomplete**](https://docs.google.com/document/d/1lSAKKJjCutTu1c5SNKRkqiqedMBljeD5OgrBP0KqaZ4/edit)
+* [Installation Guide:](https://docs.google.com/document/d/1lSAKKJjCutTu1c5SNKRkqiqedMBljeD5OgrBP0KqaZ4/edit)
 
 ### Sprint 1
 * [Trello](https://trello.com/b/6yXcGGpN/sensai-sprint-1)

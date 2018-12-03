@@ -26,9 +26,9 @@ def read_sentences(filename):
 
 # parse input through a file
 # sentences returns the list of series words in each sentence
-def parse_input(filename):
+def parse_input(filename, save):
     sentences, targets = read_sentences(filename)
-    indices, wordlist, poslist = db_pull.in_pipe(sentences)
+    indices, wordlist, poslist = db_pull.in_pipe(sentences, save)
     # pad sequences to the same length
     indices = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
     poslist = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
@@ -43,12 +43,12 @@ def parse_input(filename):
 #  2: print
 #  3: loop
 #  4: if
-def gather():
+def gather(save=True):
     # training data
-    if_indices, if_poslist, if_targets = parse_input("if_data.csv")
-    variable_indices, variable_poslist, variable_targets = parse_input("variable_data.csv")
-    print_indices, print_poslist, print_targets = parse_input("print_data.csv")
-    loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv")
+    if_indices, if_poslist, if_targets = parse_input("if_data.csv", save)
+    variable_indices, variable_poslist, variable_targets = parse_input("variable_data.csv", save)
+    print_indices, print_poslist, print_targets = parse_input("print_data.csv",save)
+    loop_indices, loop_poslist, loop_targets = parse_input("loop_data.csv", save)
 
     #concatenate data to a meaningful shape for the neural network
     id_list = pd.concat([variable_indices, print_indices, loop_indices, if_indices], axis=0, ignore_index=True)

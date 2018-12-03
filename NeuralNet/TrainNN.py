@@ -11,7 +11,7 @@ import data_collection as collect
 import final_output as fo
 random.seed(7)
 
-# collect.gather()
+collect.gather()
 
 encoded_labels = read_csv("encoded_labels.csv")
 input_data = read_csv("train_data.csv")
