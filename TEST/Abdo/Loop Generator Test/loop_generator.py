@@ -1,4 +1,5 @@
 import string
+import sys
 translator=str.maketrans('','',string.punctuation)
 loopvarfile = sys.argv[1]
 fillerfile = sys.argv[2]

@@ -1,0 +1,37 @@
+sen,cat,0
+iterate ,loop,
+iterate a[] ,loop,a[] 
+iterate a ,loop,a 
+iterate x in ,loop,
+iterate x in a[] ,loop,a[] 
+iterate x in a ,loop,a 
+iterate for ,loop,
+iterate for a[] ,loop,a[] 
+iterate for a ,loop,a 
+iterate for x in ,loop,
+iterate for x in a[] ,loop,a[] 
+iterate for x in a ,loop,a 
+iterate through ,loop,
+iterate through a[] ,loop,a[] 
+iterate through a ,loop,a 
+iterate through x in ,loop,
+iterate through x in a[] ,loop,a[] 
+iterate through x in a ,loop,a 
+loop ,loop,
+loop a[] ,loop,a[] 
+loop a ,loop,a 
+loop x in ,loop,
+loop x in a[] ,loop,a[] 
+loop x in a ,loop,a 
+loop for ,loop,
+loop for a[] ,loop,a[] 
+loop for a ,loop,a 
+loop for x in ,loop,
+loop for x in a[] ,loop,a[] 
+loop for x in a ,loop,a 
+loop through ,loop,
+loop through a[] ,loop,a[] 
+loop through a ,loop,a 
+loop through x in ,loop,
+loop through x in a[] ,loop,a[] 
+loop through x in a ,loop,a 
