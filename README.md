@@ -33,7 +33,7 @@ Natural Language To Python Code
 
 ### Sprint 4
 * [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
-* [Burn-up Screenshot] **need to add**
+* [Burn-up Screenshot](https://i.imgur.com/8heSkg5.png)
 * [Sprint 4 Plan](https://docs.google.com/document/d/1F5rbYP57I-tDSCW2GowMNcaH99ioAl8CStz3iqhm10c/edit)
 * [Sprint 4 Report](https://docs.google.com/document/d/1FZqNVcip5C8NA6KsIHgUX5CgzUAgSgF8eyrp2kkUmvI/edit)
 
