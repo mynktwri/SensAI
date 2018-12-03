@@ -87,7 +87,7 @@ def changePOS(poslist):
     return poslist
 
 
-def parse_input(sentences, df):
+def parse_input(sentences, df, save):
     sentences_list = []
     sentences_pos = []
     indices = []
@@ -119,7 +119,7 @@ def parse_input(sentences, df):
                     newword = False
                 else:
                     word_db_id.append(temp)
-            if not newword: df = db_clean(df, save=True)
+            if not newword: df = db_clean(df, save=save)
         if count % 1000 == 0:
             print(f'{count / len(sentences):1.4f}')
         count += 1
@@ -128,7 +128,7 @@ def parse_input(sentences, df):
     return df, indices, sentences_list, sentences_pos
 
 
-def in_pipe(sentences):
+def in_pipe(sentences, save):
     global db_len
     data_df = pd.read_csv("clean_terms_saved.csv")
     data_df = data_df.drop(data_df.columns[:1], axis=1)
@@ -137,7 +137,7 @@ def in_pipe(sentences):
     #  2: print
     #  3: loop
     #  4: if
-    data_df, indices, wordlist, poslist = parse_input(sentences, data_df)
+    data_df, indices, wordlist, poslist = parse_input(sentences, data_df, save)
     db_len = len(data_df)
     return indices, wordlist, poslist
 
