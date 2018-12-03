@@ -7,9 +7,9 @@ Natural Language To Python Code
 * [Trello](https://trello.com/sensai2/)
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
 * [Release Plan](https://docs.google.com/document/d/1PnQBH3M0vnkfXDqgluvsZLfLDADqtbxs5rIGLVJNkdU/edit)
-* [Test Plan] **need to add**
-* [Prototype Document] **need to add**
-* [Installation Guide] **need to add**
+* [Test Plan: **incomplete**](https://docs.google.com/document/d/1L2Rd-Xe-VsMMioRh9M8LgiD-zVbRyPJirCkM8v2evzk/edit)
+* [Prototype Document: **incomplete**](https://docs.google.com/document/d/1nq0S60AGT_tx-7R9O4BpZYXi-7d6o2a6GTzMc1yinqI/edit)
+* [Installation Guide: **incomplete**](https://docs.google.com/document/d/1lSAKKJjCutTu1c5SNKRkqiqedMBljeD5OgrBP0KqaZ4/edit)
 
 ### Sprint 1
 * [Trello](https://trello.com/b/6yXcGGpN/sensai-sprint-1)
@@ -33,7 +33,7 @@ Natural Language To Python Code
 
 ### Sprint 4
 * [Trello](https://trello.com/b/rMrqLKJU/sensai-sprint-4)
-* [Burn-up Screenshot] **need to add**
+* [Burn-up Screenshot](https://i.imgur.com/8heSkg5.png)
 * [Sprint 4 Plan](https://docs.google.com/document/d/1F5rbYP57I-tDSCW2GowMNcaH99ioAl8CStz3iqhm10c/edit)
 * [Sprint 4 Report](https://docs.google.com/document/d/1FZqNVcip5C8NA6KsIHgUX5CgzUAgSgF8eyrp2kkUmvI/edit)
 
