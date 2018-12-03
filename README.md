@@ -6,6 +6,7 @@ Natural Language To Python Code
 ### General
 * [Trello](https://trello.com/sensai2/)
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
+* [Release Plan](https://docs.google.com/document/d/1PnQBH3M0vnkfXDqgluvsZLfLDADqtbxs5rIGLVJNkdU/edit)
 * [Test Plan] **need to add**
 * [Prototype Document] **need to add**
 * [Installation Guide] **need to add**
