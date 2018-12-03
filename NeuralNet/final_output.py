@@ -1,8 +1,10 @@
 import sys, os
 import re
+
 sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 import Process as p
+
 
 # Get Object for variable statements
 def varObject(sentence):
@@ -10,17 +12,20 @@ def varObject(sentence):
     poslist = p.getTag(sentence)
     objone = ""
     objtwo = ""
-    if poslist[0] == "verb":
+    if len(wordlist) > 3 and wordlist[0] in ["turn", "set", "point", "save",
+                                               "make", "change", "appoint", "schedule", "direct", "realize", "write",
+                                               "allocate", "deposit",
+                                               "put", "place", "store", "deposit"]:
         objone = wordlist[1]
         if poslist[2] == "article":
-            if len(poslist)-1 == 2:
+            if len(poslist) - 1 == 2:
                 objtwo = wordlist[2]
             else:
                 objtwo = wordlist[3]
         elif poslist[2] == "noun" or "numeral" or wordlist[2] == "to":
             objtwo = wordlist[2]
     elif poslist[0] == "noun" or "numeral":
-        if wordlist[0] == "Set" or "set":
+        if poslist[0] == "noun" or wordlist:
             objone = wordlist[1]
             objtwo = wordlist[3]
         else:
@@ -121,14 +126,14 @@ def ifObject(sentence):
 def varCode(obj1, obj2):
     return obj1 + "=" + obj2
 
+
 def printCode(obj1):
     return "print(" + obj1 + ")"
+
 
 def loopCode(obj1):
     return "for x in range ( , ):"
 
+
 def ifCode(obj1, oper, obj2):
     return "if " + obj1 + " " + oper + " " + obj2 + ":"
-
-
-
