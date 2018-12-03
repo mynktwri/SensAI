@@ -1,9 +1,15 @@
 import string
+import sys
 translator=str.maketrans('','',string.punctuation)
-loopvar = open("loop_var.txt").read().splitlines()
-filler = open("filler_words.txt").read().splitlines()
-var1 = open("var1.txt").read().splitlines()
-array_vars = open("array_vars.txt").read().splitlines()
+loopvarfile = sys.argv[1]
+fillerfile = sys.argv[2]
+var1file = sys.argv[3]
+array_varsfile = sys.argv[4]
+
+loopvar = open(loopvarfile).read().splitlines()
+filler = open(fillerfile).read().splitlines()
+var1 = open(var1file).read().splitlines()
+array_vars = open(array_varsfile).read().splitlines()
 output = open("script_out.csv", "w")
 
 SIZE1 = len(loopvar)

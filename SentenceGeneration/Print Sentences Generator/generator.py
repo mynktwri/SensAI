@@ -6,7 +6,7 @@ output = open("script_out.csv", "w")
 
 SIZEOUT = len(printvar)
 SIZEIN = len(words)
-output.write("sentence, cat, 0\n")
+output.write("sentence,cat,0\n")
 
 for i in range (0, SIZEOUT):
     for j in range (0, SIZEIN):
