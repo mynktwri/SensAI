@@ -8,7 +8,7 @@ Natural Language To Python Code
 * [Burn-up Chart](https://docs.google.com/spreadsheets/d/1-no5jMAPhYckbld5VY1-CxRp45zfUTDW2MIIGRBSKGo/edit?usp=sharing)
 * [Release Plan](https://docs.google.com/document/d/1PnQBH3M0vnkfXDqgluvsZLfLDADqtbxs5rIGLVJNkdU/edit)
 * [Test Plan: **incomplete**](https://docs.google.com/document/d/1L2Rd-Xe-VsMMioRh9M8LgiD-zVbRyPJirCkM8v2evzk/edit)
-* [Prototype Document: **incomplete**]
+* [Prototype Document: **incomplete**](https://docs.google.com/document/d/1nq0S60AGT_tx-7R9O4BpZYXi-7d6o2a6GTzMc1yinqI/edit)
 * [Installation Guide: **incomplete**](https://docs.google.com/document/d/1lSAKKJjCutTu1c5SNKRkqiqedMBljeD5OgrBP0KqaZ4/edit)
 
 ### Sprint 1
