@@ -1,0 +1,14 @@
+x
+banana
+start
+time
+4
+size
+i
+j
+a
+5
+string
+variable
+element
+1000

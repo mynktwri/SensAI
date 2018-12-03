@@ -1,0 +1,7 @@
+print
+output
+show
+display
+stdout
+out
+give

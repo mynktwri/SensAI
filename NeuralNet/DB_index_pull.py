@@ -4,8 +4,8 @@ import pandas as pd
 sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
 
-import active_learning_module as learn
-import Process
+import NeuralNet.active_learning_module as learn
+import NLP.Process as Process
 
 db_len = 0
 
@@ -121,7 +121,7 @@ def parse_input(sentences, df, save):
                     word_db_id.append(temp)
             if not newword: df = db_clean(df, save=save)
         if count % 1000 == 0:
-            print(f'{count / len(sentences):1.4f}')
+            print("progress: ", f'{count / len(sentences):1.4f}')
         count += 1
         indices.append(word_db_id)
     # parse through our database
@@ -142,9 +142,9 @@ def in_pipe(sentences, save):
     return indices, wordlist, poslist
 
 
-def get_db_len():
+def get_db_len(filename="clean_terms_saved.csv"):
     global db_len
-    data_df = pd.read_csv("clean_terms_saved.csv")
+    data_df = pd.read_csv(filename)
     data_df = data_df.drop(data_df.columns[:1], axis=1)
     db_len = len(data_df)
     return db_len

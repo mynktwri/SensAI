@@ -1,16 +1,16 @@
 import os, sys
-# sys.path.append(os.path.join(os.getcwd()))
+sys.path.append(os.path.join(os.getcwd(), "..", "..", "..", "SensAI"))
 import tensorflow
 from tensorflow import keras
-import DB_index_pull as db_pull
+import NeuralNet.DB_index_pull as db_pull
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_validate
 import pandas as pd
 import random
 from tensorflow.keras.models import load_model
-import data_collection as collect
-import final_output as fo
+import NeuralNet.data_collection as collect
+import NeuralNet.final_output as fo
 random.seed(7)
 
 model = load_model('my_model.h5')
