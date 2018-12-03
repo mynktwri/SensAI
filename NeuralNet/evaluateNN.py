@@ -26,7 +26,7 @@ model = load_model('my_model.h5')
 #
 # print(results)
 def makePrediction(sentence):
-    (indices, wordlist, poslist) = db_pull.in_pipe([sentence])
+    (indices, wordlist, poslist) = db_pull.in_pipe([sentence], False)
     id_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(indices, 10, padding='post'))
     pos_list = pd.DataFrame.from_dict(keras.preprocessing.sequence.pad_sequences(poslist, 10, padding='post'))
     input_data = pd.concat([id_list, pos_list], axis=1, ignore_index=True)
