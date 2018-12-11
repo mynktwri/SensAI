@@ -3,6 +3,7 @@ import pandas as pd
 
 sys.path.append(os.path.join(os.getcwd(), "..", "NLP"))
 sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
+sys.path.append(os.path.join(os.getcwd(), ".."))
 
 import NeuralNet.active_learning_module as learn
 import NLP.Process as Process
@@ -101,7 +102,7 @@ def parse_input(sentences, df, save):
                 # remove it
                 if (wordlist[k]=="banana"):
                     print("caught!")
-                print("removing " + wordlist[k])
+                #print("removing " + wordlist[k])
                 wordlist.remove(wordlist[k])
                 poslist.remove(poslist[k])
             k+=1

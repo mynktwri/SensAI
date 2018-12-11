@@ -1,5 +1,7 @@
 import os, sys
 sys.path.append(os.path.join(os.getcwd(), "..", "..", "..", "SensAI"))
+sys.path.append(os.path.join(os.getcwd(), "..", "NeuralNet"))
+sys.path.append(os.path.join(os.getcwd(), ".."))
 import tensorflow
 from tensorflow import keras
 import NeuralNet.DB_index_pull as db_pull
@@ -14,7 +16,6 @@ import NeuralNet.final_output as fo
 random.seed(7)
 
 model = load_model('my_model.h5')
-
 # history = model.fit(x=train_data,
 #                     y=train_labels,
 #                     epochs=40,
@@ -44,16 +45,16 @@ def makePrediction(sentence):
             best=value
             best_i=i
     # print(best_i)
-    if best_i == 0:
+    if best_i == 3:
         obj1, obj2 = fo.varObject(sentence)
         return(fo.varCode(obj1, obj2))
-    elif best_i == 1:
+    elif best_i == 2:
         obj1 = fo.printObject(sentence)
         return(fo.printCode(obj1))
-    elif best_i == 2:
+    elif best_i == 1:
         obj1 = fo.LoopObject(sentence)
         return(fo.loopCode(obj1))
-    elif best_i == 3:
+    elif best_i == 0:
         obj1, opera, obj2 = fo.ifObject(sentence)
         return(fo.ifCode(obj1, opera, obj2))
     else:

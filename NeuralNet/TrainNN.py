@@ -2,6 +2,8 @@ import os, sys
 # sys.path.append(os.path.join(os.getcwd()))
 import tensorflow.keras as keras
 import DB_index_pull as db_pull
+import pandas as pd
+import numpy as np
 from tensorflow.keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_validate
@@ -15,6 +17,9 @@ collect.gather()
 
 encoded_labels = read_csv("encoded_labels.csv")
 input_data = read_csv("train_data.csv")
+
+train_data, validation_data = np.split(input_data, [int(.9*len(input_data))])
+train_labels, validation_labels = np.split(encoded_labels, [int(.9*len(encoded_labels))])
 
 # Build the model
 # vocab_size is the size of our database at model initialization.
@@ -47,28 +52,29 @@ def create_model():
     return model
 #  Train the model
 
-estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=2048, verbose=1)
-kfold = KFold(n_splits=10, shuffle=True, random_state=7)
-estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
-                            return_train_score=True)
+#estimator =KerasClassifier(build_fn=create_model, epochs=3, batch_size=2048, verbose=1)
+#kfold = KFold(n_splits=10, shuffle=True, random_state=7)
+#estimators = cross_validate(estimator, input_data, encoded_labels, cv=kfold, return_estimator=True,
+#                            return_train_score=True)
 # print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
 
-# history = model.fit(x=train_data,
-#                      y=train_labels,
-#                      epochs=10,
-#                      batch_size=512,
-#                      validation_split=0.1,
-#                      # validation_data=(validation_data, validation_labels),
-#                      verbose=1)
+model = create_model()
+history = model.fit(x=train_data,
+                     y=train_labels,
+                     epochs=10,
+                     batch_size=512,
+                     validation_split=0.1,
+                     # validation_data=(validation_data, validation_labels),
+                     verbose=1)
 # print(history)
 # results = model.evaluate(test_data, test_labels)
-max_score = 0
-k = 0
-for i in estimators["train_score"]:
-    if i > max_score:
-        model = estimators["estimator"][k].model
-        max_score = i
-    k+=1
+#max_score = 0
+#k = 0
+#for i in estimators["train_score"]:
+#    if i > max_score:
+#        model = estimators["estimator"][k].model
+#        max_score = i
+#    k+=1
 # print(model.summary())
 
 model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
