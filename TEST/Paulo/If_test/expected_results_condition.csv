@@ -1,0 +1,193 @@
+if x equal 0,if,x,==,0
+if x matched 0,if,x,==,0
+if x matches 0,if,x,==,0
+if x equals 0,if,x,==,0
+if x matching 0,if,x,==,0
+if x balances 0,if,x,==,0
+if x == 0,if,x,==,0
+if x corresponds to 0,if,x,==,0
+if x agrees with 0,if,x,==,0
+if x same as 0,if,x,==,0
+if x duplicate of 0,if,x,==,0
+if x equal to 0,if,x,==,0
+if x equivalent to 0,if,x,==,0
+if x identical to 0,if,x,==,0
+if x is same as 0,if,x,==,0
+if x is duplicate of 0,if,x,==,0
+if x is equal to 0,if,x,==,0
+if x is equivalent to 0,if,x,==,0
+if x is identical to 0,if,x,==,0
+if x lower 0,if,x,<,0
+if x younger 0,if,x,<,0
+if x lighter 0,if,x,<,0
+if x less 0,if,x,<,0
+if x tinier 0,if,x,<,0
+if x smaller 0,if,x,<,0
+if x lower 0,if,x,<,0
+if x taller 0,if,x,>,0
+if x higher 0,if,x,>,0
+if x greater 0,if,x,>,0
+if x older 0,if,x,>,0
+if x heavier 0,if,x,>,0
+if x bigger 0,if,x,>,0
+if x smaller equal 0,if,x,<=,0
+if x less equal 0,if,x,<=,0
+if x lower equal 0,if,x,<=,0
+if x younger equal 0,if,x,<=,0
+if x lighter equal 0,if,x,<=,0
+if x greater equal 0,if,x,>=,0
+if x higher equal 0,if,x,>=,0
+if x older equal 0,if,x,>=,0
+if x heavier equal 0,if,x,>=,0
+if x bigger equal 0,if,x,>=,0
+if x is lower than 0,if,x,<,0
+if x is younger than 0,if,x,<,0
+if x is lighter than 0,if,x,<,0
+if x is less than 0,if,x,<,0
+if x is tinier than 0,if,x,<,0
+if x is smaller than 0,if,x,<,0
+if x is lower than 0,if,x,<,0
+if x is taller than 0,if,x,>,0
+if x is higher than 0,if,x,>,0
+if x is greater than 0,if,x,>,0
+if x is older than 0,if,x,>,0
+if x is heavier than 0,if,x,>,0
+if x is bigger than 0,if,x,>,0
+if x lower than 0,if,x,<,0
+if x younger than 0,if,x,<,0
+if x lighter than 0,if,x,<,0
+if x less than 0,if,x,<,0
+if x tinier than 0,if,x,<,0
+if x smaller than 0,if,x,<,0
+if x lower than 0,if,x,<,0
+if x taller than 0,if,x,>,0
+if x higher than 0,if,x,>,0
+if x greater than 0,if,x,>,0
+if x older than 0,if,x,>,0
+if x heavier than 0,if,x,>,0
+if x bigger than 0,if,x,>,0
+if x and 0 are equivalent,if,x,==,0
+if x and 0 are invariable,if,x,==,0
+if x and 0 are balanced,if,x,==,0
+if x and 0 are corresponding,if,x,==,0
+if x and 0 are agreeing,if,x,==,0
+if x and 0 are uniform,if,x,==,0
+if x and 0 are alike,if,x,==,0
+if x and 0 are differing,if,x,!=,0
+if x and 0 are dissimilar,if,x,!=,0
+if x and 0 are unalike,if,x,!=,0
+if x and 0 are vary,if,x,!=,0
+if x and 0 are diverge,if,x,!=,0
+if x and 0 are disagree,if,x,!=,0
+if x and 0 are clash,if,x,!=,0
+if x not same as 0,if,x,!=,0
+if x not duplicate of 0,if,x,!=,0
+if x not equal to 0,if,x,!=,0
+if x not equivalent to 0,if,x,!=,0
+if x not identical to 0,if,x,!=,0
+if x is not same as 0,if,x,!=,0
+if x is not duplicate of 0,if,x,!=,0
+if x is not equal to 0,if,x,!=,0
+if x is not equivalent to 0,if,x,!=,0
+if x is not identical to 0,if,x,!=,0
+if x ! lower 0,if,x,>=,0
+if x ! younger 0,if,x,>=,0
+if x ! lighter 0,if,x,>=,0
+if x ! less 0,if,x,>=,0
+if x ! tinier 0,if,x,>=,0
+if x ! smaller 0,if,x,>=,0
+if x ! lower 0,if,x,>=,0
+if x not lower 0,if,x,>=,0
+if x not younger 0,if,x,>=,0
+if x not lighter 0,if,x,>=,0
+if x not less 0,if,x,>=,0
+if x not tinier 0,if,x,>=,0
+if x not smaller 0,if,x,>=,0
+if x not lower 0,if,x,>=,0
+if x ! taller 0,if,x,<=,0
+if x ! higher 0,if,x,<=,0
+if x ! greater 0,if,x,<=,0
+if x ! older 0,if,x,<=,0
+if x ! heavier 0,if,x,<=,0
+if x ! bigger 0,if,x,<=,0
+if x not taller 0,if,x,<=,0
+if x not higher 0,if,x,<=,0
+if x not greater 0,if,x,<=,0
+if x not older 0,if,x,<=,0
+if x not heavier 0,if,x,<=,0
+if x not bigger 0,if,x,<=,0
+if x ! smaller equal 0,if,x,>,0
+if x ! less equal 0,if,x,>,0
+if x ! lower equal 0,if,x,>,0
+if x ! younger equal 0,if,x,>,0
+if x ! lighter equal 0,if,x,>,0
+if x not smaller equal 0,if,x,>,0
+if x not less equal 0,if,x,>,0
+if x not lower equal 0,if,x,>,0
+if x not younger equal 0,if,x,>,0
+if x not lighter equal 0,if,x,>,0
+if x ! greater equal 0,if,x,<,0
+if x ! higher equal 0,if,x,<,0
+if x ! older equal 0,if,x,<,0
+if x ! heavier equal 0,if,x,<,0
+if x ! bigger equal 0,if,x,<,0
+if x not greater equal 0,if,x,<,0
+if x not higher equal 0,if,x,<,0
+if x not older equal 0,if,x,<,0
+if x not heavier equal 0,if,x,<,0
+if x not bigger equal 0,if,x,<,0
+if x is not lower than 0,if,x,>=,0
+if x is not younger than 0,if,x,>=,0
+if x is not lighter than 0,if,x,>=,0
+if x is not less than 0,if,x,>=,0
+if x is not tinier than 0,if,x,>=,0
+if x is not smaller than 0,if,x,>=,0
+if x is not lower than 0,if,x,>=,0
+if x is not taller than 0,if,x,<=,0
+if x is not higher than 0,if,x,<=,0
+if x is not greater than 0,if,x,<=,0
+if x is not older than 0,if,x,<=,0
+if x is not heavier than 0,if,x,<=,0
+if x is not bigger than 0,if,x,<=,0
+if x ! lower 0,if,x,>=,0
+if x ! younger 0,if,x,>=,0
+if x ! lighter 0,if,x,>=,0
+if x ! less 0,if,x,>=,0
+if x ! tinier 0,if,x,>=,0
+if x ! smaller 0,if,x,>=,0
+if x ! lower 0,if,x,>=,0
+if x not lower 0,if,x,>=,0
+if x not younger 0,if,x,>=,0
+if x not lighter 0,if,x,>=,0
+if x not less 0,if,x,>=,0
+if x not tinier 0,if,x,>=,0
+if x not smaller 0,if,x,>=,0
+if x not lower 0,if,x,>=,0
+if x ! taller 0,if,x,<=,0
+if x ! higher 0,if,x,<=,0
+if x ! greater 0,if,x,<=,0
+if x ! older 0,if,x,<=,0
+if x ! heavier 0,if,x,<=,0
+if x ! bigger 0,if,x,<=,0
+if x not taller 0,if,x,<=,0
+if x not higher 0,if,x,<=,0
+if x not greater 0,if,x,<=,0
+if x not older 0,if,x,<=,0
+if x not heavier 0,if,x,<=,0
+if x not bigger 0,if,x,<=,0
+if x and 0 are not equivalent,if,x,!=,0
+if x and 0 are not invariable,if,x,!=,0
+if x and 0 are not balanced,if,x,!=,0
+if x and 0 are not corresponding,if,x,!=,0
+if x and 0 are not agreeing,if,x,!=,0
+if x and 0 are not uniform,if,x,!=,0
+if x and 0 are not alike,if,x,!=,0
+if x and 0 are not differing,if,x,==,0
+if x and 0 are not dissimilar,if,x,==,0
+if x and 0 are not unalike,if,x,==,0
+if x and 0 are not vary,if,x,==,0
+if x and 0 are not diverge,if,x,==,0
+if x and 0 are not disagree,if,x,==,0
+if x and 0 are not clash,if,x,==,0
+if x ! equal 0,if,x,!=,0
+if x ! match 0,if,x,!=,0
