@@ -17,21 +17,21 @@ def varObject(sentence):
                                                "allocate", "deposit",
                                                "put", "place", "store", "deposit"]:
         objone = wordlist[1]
-        if poslist[2] == "article":
-            if len(poslist) - 1 == 2:
-                objtwo = wordlist[2]
-            else:
-                objtwo = wordlist[3]
-        elif poslist[2] == "noun" or "numeral" or wordlist[2] == "to":
-            objtwo = wordlist[2]
-    elif poslist[0] == "noun" or "numeral":
-        if poslist[0] == "noun" or wordlist:
-            objone = wordlist[1]
+        if poslist[2] == "article" or "preposition":
+            # if len(poslist) - 1 == 2:
+            #     objtwo = wordlist[2]
+            # else:
             objtwo = wordlist[3]
-        else:
-            objone = wordlist[0]
-            objtwo = wordlist[2]
-    elif wordlist[1] == "=" or "->":
+        elif poslist[2] == "noun" or "numeral" or wordlist[2] == "to":
+            objtwo = wordlist[3]
+    # elif poslist[0] == "noun" or "numeral":
+    #     if poslist[0] == "noun" or wordlist[0] == :
+    #         objone = wordlist[1]
+    #         objtwo = wordlist[3]
+    #     else:
+    #         objone = wordlist[0]
+    #         objtwo = wordlist[2]
+    elif wordlist[1] == "=" or "->" or "is":
         objone = wordlist[0]
         objtwo = wordlist[2]
     else:
