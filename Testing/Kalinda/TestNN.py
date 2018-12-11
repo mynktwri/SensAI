@@ -1,6 +1,7 @@
 import sys
 
-sys.path.insert(0, '../NeuralNet')
+sys.path.insert(0, '../../NeuralNet')
+sys.path.insert(0, '../../NLP')
 
 import evaluateNN as enn
 
