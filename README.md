@@ -42,7 +42,8 @@ Natural Language To Python Code
 * [Python](https://www.python.org/)
 * [Tensorflow](https://www.tensorflow.org/)
 * [Keras](https://keras.io/)
-* [Stanford CoreNLP Server](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html)
+* [Natural Language Toolkit](https://www.nltk.org/)
+* [~~Stanford CoreNLP Server~~](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html)
 
 ## Authors
 
