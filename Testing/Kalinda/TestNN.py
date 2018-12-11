@@ -24,9 +24,26 @@ else:
         print('expected "if i == banana:", got')
         print(output)
 
+output = enn.makePrediction("print hello")
+if output == "print(hello)":
+        testsPassed = testsPassed + 1
+else:
+        testsFailed = testsFailed + 1
+        print('expected "print(hello)", got')
+        print(output)
+
+output = enn.makePrediction("let sushi be awesome")
+if output == "sushi=awesome":
+        testsPassed = testsPassed + 1
+else:
+        testsFailed = testsFailed + 1
+        print('expected "sushi=awesome", got')
+        print(output)
+
 print('testsPassed = ')
 print(testsPassed)
 print('testsFailed = ')
 print(testsFailed)
 print('Percent passed = ')
 print((testsPassed/(testsPassed+testsFailed))*100)
+
